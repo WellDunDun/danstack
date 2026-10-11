@@ -1,0 +1,25 @@
+{
+  "action": "install-plan",
+  "target": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/auth-demo",
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--strict-peer-deps",
+    "--engine-strict",
+    "--no-audit",
+    "--no-fund",
+    "--registry=https://registry.npmjs.org",
+    "--global=false",
+    "--prefix=/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/auth-demo",
+    "--@tanstack:registry=https://registry.npmjs.org",
+    "--@workos:registry=https://registry.npmjs.org",
+    "--@workos-inc:registry=https://registry.npmjs.org",
+    "--@convex-dev:registry=https://registry.npmjs.org",
+    "--@types:registry=https://registry.npmjs.org",
+    "--@vitejs:registry=https://registry.npmjs.org",
+    "--@e2e-dev:registry=https://registry.npmjs.org",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ]
+}

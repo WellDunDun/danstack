@@ -1,0 +1,27 @@
+import { test } from '@e2e-dev/web';
+import { expect } from 'e2e';
+import assert from 'node:assert/strict';
+test('actual Start preview fails closed without service configuration', async ({ app, screen, browser }) => {
+  await app.open('/');
+  await expect(screen.getByRole('heading', { name: 'Scaffolding is complete.' })).toBeVisible();
+  await expect(screen.getByRole('button', { name: 'Sign in requires setup' })).toBeVisible();
+  await expect(screen.getByRole('button', { name: 'Preview label' })).toBeEnabled();
+  await browser.keyboard.press('Tab');
+  assert.equal(await browser.evaluate(() => document.activeElement?.textContent ?? ''), 'Check protected route');
+  assert.equal(await browser.evaluate(() => document.activeElement?.matches(':focus-visible') ?? false), true);
+  assert.equal(await browser.evaluate(() => getComputedStyle(document.activeElement!).outlineWidth), '3px');
+  await browser.keyboard.press('Tab');
+  assert.equal(await browser.evaluate(() => document.activeElement?.id ?? ''), 'project-label');
+  await screen.getByRole('textbox', { name: 'Project label' }).fill('');
+  await browser.keyboard.press('Tab');
+  assert.equal(await browser.evaluate(() => document.activeElement?.textContent ?? ''), 'Preview label');
+  assert.notEqual(await browser.evaluate(() => getComputedStyle(document.activeElement!).boxShadow), 'none');
+  await browser.keyboard.press('Enter');
+  await expect(screen.getByRole('alert')).toBeVisible();
+  await screen.getByRole('textbox', { name: 'Project label' }).fill('Daniel’s next app');
+  await screen.getByRole('button', { name: 'Preview label' }).click();
+  await expect(screen.getByText('Preview label: Daniel’s next app', { exact: true })).toBeVisible();
+  await app.screenshot('tanstack-auth-setup-required');
+  await screen.getByRole('link', { name: 'Check protected route' }).click();
+  await expect(screen.getByRole('heading', { name: 'Scaffolding is complete.' })).toBeVisible();
+});

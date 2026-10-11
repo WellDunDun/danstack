@@ -1,0 +1,20 @@
+
+> alchemy-bazel@0.0.0 test:local
+> node scripts/local.mjs test
+
+[13:12:20.027] INFO (#4): Plan: 2 to create, 1 binding changes
+[13:12:20.028] INFO (#4): [Api] create
+[13:12:20.028] INFO (#4): [Api/STORE] create
+[13:12:20.028] INFO (#4): [Store] create
+[13:12:20.028] INFO (#4): 
+[13:12:20.031] INFO (#88): [Api] pre-creating
+[13:12:20.033] INFO (#87): [Store] creating
+[13:12:20.035] INFO (#88): [Api] creating
+[13:12:20.036] INFO (#87): [Store] created (3ms)
+[13:12:20.993] INFO (#88): [Api] created (962ms)
+[13:12:21.046] INFO (#114): [Store] created (1.0s)
+[13:12:21.046] INFO (#115): [Api] created (1.0s)
+[13:12:21.047] INFO (#4): 
+[13:12:21.047] INFO (#4): Done: 2 succeeded (1.0s)
+[13:12:26.235] INFO (#106): [Api] Started in 6198ms → http://localhost:65200/ (logs: /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel/.alchemy/log/local/Api)
+PASS actual Alchemy local Worker + KV PUT/GET + Effect handler

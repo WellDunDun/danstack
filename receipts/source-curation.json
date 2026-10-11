@@ -1,0 +1,1730 @@
+{
+  "originalWorkspace": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3",
+  "canonicalDestination": "/Users/danielpetro/Documents/GitHub/danstack",
+  "inheritedGitHistory": false,
+  "copiedOriginalFiles": [
+    {
+      "path": "README.md",
+      "sha256": "a0f1082aa9132031ce87dd1106bda6537eb350676c311c7c2a95a0ad76a30204",
+      "bytes": 21081
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "b778585cdee1cd62d5dd682a60da846771a575a85b5c011dab513aaf7509b07c",
+      "bytes": 3655
+    },
+    {
+      "path": "package.json",
+      "sha256": "0a96322626761c1db27c3d479b811d4546b369a1d67150c435a960f6cf864a2a",
+      "bytes": 450
+    },
+    {
+      "path": "receipts/INDEPENDENT-REVIEW.md",
+      "sha256": "dd6073566673a3e8c022f7c71f9126643ca0ad34a45bfb0f7f2cd14977c191b3",
+      "bytes": 1249
+    },
+    {
+      "path": "receipts/VERIFICATION.md",
+      "sha256": "0601541646ab0a976c4285700d9b87d7f47ac3555e9bfd27bc3cc538cee70b1c",
+      "bytes": 20766
+    },
+    {
+      "path": "receipts/alchemy-bazel-bazel-build.txt",
+      "sha256": "160582c417c7a680b35a127308a623d31709897bdec6750fd0af8a2ed63022fa",
+      "bytes": 2343
+    },
+    {
+      "path": "receipts/alchemy-bazel-bazel-incremental.txt",
+      "sha256": "7607f79c13cf3cf2b6f115a1fa16704a14967824aeeed513e19001c5677858a1",
+      "bytes": 584
+    },
+    {
+      "path": "receipts/alchemy-bazel-bazel-restored-build.txt",
+      "sha256": "dc1220ad10bddd1f6005df8d66b190211bd70c28226f1f594a6847d7257d5d43",
+      "bytes": 582
+    },
+    {
+      "path": "receipts/alchemy-bazel-bazel-restored-test.txt",
+      "sha256": "77d01ab23dfc79087c2a237a1fe3f52b0cbae36473ea43ee5b7af8c82cccb96c",
+      "bytes": 884
+    },
+    {
+      "path": "receipts/alchemy-bazel-bazel-setup.txt",
+      "sha256": "e55b51a20e14b27cc3802a1db116becdc4ee00fe9acb3216e1b21025385269a3",
+      "bytes": 94
+    },
+    {
+      "path": "receipts/alchemy-bazel-bazel-shutdown.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "receipts/alchemy-bazel-bazel-source-invalidation.txt",
+      "sha256": "1a00b629b1394ff2297629e516ff5cbce5a241717e9978dba7ba86fb5e9a1508",
+      "bytes": 582
+    },
+    {
+      "path": "receipts/alchemy-bazel-bazel-test.txt",
+      "sha256": "e528a3a469a1b139dfea492a8b6f612723d2dc6d4ae4be3c7ffe84dfebf51460",
+      "bytes": 2000
+    },
+    {
+      "path": "receipts/alchemy-bazel-build.txt",
+      "sha256": "ba60793581c7edc88da94d79c22c2422add0f2243d6522d28cc231612f84ccdb",
+      "bytes": 402
+    },
+    {
+      "path": "receipts/alchemy-bazel-clean-after-disk-full.txt",
+      "sha256": "cdaba8e19b023a6ba0f37f9aa38f981cb2f74a536a317d0176d4c3777e18f133",
+      "bytes": 398
+    },
+    {
+      "path": "receipts/alchemy-bazel-first-attempt-disk-full.txt",
+      "sha256": "8b63ae99b929fd91335730b7f5a0490c7a4d425e087e3b26f0683585bffedd1a",
+      "bytes": 13679
+    },
+    {
+      "path": "receipts/alchemy-bazel-generate.txt",
+      "sha256": "ac7564676c258f67f36e74a447031434b54fc176ff862a346eb07eb11afc6cbb",
+      "bytes": 250
+    },
+    {
+      "path": "receipts/alchemy-bazel-install.txt",
+      "sha256": "a7e13df8b9d4ac2f48cbafe0217f332eedc4b8ee7cad96fbdcc2e22d69826a2d",
+      "bytes": 730
+    },
+    {
+      "path": "receipts/alchemy-bazel-local-plan.txt",
+      "sha256": "bec7293dc248402d51a5e5a7c2af518b91d37f481a2be62e6f14cb8df05691dd",
+      "bytes": 121
+    },
+    {
+      "path": "receipts/alchemy-bazel-local-worker-kv.txt",
+      "sha256": "79da3272f2b9b3a45141d0784bf262c7bc16a3290d6968c0888c08f4c667686a",
+      "bytes": 937
+    },
+    {
+      "path": "receipts/alchemy-bazel-real-outputs.json",
+      "sha256": "923193f2b79641a05d29b239f27aa199088760c01df8f0e6d98a4d90da5f33b0",
+      "bytes": 786
+    },
+    {
+      "path": "receipts/alchemy-bazel-tree.txt",
+      "sha256": "239da6d908199b68cb254bb6f49febb0f4351a10ef26288a9e4706a66fbb73e6",
+      "bytes": 60093
+    },
+    {
+      "path": "receipts/alchemy-bazel-typecheck.txt",
+      "sha256": "453091a2652711c3de4382d295c74f3483dd5d1ee55654b67dcdfdbf986f987d",
+      "bytes": 49
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-build.txt",
+      "sha256": "e7c60d1d8d1f711f9844c31136c48083d7a184d6f71158005db6afd335d294e0",
+      "bytes": 3838
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-incremental.txt",
+      "sha256": "e92407d7b7210e5b95fed90f5023afcc70445a6cfbd530101292ba3a4d39258d",
+      "bytes": 587
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-restored-build.txt",
+      "sha256": "332661e5974b61f310e9c0e38e2ace9b6169656e020c9b06c3a46d0a651b5841",
+      "bytes": 585
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-restored-test.txt",
+      "sha256": "6f9050b1755de58aa12a5c8a201d6ace22ea2ba37f0c752bd8d99b9304ae2ce1",
+      "bytes": 887
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-setup.txt",
+      "sha256": "e23d5fa5de3530b393b6a7661ab4bfa50c9d8c362e4a80caa931dd164649e64b",
+      "bytes": 97
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-shutdown.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-source-invalidation.txt",
+      "sha256": "083c4c0ca8c3381bebad87b26faa3900f6ee19e120f22a6bf9644134d831cccf",
+      "bytes": 585
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-test.txt",
+      "sha256": "852a4eb2aaaea2a445837d37c2c91e15a4ee0e18b74f3ec245bda99eae5f4414",
+      "bytes": 2411
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-ui-restored-test.txt",
+      "sha256": "024c540b3876eb93e7663162c42bc35faf6c1f56db7b7d5f0a697000a4e1c6ab",
+      "bytes": 949
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-bazel-ui-type-error-proof.txt",
+      "sha256": "1f1674d3a9c0552836580549358cb7cf2986fc5479f20bbd0179cb266465b0a0",
+      "bytes": 1824
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-build.txt",
+      "sha256": "6008cfe4e6389f6a9f23cd94c67ddd6bc029a5774e0858ec57f8ce0e1d1e8280",
+      "bytes": 405
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-generate.txt",
+      "sha256": "ac7564676c258f67f36e74a447031434b54fc176ff862a346eb07eb11afc6cbb",
+      "bytes": 250
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-install.txt",
+      "sha256": "2505345f2a99a39c02b20fc7d1051a4db737f67d37e3eade89b2d946f57ac893",
+      "bytes": 790
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-local-plan.txt",
+      "sha256": "3083f2d4c92f1b2b81a841f3d54605f26cc4968c618055e253da1e4354d5946b",
+      "bytes": 124
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-local-worker-kv.txt",
+      "sha256": "db479d9dd2297f8a5ae792832f520e0c996b2ab87126989f69cc05525ecb4aeb",
+      "bytes": 946
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-real-outputs.json",
+      "sha256": "28f473882415f9c6cbd291df90cb7a04ab62ba662a01757d5de6e495df7cdc0f",
+      "bytes": 789
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-tree.txt",
+      "sha256": "2c30e80f19ea6d76527d609e9046eed966206c37a7fde5bbafe5d57ba482b5ce",
+      "bytes": 73044
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-typecheck.txt",
+      "sha256": "e65d4ee63d7680c86a1c2f72d6436280cbaab0809ece6b1cc7c405b31f47a764",
+      "bytes": 52
+    },
+    {
+      "path": "receipts/alchemy-bazel-ui-unit.txt",
+      "sha256": "86bd7e76a2326b931020a50ea681b9aa70ff58e7c85a617022842cd0f91c6783",
+      "bytes": 258
+    },
+    {
+      "path": "receipts/alchemy-bazel-unit.txt",
+      "sha256": "404f222ce993edf96483f93781c90c55a58bfaa1c1a15d25dcb6ee826c6343df",
+      "bytes": 255
+    },
+    {
+      "path": "receipts/alchemy-demo-build.txt",
+      "sha256": "3cd3f38e3394afc1061e21f436a0f7196c1e3cfc20261a780bb40e1bfe2809e7",
+      "bytes": 401
+    },
+    {
+      "path": "receipts/alchemy-demo-generate.txt",
+      "sha256": "ac7564676c258f67f36e74a447031434b54fc176ff862a346eb07eb11afc6cbb",
+      "bytes": 250
+    },
+    {
+      "path": "receipts/alchemy-demo-install.txt",
+      "sha256": "2d1913150f92557ef8cc2682ab1f552d868dd832c2c31f5804375f3713196eaa",
+      "bytes": 728
+    },
+    {
+      "path": "receipts/alchemy-demo-local-plan.txt",
+      "sha256": "e71fcbe1c2f225ec3d1d8fbc225170d2a553ef16cbb51462b54c5a9f796fe706",
+      "bytes": 120
+    },
+    {
+      "path": "receipts/alchemy-demo-local-worker-kv.txt",
+      "sha256": "ddd426963e12cbbdaa79f5353b79643fcdb1b9fcf3aa22fe1254be0457e1a78e",
+      "bytes": 938
+    },
+    {
+      "path": "receipts/alchemy-demo-tree.txt",
+      "sha256": "dec70d6a4351982777e06ecccad1c66f21f28ee0cb4c276dc7be65ff192167e3",
+      "bytes": 60086
+    },
+    {
+      "path": "receipts/alchemy-demo-typecheck.txt",
+      "sha256": "b0d186ee24a77afd001ffa3acd234275b91c935090f2f33a8086fe1abfae8f17",
+      "bytes": 48
+    },
+    {
+      "path": "receipts/alchemy-demo-unit.txt",
+      "sha256": "e4a77f23abdf75d438bdb9b358bdefd9f637c9a0036486a5896b2ba7222a3336",
+      "bytes": 254
+    },
+    {
+      "path": "receipts/alchemy-generation.json",
+      "sha256": "65267174deccd2656daa8acc5f8124425f002e81732e699968741fd136d61b85",
+      "bytes": 8199
+    },
+    {
+      "path": "receipts/alchemy-install.txt",
+      "sha256": "d402cc8c62719372e2e8019017a5e3233a9ee2c20b7ccc6a5819128f72afa77b",
+      "bytes": 468
+    },
+    {
+      "path": "receipts/alchemy-local-plan-probe.txt",
+      "sha256": "157e7fc79116af9ecaf4648c564e59939165dd5c7c4d08d78ae75daf79cb5061",
+      "bytes": 121
+    },
+    {
+      "path": "receipts/alchemy-local-test-probe.txt",
+      "sha256": "279d81f7264840fde6f0054860d2d480ec36aa13f873ff03faaf9d07cab4b3bd",
+      "bytes": 930
+    },
+    {
+      "path": "receipts/alchemy-snapshot-replay.json",
+      "sha256": "70b9266f74821b8229c98c0b73285f0ec8db36300aa712313538efa67fb908e3",
+      "bytes": 495
+    },
+    {
+      "path": "receipts/alchemy-snapshot-unlocked-attempt-peer-error.txt",
+      "sha256": "59aa26850ea8cc5ec87f9dbf27bd47d7fc6e1230e614153421f0dfab6496c9e3",
+      "bytes": 1912
+    },
+    {
+      "path": "receipts/alchemy-ui-build.txt",
+      "sha256": "299f17fdc4cc1b56e344ecadd6165ca3eb53e188e4961a5815921bf016c6caa3",
+      "bytes": 399
+    },
+    {
+      "path": "receipts/alchemy-ui-generate.txt",
+      "sha256": "ac7564676c258f67f36e74a447031434b54fc176ff862a346eb07eb11afc6cbb",
+      "bytes": 250
+    },
+    {
+      "path": "receipts/alchemy-ui-install.txt",
+      "sha256": "ea9d2e953d03fb9cc21dc3a8a04bb4c9d6fd1b43b60a73eb9250461320323835",
+      "bytes": 778
+    },
+    {
+      "path": "receipts/alchemy-ui-local-plan.txt",
+      "sha256": "40f937c92474d58fa9e98cc606a19eae3458428b60ed80a56c0a7f32612eae2e",
+      "bytes": 118
+    },
+    {
+      "path": "receipts/alchemy-ui-local-worker-kv.txt",
+      "sha256": "66be2cd98a0233883d9a122c6b7427f9e2155da1eb81305a93b3ce36dba1f36e",
+      "bytes": 933
+    },
+    {
+      "path": "receipts/alchemy-ui-tree.txt",
+      "sha256": "78d465605a0a76a5bf576fdbfb8d22ed2eb76e0032709863acb01a19a76d32ba",
+      "bytes": 73002
+    },
+    {
+      "path": "receipts/alchemy-ui-typecheck.txt",
+      "sha256": "f76e51dfbbea3ce5092064393fc6bb1cc09536ead7c8613c064971342e7d68de",
+      "bytes": 46
+    },
+    {
+      "path": "receipts/alchemy-ui-unit.txt",
+      "sha256": "695dfe8dbc7de23c3260e5d9a3e27c4eb80f2b7fa4ef087019874fc1dc059117",
+      "bytes": 252
+    },
+    {
+      "path": "receipts/bazel-effect-build.txt",
+      "sha256": "623c91af46cdeaf464e683d4a8300542f9126f3363f4dad5e9be287577e93cd5",
+      "bytes": 658
+    },
+    {
+      "path": "receipts/bazel-effect-generation.json",
+      "sha256": "d988bb8c5c9eb6b7a2f92086a60dbd41bdfe65797d4fdb9c5ca1bdcb5cf767a4",
+      "bytes": 11471
+    },
+    {
+      "path": "receipts/bazel-effect-install.txt",
+      "sha256": "6eb6a10ff748a938c50f25e7f902d9878a1dbe6ed5e3e4ddcc3fc965c2f623af",
+      "bytes": 161
+    },
+    {
+      "path": "receipts/bazel-effect-test.txt",
+      "sha256": "f400679430aae5549862fbceacc840163622e5cd3dc26240e9b9c0d592d7d652",
+      "bytes": 906
+    },
+    {
+      "path": "receipts/bazel-setup.txt",
+      "sha256": "b09e4ceb7edd058e14e61d7c961ec5b79846fdb3d97f61d178c9abcaf51c7324",
+      "bytes": 93
+    },
+    {
+      "path": "receipts/cli-tests.txt",
+      "sha256": "14a598a21cc61a5100e4a3dd5bfe9d74f4a79217399218c91ab92636f4a1df9c",
+      "bytes": 4256
+    },
+    {
+      "path": "receipts/compatible-bazel-build.txt",
+      "sha256": "ccf1b96ac61fe02ab5b92153a2d4a323828299078a6015ee082d6cf2551de326",
+      "bytes": 2482
+    },
+    {
+      "path": "receipts/compatible-bazel-incremental.txt",
+      "sha256": "118f8999ecfe0692d2bf82122a4b4d2b4b6ed502ebe99c147b2703651a128df8",
+      "bytes": 589
+    },
+    {
+      "path": "receipts/compatible-bazel-setup.txt",
+      "sha256": "c0e5af3a467dd1cf640350ab0f920488332628cfcb97f90f555d8fdc1b47786d",
+      "bytes": 99
+    },
+    {
+      "path": "receipts/compatible-bazel-test.txt",
+      "sha256": "49bc3b2fc8d0a5164bdd9ca83e87fe7e5ab26b399b1d6008df09e15dcbb9b875",
+      "bytes": 2307
+    },
+    {
+      "path": "receipts/compatible-build.txt",
+      "sha256": "7206308ad04c700445711f4115c0c2b87e400fb09fbaf1c9c638f748acdb9c25",
+      "bytes": 407
+    },
+    {
+      "path": "receipts/compatible-dry-run.txt",
+      "sha256": "0ed873bb437d1b066c2cb2cd8766ca1cec9de6eaedd5daf3e9e544cd5c46061f",
+      "bytes": 21106
+    },
+    {
+      "path": "receipts/compatible-effect-peer-closure.json",
+      "sha256": "6f133474ed68137bbb2625a6b78989a0d44b877012458bf541ab91c780318ecc",
+      "bytes": 368
+    },
+    {
+      "path": "receipts/compatible-generation.txt",
+      "sha256": "8fdd5af8dca83db4fa37f2ec1da07ed36b0746e56c810247ff1a1c32f837baa0",
+      "bytes": 21099
+    },
+    {
+      "path": "receipts/compatible-install-attempt1-transitive-peer.txt",
+      "sha256": "8832911d6d74743d81b2ac5fc176035dd49fac0e3de38db7cc427c2c3548857a",
+      "bytes": 1299
+    },
+    {
+      "path": "receipts/compatible-install.txt",
+      "sha256": "18b1bfc9a7ee3a5ed314672c900d36afe8bc513dfd0262d3f5859684798d73b0",
+      "bytes": 818
+    },
+    {
+      "path": "receipts/compatible-live-dry-run.json",
+      "sha256": "751941ac7b43c489d95b176c22e5d127e738075059406a47706d44725409ad04",
+      "bytes": 19016
+    },
+    {
+      "path": "receipts/compatible-live-generation.json",
+      "sha256": "ac5f12e3c88093d5ecd0007b4d0ee582b277559fd8dfa0d30bdcdbd68306a187",
+      "bytes": 19003
+    },
+    {
+      "path": "receipts/compatible-live-install.txt",
+      "sha256": "8832911d6d74743d81b2ac5fc176035dd49fac0e3de38db7cc427c2c3548857a",
+      "bytes": 1299
+    },
+    {
+      "path": "receipts/compatible-local-plan.txt",
+      "sha256": "648da26c0722a308776a136ed2d264024af68d6fab5419baeafecc7d683203eb",
+      "bytes": 126
+    },
+    {
+      "path": "receipts/compatible-registry-investigation.json",
+      "sha256": "d553f100d1809d7268923a5ab4ba41fdd503c197d34d0d56e700620090aeebe4",
+      "bytes": 4766
+    },
+    {
+      "path": "receipts/compatible-shutdown.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "receipts/compatible-tree.txt",
+      "sha256": "50a11e69a255be9a40e2355f8292ccbf02dab3d04e5cfc8d29414c4990be4d30",
+      "bytes": 73091
+    },
+    {
+      "path": "receipts/compatible-typecheck.txt",
+      "sha256": "2cb5ab3d4df100618f7edaab02d399e80bb6ec2c71baa1f22f3887fb2ff785f5",
+      "bytes": 54
+    },
+    {
+      "path": "receipts/compatible-unit.txt",
+      "sha256": "2b08ed1963d01561b8efd3a9ee817b9e365a5f1c2fd05128bde25aa0c47ff9b7",
+      "bytes": 261
+    },
+    {
+      "path": "receipts/compatible-verification.json",
+      "sha256": "e6e70fa34c21956ee8e0ca96b31145120a5508c0f2d13140435eec9c42f102b1",
+      "bytes": 24570
+    },
+    {
+      "path": "receipts/compatible-worker-kv.txt",
+      "sha256": "64345acbc24bc370a7e6b290a6ea760514b9ad1e91b47035210fc73d3ed54fbe",
+      "bytes": 950
+    },
+    {
+      "path": "receipts/confect-backend-codegen-prerequisite.txt",
+      "sha256": "7ac4b5127b7ac96698b7b717d381bdb95f846cbc1c32ea3accae705f9f85d290",
+      "bytes": 254
+    },
+    {
+      "path": "receipts/confect-bazel-backend-prerequisite.txt",
+      "sha256": "a394f08721487eadeebaa1a9248cd0b436a09bfd0c27d0d6ba5a34d4dd408040",
+      "bytes": 255
+    },
+    {
+      "path": "receipts/confect-bazel-bazel-build.txt",
+      "sha256": "8eb7c8f883c6a8d0bbab385df2e923e09a31539e972d1f9c8a4804e007192efd",
+      "bytes": 561
+    },
+    {
+      "path": "receipts/confect-bazel-bazel-incremental.txt",
+      "sha256": "df5f3192fad7115000f17244c37bff637f8bb86eb83baf464ca586a0627364d5",
+      "bytes": 561
+    },
+    {
+      "path": "receipts/confect-bazel-bazel-restored-build.txt",
+      "sha256": "f8b78bf2d2114d92a9c047540528ba2fa908df4706298209c7b048fbbd625fe4",
+      "bytes": 582
+    },
+    {
+      "path": "receipts/confect-bazel-bazel-restored-test.txt",
+      "sha256": "8eb110eabbb19d25d406cdc3212d0eddf7923ad29090cb0c7511aa053b5baac3",
+      "bytes": 884
+    },
+    {
+      "path": "receipts/confect-bazel-bazel-setup.txt",
+      "sha256": "af7b4d049379861b9f984cdf5d6f63618bb9c30c4be8592ba69d23090b0bcc0f",
+      "bytes": 94
+    },
+    {
+      "path": "receipts/confect-bazel-bazel-shutdown.txt",
+      "sha256": "056cbd554caba183643d2c592ba922417aa596b56a14ef75867a866723a88778",
+      "bytes": 410
+    },
+    {
+      "path": "receipts/confect-bazel-bazel-source-invalidation.txt",
+      "sha256": "73b0fd21e4695b92d7b9be0a3de07a1e0c28da549d3849bb7fb270108525de09",
+      "bytes": 582
+    },
+    {
+      "path": "receipts/confect-bazel-bazel-test.txt",
+      "sha256": "be4447673dbec1d8e0030a801848e430585dd185ed476f4383c6e88c802c316b",
+      "bytes": 884
+    },
+    {
+      "path": "receipts/confect-bazel-build.txt",
+      "sha256": "b6dacd8419351436c61d165a772e1e738b2078cdcd0de3a9f5d7e0338270c964",
+      "bytes": 401
+    },
+    {
+      "path": "receipts/confect-bazel-codegen.txt",
+      "sha256": "264612b2d3d91e0f98caa26526b103ed32344e0777ccc6f68c99f0e3492cf0fa",
+      "bytes": 329
+    },
+    {
+      "path": "receipts/confect-bazel-generate.txt",
+      "sha256": "996534734c12791c204b3f7d70af72da6be2521f5d332d8eadfee3a9636f67a0",
+      "bytes": 12851
+    },
+    {
+      "path": "receipts/confect-bazel-install.txt",
+      "sha256": "d159214c588de4f7da14047f21fe1348ca84498b21185d64b49cb97ac060fd9f",
+      "bytes": 633
+    },
+    {
+      "path": "receipts/confect-bazel-tree.txt",
+      "sha256": "3e2cda8ce1a9d1329d370b068068cd72c007976b89ca875f347bcb26d0df081b",
+      "bytes": 17775
+    },
+    {
+      "path": "receipts/confect-bazel-typecheck.txt",
+      "sha256": "f58b7006219b6960ea14d02bf78f04975d9e1e54aca155de63818b78bb75f8c8",
+      "bytes": 49
+    },
+    {
+      "path": "receipts/confect-bazel-ui-backend-prerequisite.txt",
+      "sha256": "e876254971ca9f28a1c3cd131902280036815d09a780e088b4d6b3eebc2292e6",
+      "bytes": 258
+    },
+    {
+      "path": "receipts/confect-bazel-ui-bazel-build.txt",
+      "sha256": "dde8d519b52900d2fa3be4f8957e63622dbe3c58532708e35a5153dd66766c6e",
+      "bytes": 2220
+    },
+    {
+      "path": "receipts/confect-bazel-ui-bazel-incremental.txt",
+      "sha256": "5a0c38af6fa8efb6ed75c6ea7d153d2c06bc7f6cea43b5b7cf9e4f20a653a390",
+      "bytes": 585
+    },
+    {
+      "path": "receipts/confect-bazel-ui-bazel-restored-build.txt",
+      "sha256": "9d06bad3cc314f8e4f78e7869f1d8fb4ef1f14898542d7f8ce6c069d7f131f0a",
+      "bytes": 585
+    },
+    {
+      "path": "receipts/confect-bazel-ui-bazel-restored-test.txt",
+      "sha256": "5aa434f102677c5bc03cc17b4e06ff2435647e5a6a4cdee5a9af57e2be1542c7",
+      "bytes": 887
+    },
+    {
+      "path": "receipts/confect-bazel-ui-bazel-setup.txt",
+      "sha256": "64083d2d79e740af4d4a0b4968457efba2aea66b5ff648984d9ea4b65e05bd58",
+      "bytes": 97
+    },
+    {
+      "path": "receipts/confect-bazel-ui-bazel-shutdown.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "receipts/confect-bazel-ui-bazel-source-invalidation.txt",
+      "sha256": "342f85d432e70cccd5f8b93c93645d1bb77c449f3656847be9200612e7ead404",
+      "bytes": 585
+    },
+    {
+      "path": "receipts/confect-bazel-ui-bazel-test.txt",
+      "sha256": "32df4a0fb157509875a77adaaeeed8e68e421290aac15c1c413155c9be47b408",
+      "bytes": 1034
+    },
+    {
+      "path": "receipts/confect-bazel-ui-build.txt",
+      "sha256": "a61d32cae448e4f87832ce5bb71c9b7acdfec6333028b6ca1fe37db7e98d3fd6",
+      "bytes": 405
+    },
+    {
+      "path": "receipts/confect-bazel-ui-codegen.txt",
+      "sha256": "58cc0f8628e9bb47e97c536da7af367e8a4e665543db25f3089113b67f95bfe8",
+      "bytes": 1949
+    },
+    {
+      "path": "receipts/confect-bazel-ui-generate.txt",
+      "sha256": "d95bd9ff746abe07477e12d91991cd801c12481eb3c107228d13a097bdaadf22",
+      "bytes": 14169
+    },
+    {
+      "path": "receipts/confect-bazel-ui-install.txt",
+      "sha256": "3b586ac06a0e964e37a35881286f9f627e285c4742490461980799cb91c75274",
+      "bytes": 693
+    },
+    {
+      "path": "receipts/confect-bazel-ui-tree.txt",
+      "sha256": "8af5d42aeb6bbc6fe2e80b968cf9cc1531dc68e98ebf0793a2cb2036996da3d4",
+      "bytes": 30980
+    },
+    {
+      "path": "receipts/confect-bazel-ui-typecheck.txt",
+      "sha256": "1460cd151d7e995c5c82a2936334eca956105a3d3e15a319c8655a2fcdd6588d",
+      "bytes": 52
+    },
+    {
+      "path": "receipts/confect-bazel-ui-unit.txt",
+      "sha256": "84002c72271c9de4c2168f24860e8bfbedbb637a3016a4e84ea4ab6e107b257e",
+      "bytes": 335
+    },
+    {
+      "path": "receipts/confect-bazel-unit.txt",
+      "sha256": "334b7e3cc826019c4784d7e0e2d7b6e5fdf231df40d2880b362c9f6d621a765b",
+      "bytes": 331
+    },
+    {
+      "path": "receipts/confect-build.txt",
+      "sha256": "1c051614839c3b6dcc489621e5fcc20127621451673071ce5947d6609d3407ce",
+      "bytes": 401
+    },
+    {
+      "path": "receipts/confect-codegen.txt",
+      "sha256": "0d41d968b728c4098a8a747ca88ed7251684ca63c4fd8d2bf144c9594553e6c4",
+      "bytes": 328
+    },
+    {
+      "path": "receipts/confect-demo-ui-report.json",
+      "sha256": "548e7e42688561d39cd56b5883a7814efe0a4d87628b140df4e1b8e7770c87cb",
+      "bytes": 13144
+    },
+    {
+      "path": "receipts/confect-demo.png",
+      "sha256": "a7fa7b68dfe3d7bdd9ee5da08a2a8b3c3391028ccba5c1378dbce2212780b3a2",
+      "bytes": 52907
+    },
+    {
+      "path": "receipts/confect-dependency-tree.json",
+      "sha256": "8e1bfa1fed1e493cf1200fffe2ee4e6bff7df78e2a15d91dc10655c88e0d57bc",
+      "bytes": 30976
+    },
+    {
+      "path": "receipts/confect-generation.json",
+      "sha256": "4abee979976b3edd63bd439b0942ca5de6f0a3bf6ada2e697f636cd64ff4c57a",
+      "bytes": 8052
+    },
+    {
+      "path": "receipts/confect-install.txt",
+      "sha256": "9be8cde744f3ea53edf3086e7f36ae2c52c834109b586975d0d5481e20a932a5",
+      "bytes": 528
+    },
+    {
+      "path": "receipts/confect-typecheck.txt",
+      "sha256": "9132a2a68901c3504e74c37e42e41100ba36063d10de7aba2b785e2a9efe3fe7",
+      "bytes": 48
+    },
+    {
+      "path": "receipts/confect-ui.txt",
+      "sha256": "397e2e81a8c781f9d52023d1155749935acf344ec8ff7eaa9f63d11dc0314ba0",
+      "bytes": 494
+    },
+    {
+      "path": "receipts/confect-unit.txt",
+      "sha256": "497f514d4324de596ab702dcde84a391df3a1b8c2b4a37bc0046ad358aec56f2",
+      "bytes": 331
+    },
+    {
+      "path": "receipts/current-live-alchemy-dry-run.json",
+      "sha256": "79b107dea094082c626ead92288411829552dfbd3954ccc9e077f94f6533a151",
+      "bytes": 617
+    },
+    {
+      "path": "receipts/dry-run-evidence.txt",
+      "sha256": "8ec1eb1c50e75d4691df4a80f37a36424a8cd258aa4fdf640b607e6534ab0e57",
+      "bytes": 773
+    },
+    {
+      "path": "receipts/effect-backend-codegen-prerequisite.txt",
+      "sha256": "036b764034ced2c0059ef39dbf57171b214e9e12953dcc06ef89e4b2cc6726e9",
+      "bytes": 253
+    },
+    {
+      "path": "receipts/effect-bazel-backend-prerequisite.txt",
+      "sha256": "3c22c8d325f16dfac247e42f07a6991ddde478e8cfb759f336461e057e9c5d35",
+      "bytes": 254
+    },
+    {
+      "path": "receipts/effect-bazel-bazel-build.txt",
+      "sha256": "a9dc98a46f538d2cfa2c130947eaecd2f930cb4332c148ba0eae578354730ad8",
+      "bytes": 2594
+    },
+    {
+      "path": "receipts/effect-bazel-bazel-incremental.txt",
+      "sha256": "3ef4526adb2b06674a2e995b7be492f1a6c2204d784cf9206379fec947f72a1a",
+      "bytes": 583
+    },
+    {
+      "path": "receipts/effect-bazel-bazel-restored-build.txt",
+      "sha256": "764d7918dcb88f9efc06be567d188a1fb580fcc635c5a767e14e22fac59efc97",
+      "bytes": 581
+    },
+    {
+      "path": "receipts/effect-bazel-bazel-restored-test.txt",
+      "sha256": "8f972e541d879c54fbb5b5144193106d3a7e188ccc2b1f08eb163101465729e6",
+      "bytes": 883
+    },
+    {
+      "path": "receipts/effect-bazel-bazel-setup.txt",
+      "sha256": "0465fe28a410a232386da770fbfe7f53352d879f26c263458db94fff87b45574",
+      "bytes": 93
+    },
+    {
+      "path": "receipts/effect-bazel-bazel-shutdown.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "receipts/effect-bazel-bazel-source-invalidation.txt",
+      "sha256": "d01cb8dd9c44bd97de7963362d11d97e1e6f1b4f5537379e92305a967e4dd5b3",
+      "bytes": 581
+    },
+    {
+      "path": "receipts/effect-bazel-bazel-test.txt",
+      "sha256": "5a01a57f85a3373fccc079bf21162e5da15537d3dd087bec86e24a4961710f83",
+      "bytes": 977
+    },
+    {
+      "path": "receipts/effect-bazel-build.txt",
+      "sha256": "c660b302bda357e120185e3721a9a9dc204c3c99de8ceec0771afd023cb0ad81",
+      "bytes": 401
+    },
+    {
+      "path": "receipts/effect-bazel-generate.txt",
+      "sha256": "59e432614215413b42ec294081e6c14d14ea488ffc5f2c556285ca7538e75864",
+      "bytes": 11197
+    },
+    {
+      "path": "receipts/effect-bazel-install.txt",
+      "sha256": "c693ef1b0de030a6644bed8b90f0294bdc40fe6ceef8c723fce9637534e2ffc4",
+      "bytes": 576
+    },
+    {
+      "path": "receipts/effect-bazel-tree.txt",
+      "sha256": "19b5e9c93608f386529132e069eebfec163732b4fb3119fe64b7329185808457",
+      "bytes": 11273
+    },
+    {
+      "path": "receipts/effect-bazel-typecheck.txt",
+      "sha256": "1ce5c60db30bacd5a6f3938ccf02ef3793a2e3af1bf82d6a129247ee05d69e42",
+      "bytes": 48
+    },
+    {
+      "path": "receipts/effect-bazel-ui-backend-prerequisite.txt",
+      "sha256": "2f7ecaf810796da08634a81dc5bf83660f01f14c77444df5f327cc857cb264b5",
+      "bytes": 257
+    },
+    {
+      "path": "receipts/effect-bazel-ui-bazel-build.txt",
+      "sha256": "64e6b4ff3faf0ebf06c7e5c8f71e944186f3be2419d850484861ebf23474491f",
+      "bytes": 1921
+    },
+    {
+      "path": "receipts/effect-bazel-ui-bazel-incremental.txt",
+      "sha256": "043d3b5791f425d73abcae748067535d903fc67ff926e31a52c3e67ea65f27d2",
+      "bytes": 587
+    },
+    {
+      "path": "receipts/effect-bazel-ui-bazel-restored-build.txt",
+      "sha256": "81a97631d5bacaef60d423f10d0dc8b28e90cd421d4f6ea69cc07bda098a5962",
+      "bytes": 584
+    },
+    {
+      "path": "receipts/effect-bazel-ui-bazel-restored-test.txt",
+      "sha256": "631b7f1ab45686cacff7e9c0a1f98e52282761a13c5fb270888ba9ffb9f2b814",
+      "bytes": 886
+    },
+    {
+      "path": "receipts/effect-bazel-ui-bazel-setup.txt",
+      "sha256": "fd7c7329905f59b19fde05813ba5dfb147d054bf5f50a33766ddbe53359f5d4c",
+      "bytes": 96
+    },
+    {
+      "path": "receipts/effect-bazel-ui-bazel-shutdown.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "receipts/effect-bazel-ui-bazel-source-invalidation.txt",
+      "sha256": "8744482130dc8b16dca6a8e717fc08166469aaaf64bd10885e474a33aa77d515",
+      "bytes": 584
+    },
+    {
+      "path": "receipts/effect-bazel-ui-bazel-test.txt",
+      "sha256": "76b744dffcea1a29a824ae6ce6dfd41d6e09aa8eab9dfed63bdc3aa3aa9c9200",
+      "bytes": 982
+    },
+    {
+      "path": "receipts/effect-bazel-ui-build.txt",
+      "sha256": "e81da65e20ff20134b345349c735f0798db39f236e8862df032c460149f66d4c",
+      "bytes": 404
+    },
+    {
+      "path": "receipts/effect-bazel-ui-generate.txt",
+      "sha256": "d91c6df98a7ec1ea52ef3da91cbf1cee815f5649202db3608ae7df17f6b236b1",
+      "bytes": 12512
+    },
+    {
+      "path": "receipts/effect-bazel-ui-install.txt",
+      "sha256": "048b1bbc08325aeb1c1a2751a552a701936f81231161dd1009f2a6a570b4a1d0",
+      "bytes": 636
+    },
+    {
+      "path": "receipts/effect-bazel-ui-tree.txt",
+      "sha256": "fe50fc6e41b82bbd2725086b358ae2afb71ce362f62172e141eca5d84f0b4ab7",
+      "bytes": 24478
+    },
+    {
+      "path": "receipts/effect-bazel-ui-typecheck.txt",
+      "sha256": "c314e5c5e71e0b2d975f922ca501693bd238b9cbaafbb9ee472df9abf03da707",
+      "bytes": 51
+    },
+    {
+      "path": "receipts/effect-bazel-ui-unit.txt",
+      "sha256": "424356bcd6242e81f75db1adc09c43171ca406e0ea512f963b08abae9432122b",
+      "bytes": 335
+    },
+    {
+      "path": "receipts/effect-bazel-unit.txt",
+      "sha256": "d71aad4922e10bcfd95757f2d13cdb4d800124f9713f79a6fb88a4b2222103be",
+      "bytes": 332
+    },
+    {
+      "path": "receipts/effect-build.txt",
+      "sha256": "e462b7897580cb521b4a6b59328d21378982ff1f4de013df6826f64bce73c6ae",
+      "bytes": 400
+    },
+    {
+      "path": "receipts/effect-demo-ui-report.json",
+      "sha256": "f6b1749cc5ed362f3fc85e6b2e1d71a47bfab3827c051b64f547ea77de33f669",
+      "bytes": 13141
+    },
+    {
+      "path": "receipts/effect-demo.png",
+      "sha256": "a7fa7b68dfe3d7bdd9ee5da08a2a8b3c3391028ccba5c1378dbce2212780b3a2",
+      "bytes": 52907
+    },
+    {
+      "path": "receipts/effect-dependency-tree.json",
+      "sha256": "4160812727439983a07f894ba3d3361240d9b79f2ed2630ef929260499ad7d08",
+      "bytes": 24474
+    },
+    {
+      "path": "receipts/effect-generation.json",
+      "sha256": "a50d60e1502f52278b22c4d6dce0df37768fa534c85cb6edb634889c8611036c",
+      "bytes": 6399
+    },
+    {
+      "path": "receipts/effect-install.txt",
+      "sha256": "1547403a1d7993bd9608238d5e8a6bcf2385a55b1c510a1f9938c0adf95980c0",
+      "bytes": 480
+    },
+    {
+      "path": "receipts/effect-locked-reinstall.json",
+      "sha256": "cd3c2be1ed5a4f4009769e394f3edfc9465db9e6156bfe878c5d65d4c16c99d1",
+      "bytes": 580
+    },
+    {
+      "path": "receipts/effect-locked-reinstall.txt",
+      "sha256": "825a451a5fd83f61a229e671a97a0648303818563b415e55ec5c7fa17eb081bf",
+      "bytes": 25
+    },
+    {
+      "path": "receipts/effect-typecheck.txt",
+      "sha256": "ce5977986148e8c6b929b56be1e13f89fab10a76a768738899a8cfeb30a8ed71",
+      "bytes": 47
+    },
+    {
+      "path": "receipts/effect-ui.txt",
+      "sha256": "3aca7013a8c5ef6884acad508c0c2141891c79a8e0be9ffa2551c31e2792d424",
+      "bytes": 492
+    },
+    {
+      "path": "receipts/effect-unit.txt",
+      "sha256": "6a1837685c12c7b68c0d0f65c528f7f96a5b05ad3f804882f49b65d71323ed29",
+      "bytes": 328
+    },
+    {
+      "path": "receipts/final-live-convex-dry-run.json",
+      "sha256": "504e4fa2c77f2b0994901e248b117c0f18c1406a3922261ef41b5e5f02f19065",
+      "bytes": 12503
+    },
+    {
+      "path": "receipts/independent-review.txt",
+      "sha256": "ed82d1926c09709a8038f0825c83c53363030291734922ab4e3358fd299f1739",
+      "bytes": 1147
+    },
+    {
+      "path": "receipts/infra-alchemy-bazel-ui.json",
+      "sha256": "ab39660a057b0c5951ed50c665cd40542b16dfe64b47ee643df03a04eb89a27d",
+      "bytes": 10759
+    },
+    {
+      "path": "receipts/infra-alchemy-bazel.json",
+      "sha256": "2ed671ca27d39cf5f7e9df534918542f950629c9c7a3dd152a3ff8dfbbbc0e09",
+      "bytes": 10143
+    },
+    {
+      "path": "receipts/infra-alchemy-demo.json",
+      "sha256": "71fa61c7be497d68b649e7aa0fe30a93311d9184f79d234d858795736c544368",
+      "bytes": 2550
+    },
+    {
+      "path": "receipts/infra-alchemy-ui.json",
+      "sha256": "1433674c8294c742283e598c4d0ce13015e8425896a6a6d0b87b107655a637bf",
+      "bytes": 2582
+    },
+    {
+      "path": "receipts/infra-confect-bazel-ui.json",
+      "sha256": "49e9fee542b5b9f255ba08363025a8c8fc476d7f094e9e9fa8c570e51a3133cc",
+      "bytes": 10273
+    },
+    {
+      "path": "receipts/infra-confect-bazel.json",
+      "sha256": "27458bb5b7da04941023cf48aaa3bcba782ca775fe6037e055024450bda59b21",
+      "bytes": 9358
+    },
+    {
+      "path": "receipts/infra-dry-run.json",
+      "sha256": "ddd0dc320084d49f1661ae479c90e294977085fd0683cd32d9677e5822d161ce",
+      "bytes": 15584
+    },
+    {
+      "path": "receipts/infra-effect-bazel-ui.json",
+      "sha256": "4e9ecd60254a3cf16dbe2a77c09aa587c397e97acc643ca7a188edcb348d8a8e",
+      "bytes": 9931
+    },
+    {
+      "path": "receipts/infra-effect-bazel.json",
+      "sha256": "b3894c5594226833f8491317cedd6dd7e842e8903926f4d9413ccbc3650754bc",
+      "bytes": 9813
+    },
+    {
+      "path": "receipts/infra-verification.json",
+      "sha256": "5476709484f62622b6779b3dbb9995193da9af56fa736447a693a6053310ab71",
+      "bytes": 72665
+    },
+    {
+      "path": "receipts/live-alchemy-generation-error.txt",
+      "sha256": "ac7564676c258f67f36e74a447031434b54fc176ff862a346eb07eb11afc6cbb",
+      "bytes": 250
+    },
+    {
+      "path": "receipts/live-dry-run.json",
+      "sha256": "e32a466769c8f6e062b4b8e912bb6e219300e0a629bda1aa34070c800d822367",
+      "bytes": 6396
+    },
+    {
+      "path": "receipts/locked-install-plan.json",
+      "sha256": "f5ca91990bc90bdeb428ad11c85b569eda71fe44cbf296bb32dd11355db4c7bf",
+      "bytes": 583
+    },
+    {
+      "path": "receipts/syntax-check.txt",
+      "sha256": "e47654ecb1af8295d4bef4aa9e4bc55a7a43f2a68ccbc49234cd912149db0148",
+      "bytes": 55
+    },
+    {
+      "path": "receipts/tanstack-auth-setup-required.png",
+      "sha256": "b401eab71431a51030911e666110908ca7e86b707fcc16dd547d5e6eed503771",
+      "bytes": 243732
+    },
+    {
+      "path": "receipts/tanstack-backend-prerequisite.txt",
+      "sha256": "900be9ff66393a55259bfc7b24da3ebf528079b29a6ba2c1ed5ec68c122b6df5",
+      "bytes": 251
+    },
+    {
+      "path": "receipts/tanstack-bazel-refused.txt",
+      "sha256": "232c3df3999ad935402823dfa8f7d54594e9e2e8080a497e50f7efabb00547fc",
+      "bytes": 196
+    },
+    {
+      "path": "receipts/tanstack-build-attempt1.txt",
+      "sha256": "673140dd228dabbdec80eec00d990b3449e2994a487b7588f2690b33fe61b513",
+      "bytes": 4793
+    },
+    {
+      "path": "receipts/tanstack-build-restored.txt",
+      "sha256": "bf6ed0be8def746ff9d91dbaf87cbeee480845e940cd0651146e30fdac5de5f8",
+      "bytes": 3739
+    },
+    {
+      "path": "receipts/tanstack-build.txt",
+      "sha256": "c5c5eeceae1a062024d9d725da6dc4dc0038c01c1ce8d352551e396c616a329d",
+      "bytes": 3739
+    },
+    {
+      "path": "receipts/tanstack-config-prerequisite.txt",
+      "sha256": "588293f8e1b85212896b821a86d81d918a102061093440d9b7bf11cc63683d49",
+      "bytes": 318
+    },
+    {
+      "path": "receipts/tanstack-dry-run.json",
+      "sha256": "6e20a01f77f489a3922e8b7b7308f096ca9ee0f31ebb7d05769b6bc1f5d529ac",
+      "bytes": 20726
+    },
+    {
+      "path": "receipts/tanstack-dry-run.txt",
+      "sha256": "d1323a290197d8e2d3910c5af385a14540fd458104347a03b5325009172b357d",
+      "bytes": 27114
+    },
+    {
+      "path": "receipts/tanstack-existing-refused.txt",
+      "sha256": "ea19ad70e4e38678cc72ffdb8dcc5a8eaf54611d21276fb819eb23aa7fdb7594",
+      "bytes": 185
+    },
+    {
+      "path": "receipts/tanstack-generation.json",
+      "sha256": "2a5f601d57de79c620189f3b52da75dcb65c03877844fe3ec230f8c3e5ccb9d7",
+      "bytes": 20881
+    },
+    {
+      "path": "receipts/tanstack-generation.txt",
+      "sha256": "56f3ba84317791262a5083d231613252790abd1b5e0c9db7aa98e75790df6b23",
+      "bytes": 27117
+    },
+    {
+      "path": "receipts/tanstack-independent-review.md",
+      "sha256": "4ef1e073b71e5fcdc7e5582e68d00d2beb0eafa4db2b3f1c99202f3af533f395",
+      "bytes": 1757
+    },
+    {
+      "path": "receipts/tanstack-install-attempt1.txt",
+      "sha256": "aa6c5ffcf9d6441d52bf1f3d5b4b296f4ae7350b5f408b22ccae42780d1f30ff",
+      "bytes": 177
+    },
+    {
+      "path": "receipts/tanstack-install-dry-run.json",
+      "sha256": "192d80befac3a32186b98b13b24535428fed766d7f2f098aa50d9e8b4eb97d4f",
+      "bytes": 854
+    },
+    {
+      "path": "receipts/tanstack-install-dry-run.txt",
+      "sha256": "2c8c5a584c1afd44c381428206748e64630f72c78695f9fdb9aa23b3234444aa",
+      "bytes": 966
+    },
+    {
+      "path": "receipts/tanstack-install-repeat.txt",
+      "sha256": "566b8f6721e6bdf4d44954d271d32b33eb05f60d9c98bd63a55d37a35b249c04",
+      "bytes": 1038
+    },
+    {
+      "path": "receipts/tanstack-install.json",
+      "sha256": "3a0e184058e2d88e93152558f775ad3d4cf6748317cbb02562dc633b40c8cd60",
+      "bytes": 856
+    },
+    {
+      "path": "receipts/tanstack-install.txt",
+      "sha256": "c80d5fa16e7476ccf910b8a164229edfb33d493a2ea6e0b92f7933f6d1b97009",
+      "bytes": 1062
+    },
+    {
+      "path": "receipts/tanstack-preview.txt",
+      "sha256": "3f397dd005ec4bfde2a4921854afdfbfc519f843e64ab64c3c4d8cfb03d995d7",
+      "bytes": 268
+    },
+    {
+      "path": "receipts/tanstack-runtime-selection-required.txt",
+      "sha256": "f13b383c9f5268e1230038e76c075bcc53ac27407992682db667e08d17e0a125",
+      "bytes": 245
+    },
+    {
+      "path": "receipts/tanstack-server-missing.json",
+      "sha256": "94a9dd2c1426823702836919745e472a34c7a63573158f0309fc79d5067843a6",
+      "bytes": 1223
+    },
+    {
+      "path": "receipts/tanstack-server-missing.txt",
+      "sha256": "94a9dd2c1426823702836919745e472a34c7a63573158f0309fc79d5067843a6",
+      "bytes": 1223
+    },
+    {
+      "path": "receipts/tanstack-server-synthetic.json",
+      "sha256": "c11439cbb8d7a411c7b6954f369edb1025d74b6f4c5aa098add29113ec0d5ae3",
+      "bytes": 1426
+    },
+    {
+      "path": "receipts/tanstack-server-synthetic.txt",
+      "sha256": "83c8e7ccc3012b539a71911bc9c8f2deca9fc4b1ca7ff57e760c9ef97519c7be",
+      "bytes": 1669
+    },
+    {
+      "path": "receipts/tanstack-shadcn-add-plan.txt",
+      "sha256": "c6eb1ee3c6d2a55f111f331f4ff430650ed34ccb613475b5adb4f505098f0f73",
+      "bytes": 349
+    },
+    {
+      "path": "receipts/tanstack-shadcn-install-attempt1-bundles.txt",
+      "sha256": "a2378c152469ccf3854462adaa30196b95cad9fa2059dbbb29a53d98cfbd843a",
+      "bytes": 217
+    },
+    {
+      "path": "receipts/tanstack-shadcn-ui-attempt1-hydration.txt",
+      "sha256": "a4032a1c4eea595c0a08bb4a5a317d880ff493daec13888d3ea0748c9a700970",
+      "bytes": 1421
+    },
+    {
+      "path": "receipts/tanstack-synthetic-build.txt",
+      "sha256": "38bd3245091f71ddca422d7675650762fbeea2afad21a339c6743755dab60672",
+      "bytes": 3739
+    },
+    {
+      "path": "receipts/tanstack-tree.txt",
+      "sha256": "62175ec0284de2832a6489d2c4cc2a52fc1a12269fdd82b9f517b033170fce93",
+      "bytes": 154608
+    },
+    {
+      "path": "receipts/tanstack-typecheck.txt",
+      "sha256": "d491e72f9e78f1955de12c3717900a4961a94ffd0d91184cd85025a1d8a063e3",
+      "bytes": 252
+    },
+    {
+      "path": "receipts/tanstack-ui-report.json",
+      "sha256": "a40246283bbbd2d3fb211c9bcb1bd2fbcb0c2284648964cebb289e1ced73555a",
+      "bytes": 24502
+    },
+    {
+      "path": "receipts/tanstack-ui.txt",
+      "sha256": "6fc118e8fcc2b2d9bacee2d6dd3fcf553cdca52031e3e8db980e98041da28193",
+      "bytes": 497
+    },
+    {
+      "path": "receipts/tanstack-unit.txt",
+      "sha256": "d29a973afca023804fc30a1c826ac09216c88d77880b2159b2984806ba6ac3db",
+      "bytes": 920
+    },
+    {
+      "path": "receipts/tanstack-verification.json",
+      "sha256": "bd4ba7620264c57f9651d61881866fab563c5513821938d2462344ed5fd164f1",
+      "bytes": 33559
+    },
+    {
+      "path": "receipts/ui-input-baseline.txt",
+      "sha256": "23fd10de0f59acf338a91be9136165bf0101ec9dd2b9370760339c03e1f8f26a",
+      "bytes": 3537
+    },
+    {
+      "path": "receipts/ui-input-install.txt",
+      "sha256": "c44de2b64b638e0b22ff6a86bda1b385df67fdd0c8ca351242f22f70a815b4bb",
+      "bytes": 464
+    },
+    {
+      "path": "receipts/ui-input-negative.txt",
+      "sha256": "520485177f49dbc3f6ed8a447e7c574c5cc9a3389d212f4f7641fc3c583f3896",
+      "bytes": 1699
+    },
+    {
+      "path": "receipts/ui-input-restored.txt",
+      "sha256": "25cc5ec91cc270f203fe76e5a68a5fd4cb7fe79228fb4392b3f99362674c52dc",
+      "bytes": 887
+    },
+    {
+      "path": "receipts/ui-input-setup.txt",
+      "sha256": "fd7c7329905f59b19fde05813ba5dfb147d054bf5f50a33766ddbe53359f5d4c",
+      "bytes": 96
+    },
+    {
+      "path": "receipts/ui-input-shutdown.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "receipts/ui-input-verification.json",
+      "sha256": "07108488659c49823cb117d6ac93e34b3c24595f1075b10a739e30410a2e7022",
+      "bytes": 1486
+    },
+    {
+      "path": "receipts/verification-run.txt",
+      "sha256": "36fd3c6a533c0d3ef0015dccdbf41b0bf1f2c99aa321be1f926123f800017b9b",
+      "bytes": 504
+    },
+    {
+      "path": "receipts/verification.json",
+      "sha256": "81d0d35a75403fd9fae10cd76df63a106a4ccc9ca65acbd547d76ac4ee70a340",
+      "bytes": 5239
+    },
+    {
+      "path": "research/CREATE-VITE-LICENSE.md",
+      "sha256": "fdd944ea8725b433812417b93b0caf2205f5321233c82010c873b8577edcb256",
+      "bytes": 31420
+    },
+    {
+      "path": "research/create-vite-9.2.1.tgz",
+      "sha256": "4dd92d0e734e96e88ec8afd8c0153f6a9446156205460a995b978b63b49b4eb8",
+      "bytes": 403006
+    },
+    {
+      "path": "scripts/aggregate-infra.mjs",
+      "sha256": "258fe8b37c7214af3c19f7f535794ec441325a0aa6e7eba6c7435da3cf34a53a",
+      "bytes": 665
+    },
+    {
+      "path": "scripts/archive.py",
+      "sha256": "4c9bfa8f5a48c04cc89f6d23577d80c20067c1952e5599bb030b386d0346eac7",
+      "bytes": 1848
+    },
+    {
+      "path": "scripts/inspect-bazel-output.mjs",
+      "sha256": "d236b12e698f617b1305958745c81bedbf6aae27fdd86eae2a79c089aef2ee07",
+      "bytes": 882
+    },
+    {
+      "path": "scripts/probe-tanstack-server.mjs",
+      "sha256": "393e22babce21aedf7b4432bdbc421f3e752b6e5a48af7f2fc4425ba5d315655",
+      "bytes": 4391
+    },
+    {
+      "path": "scripts/prove-ui-input.mjs",
+      "sha256": "32d4f29fff7f38a960381130b5bdf2c93945d580be6aa5191659c65b7f5ce32b",
+      "bytes": 1847
+    },
+    {
+      "path": "scripts/replay-alchemy-snapshot.mjs",
+      "sha256": "14ef727915024e5f0a7d7c47d7d498d40859d9d364cc79d7efff91a4fbde0db7",
+      "bytes": 3264
+    },
+    {
+      "path": "scripts/seed-snapshot-locks.mjs",
+      "sha256": "59d3a369aec6bd001e731e30708f54298df40246d2b0e49688c66475ee22b340",
+      "bytes": 1048
+    },
+    {
+      "path": "scripts/verify-compatible.mjs",
+      "sha256": "47f99224a416b6d8f1ba5b1308bb4e00a85e26f55491ff9d89c3a9680456bca7",
+      "bytes": 3510
+    },
+    {
+      "path": "scripts/verify-infra.mjs",
+      "sha256": "c186e62103ae1f7daecc4dd01f6ea41ab0842c9c4078909f6d649fb77ae0f567",
+      "bytes": 5665
+    },
+    {
+      "path": "scripts/verify-samples.mjs",
+      "sha256": "1750a758e6dc3ebbe48b30aa2094f5cca51de84819e5d5f168eaf7d135535905",
+      "bytes": 3743
+    },
+    {
+      "path": "scripts/verify-tanstack.mjs",
+      "sha256": "42418f4f326a07a1f017d1347c8ba8b5ad624e613752792b31551ad89044dba7",
+      "bytes": 7375
+    },
+    {
+      "path": "scripts/write-report.mjs",
+      "sha256": "f8417df90353b6b5b7b02b4c06779fcd311309f92f3346a7599ceceb54583c48",
+      "bytes": 17581
+    },
+    {
+      "path": "src/bazel.mjs",
+      "sha256": "8e784c58eb189eb20fee7ba2ee8ae14868be7abd970de408a680a1a7c2216988",
+      "bytes": 7868
+    },
+    {
+      "path": "src/bundles.mjs",
+      "sha256": "6fc523177afa8649566bdb20e0820b180661b953c3da96dc9c05ca9115b88c01",
+      "bytes": 5455
+    },
+    {
+      "path": "src/cli.mjs",
+      "sha256": "c56582d120c52e3ab8fbd42fa531494b70cd690fff53bd6fdfc1b4b1e6bbf1b9",
+      "bytes": 5966
+    },
+    {
+      "path": "src/generate.mjs",
+      "sha256": "2dc8271637ed47dc219d2cfb5cadfa8726d0691740b7c97c6ead958923fcb6eb",
+      "bytes": 10535
+    },
+    {
+      "path": "src/install.mjs",
+      "sha256": "620df403da32b4f101ccc98db7f4ef548771d4ca3cd2e51b95c1c28f794fbba5",
+      "bytes": 14329
+    },
+    {
+      "path": "src/npm-bazel-lock.mjs",
+      "sha256": "e88e80f009df0dd085a313e5455faa343dc511ce8feb8865b29e9455ebd62402",
+      "bytes": 3687
+    },
+    {
+      "path": "src/paths.mjs",
+      "sha256": "a24dd068f7f81c386e54744c14a1370f9532986ad494289e1c32981cd43f4dd0",
+      "bytes": 1438
+    },
+    {
+      "path": "src/resolve.mjs",
+      "sha256": "4bfeb4bb62ea1b7c75f6c4412345bc42e90e53488e3f88e52f6f747affb76141",
+      "bytes": 13866
+    },
+    {
+      "path": "src/shadcn.mjs",
+      "sha256": "f85536bcfc377d192e7cb29e758304b6eea9f1185352d636e230e098d0e0aab9",
+      "bytes": 2543
+    },
+    {
+      "path": "src/tanstack-upstream.mjs",
+      "sha256": "fc7e91d153d34cb7878735c254a79e50f9895e09e216b83be6415a9fce76ab5c",
+      "bytes": 4374
+    },
+    {
+      "path": "src/tanstack.mjs",
+      "sha256": "328585c070356e598bdb170c4cea2f242496db9ce63a972cc620130706066cda",
+      "bytes": 8595
+    },
+    {
+      "path": "src/upstream.mjs",
+      "sha256": "fada02eb8721b524b7221966991ec8077a1d482122de8401652e5fa7c75c31f3",
+      "bytes": 2244
+    },
+    {
+      "path": "templates/alchemy/alchemy.run.ts",
+      "sha256": "c11c38290f7e7e6d40454f9e8b58b49809a98a72e7950776e1a0e02a7486ec08",
+      "bytes": 323
+    },
+    {
+      "path": "templates/alchemy/infra/local.ts",
+      "sha256": "f3aeb9d5ef368b2e19f5a4a78e4d6447b39cfc1054a8cf7fc31197d4770a4f31",
+      "bytes": 1616
+    },
+    {
+      "path": "templates/alchemy/infra/resources.ts",
+      "sha256": "b97f66873e3255593d4be21a314b1115ba48b13c6fddf1c2dcbcb27651f66f80",
+      "bytes": 481
+    },
+    {
+      "path": "templates/alchemy/infra/runtime.ts",
+      "sha256": "e8da07c48394d87e1e2bdfd0d6a970bf826550c7e500d53aff34899006af4512",
+      "bytes": 2034
+    },
+    {
+      "path": "templates/alchemy/scripts/local-run.ts",
+      "sha256": "b66ccc14c27dafa4dfc9480bfe642511cf891411ff43e32f2758f91d9f0ab4f0",
+      "bytes": 2074
+    },
+    {
+      "path": "templates/alchemy/scripts/local.mjs",
+      "sha256": "7dfcf2147c82f92f852c03458fb8c898da6f04194d43cf03509a9a702e4a3821",
+      "bytes": 1696
+    },
+    {
+      "path": "templates/alchemy/src-main.ts",
+      "sha256": "1da73d9595757ec1edf7d6a411a3e091a4a940de675321bf8434b763a5102f41",
+      "bytes": 1560
+    },
+    {
+      "path": "templates/alchemy/tests/unit.test.ts",
+      "sha256": "6db472afb18334b17222f2e7f7abac85fdd521bd004cd608787e3d29783cc2fa",
+      "bytes": 349
+    },
+    {
+      "path": "templates/alchemy/worker/main.ts",
+      "sha256": "43c7023551f1f842ab801280ab964ee4654da1e6483c0d473b2101e078d6c8b3",
+      "bytes": 978
+    },
+    {
+      "path": "templates/bazel/scripts/bazel-codegen.mjs",
+      "sha256": "6a31f98307ecbcdcf87f837b4feb5de7f589939c79cf70a51755714e8b409730",
+      "bytes": 1302
+    },
+    {
+      "path": "templates/bazel/scripts/bazel-unit.mjs",
+      "sha256": "836ace4839e984e2e23fe846dab37ad8221804abc6b5e605099aee91356b0b55",
+      "bytes": 392
+    },
+    {
+      "path": "templates/bazel/scripts/bazel.mjs",
+      "sha256": "22ac7f4d59757867af8db0a0c9048904221aead03570f683360b992bf571dbfa",
+      "bytes": 3522
+    },
+    {
+      "path": "templates/common/scripts/backend-codegen.mjs",
+      "sha256": "5a24a937be74cc213899bc85d6f3fadfdae31892783b05f59cc65266c909de74",
+      "bytes": 720
+    },
+    {
+      "path": "templates/common/scripts/ui-test.mjs",
+      "sha256": "7433b6f7ac0059dd6b6bde4b9c1a5aea691ad8967eef59bf11e89354d6570fa2",
+      "bytes": 353
+    },
+    {
+      "path": "templates/common/src/domain.ts",
+      "sha256": "587f84750da7a1715f3eaa1ed655b6e12f4e365b3f354da0d23c0ee4971d04f9",
+      "bytes": 129
+    },
+    {
+      "path": "templates/common/src/main.ts",
+      "sha256": "a2799be36ee2681f5469b559fd9596c7fa6aaf2d47827d404a1417ba50949bdb",
+      "bytes": 1982
+    },
+    {
+      "path": "templates/common/src/style.css",
+      "sha256": "9c2845e475f679c692b02ed6552610be346c1b7235790e5bfe5f0c28886a9610",
+      "bytes": 1421
+    },
+    {
+      "path": "templates/common/tests/unit.test.ts",
+      "sha256": "9966d4062f66b26d12275cb66e669472541c80b6b1ae5f734cee1c5c66128a5d",
+      "bytes": 962
+    },
+    {
+      "path": "templates/confect/confect/demo.impl.ts",
+      "sha256": "155a851106d943b14bc65485926588781c41ea262d2b2c9a6b7dbd9bb329ca1c",
+      "bytes": 371
+    },
+    {
+      "path": "templates/confect/confect/demo.spec.ts",
+      "sha256": "c20177663f1af1e42e3dd9a216da1c6276fa87c0b9bb3a7d961705c09ceca645",
+      "bytes": 256
+    },
+    {
+      "path": "templates/confect/convex/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "templates/e2e/e2e.config.ts",
+      "sha256": "076107c4a41cf2e19685d9fcde2d7d662a20d9178e8890dc6e18e5d46c4249a0",
+      "bytes": 526
+    },
+    {
+      "path": "templates/e2e/tests/demo.e2e.ts",
+      "sha256": "04a9f2a0d9caa4bc60b93c4ce9da8e40b6f5da49a3785f3c36a88aa54583e291",
+      "bytes": 709
+    },
+    {
+      "path": "templates/effect/convex/demo.ts",
+      "sha256": "e689e51b98dbf3d2861867e9bac95f5b9292f8f648ecde86677b9994e5fd60bf",
+      "bytes": 499
+    },
+    {
+      "path": "templates/effect/convex/schema.ts",
+      "sha256": "7035de6b36e8b9848d6e3cc9d49e29362480d29670a7cd0951193d05552f4bef",
+      "bytes": 79
+    },
+    {
+      "path": "templates/tanstack/.env.example",
+      "sha256": "a296be7f44f8bed21635a605b7b7413df0d3ec9fbe6c132479d155181fcfe42b",
+      "bytes": 293
+    },
+    {
+      "path": "templates/tanstack/SHADCN-LICENSE.md",
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f",
+      "bytes": 1063
+    },
+    {
+      "path": "templates/tanstack/components.json",
+      "sha256": "7520897929a30e94a67d7f0dedcf9685068ccc52f952bb44e3f36ea3cf71511c",
+      "bytes": 381
+    },
+    {
+      "path": "templates/tanstack/convex/auth.config.ts",
+      "sha256": "252065aa66102d37fad2962689f4de3b2b65af1c90732a1fee2409ef1d6de302",
+      "bytes": 706
+    },
+    {
+      "path": "templates/tanstack/convex/demo.ts",
+      "sha256": "134de14a365d6997d2093859c8c962ab6ee9810e1267e414b9a4bf9c3610a13b",
+      "bytes": 462
+    },
+    {
+      "path": "templates/tanstack/convex/schema.ts",
+      "sha256": "7035de6b36e8b9848d6e3cc9d49e29362480d29670a7cd0951193d05552f4bef",
+      "bytes": 79
+    },
+    {
+      "path": "templates/tanstack/public/convex.svg",
+      "sha256": "18166596936cfbbb9150e532292bd1ea67a2d01224a9400bf45290077ca8cbe0",
+      "bytes": 1567
+    },
+    {
+      "path": "templates/tanstack/scripts/check-config.ts",
+      "sha256": "8ddbed69c0aa2081952689db4bdf1a9cc47f276398719fb73160d0b6d9ea6ace",
+      "bytes": 461
+    },
+    {
+      "path": "templates/tanstack/src/app.css",
+      "sha256": "ca9652a5f5301e6188c9b66bb175150264df0d4eb9d4393da99101973da495b3",
+      "bytes": 3310
+    },
+    {
+      "path": "templates/tanstack/src/components/AuthPanel.tsx",
+      "sha256": "41279c8b3842b16f1e309eae1f446b4e8f02cad477cd9b6980b2e26a1dc06a5b",
+      "bytes": 5106
+    },
+    {
+      "path": "templates/tanstack/src/components/SessionProviders.tsx",
+      "sha256": "763ab4a88977251bd6db488277d3407683d1215fabaad46283b7df93b84e0833",
+      "bytes": 1560
+    },
+    {
+      "path": "templates/tanstack/src/components/SessionRevalidator.tsx",
+      "sha256": "a89f6668ca7ad014cefc60f289a50c05d37461a7515f6f08d3d0ee55adaec971",
+      "bytes": 1089
+    },
+    {
+      "path": "templates/tanstack/src/lib/auth-boundaries.ts",
+      "sha256": "8c453840b8f8520230c4c47a050cf2132b0d8ce3c73226ecff0bbe77a183a5af",
+      "bytes": 1590
+    },
+    {
+      "path": "templates/tanstack/src/lib/auth-routes.server.ts",
+      "sha256": "1d11ce577de93f543aea0a1fa73196c8d46dafbc6db680bb831df0277456d447",
+      "bytes": 1732
+    },
+    {
+      "path": "templates/tanstack/src/lib/backend.ts",
+      "sha256": "611ac5b1c14fcc90d3e5e56979f3666adda7dab3f86fd4ec169983fba48b5d6b",
+      "bytes": 204
+    },
+    {
+      "path": "templates/tanstack/src/lib/env.server.ts",
+      "sha256": "03c21d17efaa9506342f3c1923518f80307854c6a2f82bc53e94be90d30046f8",
+      "bytes": 307
+    },
+    {
+      "path": "templates/tanstack/src/lib/env.ts",
+      "sha256": "08ff7bbcaa6feb3d94e381f4f0bc9f2054c0145a2f71f6e4e8840ed6e94d2b71",
+      "bytes": 1459
+    },
+    {
+      "path": "templates/tanstack/src/lib/session.ts",
+      "sha256": "fda3ca62b3ef155a7a752aeb981524c6de0aaffac1ff10f154a7f631e924bc8d",
+      "bytes": 1208
+    },
+    {
+      "path": "templates/tanstack/src/lib/utils.ts",
+      "sha256": "a8950be0d3981383f2897a00a5a58913ae927d96e51557d915a76e81fbef4f30",
+      "bytes": 25
+    },
+    {
+      "path": "templates/tanstack/src/router.tsx",
+      "sha256": "c4d09cbd421036670028b7a5e9b7ae4caf8d9e2c10f0e2f330e733d2ba99df5c",
+      "bytes": 1644
+    },
+    {
+      "path": "templates/tanstack/src/routes/__root.tsx",
+      "sha256": "c34c7fbbac8ae951f4690c5527a6ee111dc891d4a4e4c1047a257166d3d1494b",
+      "bytes": 1092
+    },
+    {
+      "path": "templates/tanstack/src/routes/_authenticated/authenticated.tsx",
+      "sha256": "1dff2a89d7841fb2b1f0b3b9c9dc6d3809da5c894fedfc6650e7d83452603085",
+      "bytes": 962
+    },
+    {
+      "path": "templates/tanstack/src/routes/_authenticated.tsx",
+      "sha256": "b3e8de5c1a8f0b9bba38129d45aa828af2c2b712f950faf8382f764f1dbc01fd",
+      "bytes": 685
+    },
+    {
+      "path": "templates/tanstack/src/routes/api/auth/callback.tsx",
+      "sha256": "b910f2266e458d8c1feb84600840219430f6e43d76ffba4e798cd1987facd184",
+      "bytes": 231
+    },
+    {
+      "path": "templates/tanstack/src/routes/api/auth/sign-in.tsx",
+      "sha256": "95b3f3cf7372ddf719289c9dc9e650619be3480ed4fe4fcbf901f8fd3ad9d014",
+      "bytes": 244
+    },
+    {
+      "path": "templates/tanstack/src/routes/index.tsx",
+      "sha256": "d16a2f832a78b3ad793055cdcc6607f3ee60ef5524e7848c1d66979b7e193f3e",
+      "bytes": 1028
+    },
+    {
+      "path": "templates/tanstack/src/start.ts",
+      "sha256": "d6e7001063e9cadaa853dc94d53617748c8ef8bd25df71420453ab619bf10217",
+      "bytes": 842
+    },
+    {
+      "path": "templates/tanstack/src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38
+    },
+    {
+      "path": "templates/tanstack/tests/auth.test.ts",
+      "sha256": "cfbf0ef3691696c4db0da2dd7adfc69e87a0a311489842379eb2addd7b00808f",
+      "bytes": 4018
+    },
+    {
+      "path": "templates/tanstack/tests/backend.test.ts",
+      "sha256": "3ac7ad614b58da70a7b8ab08a184ebda254967dad94dac6160744f2552df3406",
+      "bytes": 1026
+    },
+    {
+      "path": "templates/tanstack/tests/components.test.tsx",
+      "sha256": "97de77ae4986da80101d0f8adfc2d1587adde2b6f9bbb71ebf482a8657594602",
+      "bytes": 1489
+    },
+    {
+      "path": "templates/tanstack/tsconfig.json",
+      "sha256": "9d1e40d5d816079a7a5432491ee056494b1ebcb89078df4f1863bd9618f11e9d",
+      "bytes": 561
+    },
+    {
+      "path": "templates/tanstack/vite.config.ts",
+      "sha256": "069b0927fc77a9fe5691aade59bfc114552588dbc54121aa3e734c092191bb78",
+      "bytes": 701
+    },
+    {
+      "path": "templates/tanstack-e2e/e2e.config.ts",
+      "sha256": "0709547bd0c71b37d589c7ab9b6a0ed5c54efb5672ce63a8d0a7b1bba6f90360",
+      "bytes": 590
+    },
+    {
+      "path": "templates/tanstack-e2e/scripts/ui-test.mjs",
+      "sha256": "7433b6f7ac0059dd6b6bde4b9c1a5aea691ad8967eef59bf11e89354d6570fa2",
+      "bytes": 353
+    },
+    {
+      "path": "templates/tanstack-e2e/tests/auth.e2e.ts",
+      "sha256": "a799c5dca787d237b02a43faa1f5d84df982521b5886f8e1fe54f2b7f4cc7f0a",
+      "bytes": 1953
+    },
+    {
+      "path": "test/bundles.test.mjs",
+      "sha256": "26a9d4ae88946c543ce1d6fd03aa13213464a346633c0dfe2090b24fae2c8253",
+      "bytes": 4031
+    },
+    {
+      "path": "test/cli.test.mjs",
+      "sha256": "9f4522b67947d93aa672279627ca966e0d607cdbfa5cb4ad548a6c2d50ebb45d",
+      "bytes": 12650
+    },
+    {
+      "path": "test/fixtures/alchemy-live-snapshot/fresh-stack.json",
+      "sha256": "d1cb51b9cc6fe54fc807ee1081d330aa3babfec52ebed19a1dd3291231833284",
+      "bytes": 7188
+    },
+    {
+      "path": "test/fixtures/alchemy-live-snapshot/package-lock.json",
+      "sha256": "677269e86aa284ff45745c92aeec88ca7e4fb156a32b24e55bc6973b7516f7d9",
+      "bytes": 154960
+    },
+    {
+      "path": "test/fixtures/alchemy-live-snapshot-ui/package-lock.json",
+      "sha256": "c97f24d41a96be98304120286864305de46c06e020b63eaa6b5133c01ad9a70f",
+      "bytes": 196940
+    },
+    {
+      "path": "test/fixtures/shadcn-registry.json",
+      "sha256": "41201d3be061451889bcd68d9ee05b397eede8dfd1820fdaddbfadf8fc978659",
+      "bytes": 8773
+    },
+    {
+      "path": "test/fixtures/tailwind-bundled-lock.json",
+      "sha256": "6f27275a36eb38366fe3b536b1b22ed587bdadc5fc9b163bfdb9af5545acd8b4",
+      "bytes": 2848
+    },
+    {
+      "path": "test/fixtures/tailwind-oxide-wasm4.3.3.tgz",
+      "sha256": "d5b61fbe10d237f7565032a74b03b5be6c83b309037ee407e2b5b46f24738823",
+      "bytes": 1829808
+    },
+    {
+      "path": "test/fixtures/tanstack-registry.json",
+      "sha256": "77e356e9478d4d71561e901bb6b677a8a7316f0f67aafe33504e84beecf4c98a",
+      "bytes": 122534
+    },
+    {
+      "path": "test/fixtures/tanstack-upstream.json",
+      "sha256": "1a18b1b94b267cd2cea06074b5541cbabc04cb3815da15390959d633809f1024",
+      "bytes": 30011
+    },
+    {
+      "path": "test/fixtures.mjs",
+      "sha256": "67c3b6071a53ba03bc579cf6f51d9731bbd62871a7e4ca421673594963eddba0",
+      "bytes": 1877
+    },
+    {
+      "path": "test/infra.test.mjs",
+      "sha256": "b2758fd81136e036e492f443a6ee00ef02d77097a30ddccc1e22b31ea036cdb4",
+      "bytes": 12947
+    },
+    {
+      "path": "test/tanstack.test.mjs",
+      "sha256": "60c6de58331b7f2184fcefcc5f2cc036c6cccebbfd3672c47ef53f26dff7cbe2",
+      "bytes": 8695
+    },
+    {
+      "path": "test/upstream.test.mjs",
+      "sha256": "ffee94515d97ec60a601a5b2aa134f6bc0491b8b8eff31cae5f07c1346a95ad5",
+      "bytes": 2074
+    }
+  ],
+  "excludedReceiptFiles": [
+    "receipts/library-upload-errors.txt",
+    "receipts/delivery-status.json",
+    "receipts/library-confirmed.json",
+    "receipts/library-replacements.json",
+    "receipts/library-shadcn-batch.json",
+    "receipts/source-archive.sha256",
+    "receipts/library-upload-result.json",
+    "receipts/library-auth-screenshot.json",
+    "receipts/live-publish-conflict.json"
+  ],
+  "excludedTrees": [
+    "node_modules",
+    "samples (generated smoke-test apps)",
+    "research except required create-vite test archive and license",
+    "alchemy-probe",
+    "bazel-effect",
+    ".browsers",
+    ".delivery-helpers",
+    ".library-auth-image-helpers",
+    ".library-shadcn-helpers"
+  ],
+  "originalWorkspaceIntact": true
+}

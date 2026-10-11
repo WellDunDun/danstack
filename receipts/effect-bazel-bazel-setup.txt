@@ -1,0 +1,5 @@
+
+> effect-bazel@0.0.0 bazel:setup
+> node scripts/bazel.mjs setup
+
+Verified local Bazel 9.3.0

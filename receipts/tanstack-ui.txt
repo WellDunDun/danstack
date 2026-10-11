@@ -1,0 +1,17 @@
+
+> auth-demo@0.0.0 test:ui
+> node scripts/ui-test.mjs
+
+
+ RUN  e2e v0.19.0 /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/auth-demo
+      run 01a125bf-65df-74df-96a2-eede62c2bfc0 · targets: local-web
+
+ ✓ target "local-web" command ready 992ms
+ ✓ |local-web| tests/auth.e2e.ts (1 test) 1.45s
+   ✓ actual Start preview fails closed without service configuration 1.45s
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  15:17:43
+   Duration  2.86s (startup 992ms)
+

@@ -1,0 +1,54 @@
+
+> confect-bazel-ui@0.0.0 bazel:build
+> node scripts/bazel.mjs build //:bundle
+
+Extracting Bazel installation...
+Starting local Bazel server (9.3.0) and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Analyzing: target //:bundle (1 packages loaded)
+Analyzing: target //:bundle (5 packages loaded, 6 targets configured)
+Analyzing: target //:bundle (5 packages loaded, 6 targets configured)
+
+Analyzing: target //:bundle (69 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (97 packages loaded, 536 targets configured)
+
+Analyzing: target //:bundle (105 packages loaded, 602 targets configured)
+
+Analyzing: target //:bundle (179 packages loaded, 1500 targets configured)
+
+Analyzing: target //:bundle (204 packages loaded, 1682 targets configured)
+
+Analyzing: target //:bundle (204 packages loaded, 1682 targets configured)
+
+INFO: Analyzed target //:bundle (205 packages loaded, 6464 targets configured).
+[236 / 410] Extracting npm package @redis/client@6.3.0 [for tool]; 0s darwin-sandbox ... (14 actions, 13 running)
+[313 / 426] Extracting npm package @redis/client@6.3.0 [for tool]; 1s darwin-sandbox ... (14 actions, 13 running)
+[430 / 479] Extracting npm package convex@1.46.0 [for tool]; 2s darwin-sandbox ... (14 actions, 13 running)
+[487 / 494] Extracting npm package convex@1.46.0; 2s darwin-sandbox ... (3 actions, 2 running)
+[490 / 494] ConfectCodegen generated [for tool]; 1s darwin-sandbox ... (2 actions running)
+[492 / 494] [Prepa] runfiles for //:builder
+[493 / 494] ViteBundle bundle; 1s darwin-sandbox
+INFO: Found 1 target...
+Target //:bundle up-to-date:
+  bazel-bin/bundle
+INFO: Elapsed time: 38.407s, Critical Path: 12.53s
+INFO: 494 processes: 275 internal, 219 darwin-sandbox.
+INFO: Build completed successfully, 494 total actions

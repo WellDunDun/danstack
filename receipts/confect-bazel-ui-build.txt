@@ -1,0 +1,14 @@
+
+> confect-bazel-ui@0.0.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.4 building client environment for production...
+transforming...
+✓ 287 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  0.41 kB │ gzip: 0.28 kB
+dist/assets/index-DYYiu8_G.css   1.41 kB │ gzip: 0.67 kB
+dist/assets/index-D2dhpXx2.js   22.92 kB │ gzip: 8.60 kB
+
+✓ built in 357ms

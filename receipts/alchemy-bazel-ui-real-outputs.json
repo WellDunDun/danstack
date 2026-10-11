@@ -1,0 +1,26 @@
+{
+  "inspectedAt": "2026-10-10T10:16:40.876Z",
+  "source": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel-ui/bazel-bin/bundle",
+  "files": [
+    {
+      "path": "assets/index-DYYiu8_G.css",
+      "bytes": 1419,
+      "sha256": "d14034ffb189b90eb752eacd4b6653166b706e6b427196b3fa71f2e503c8a333"
+    },
+    {
+      "path": "assets/index-H3p8s-3Z.js",
+      "bytes": 22505,
+      "sha256": "fcfb59186a3dd1a52bed4163a14c40a0989ba5c27949feddb9f25739a967354e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 415,
+      "sha256": "2492958df7b7625806d79303a81a8a7248573cd1056f109df6cc97ee45a9029a"
+    },
+    {
+      "path": "worker/main.js",
+      "bytes": 29947,
+      "sha256": "ac3624bcb026a569566628aae692a41fa93e3f3714f96682d20b2cefc9ee7003"
+    }
+  ]
+}

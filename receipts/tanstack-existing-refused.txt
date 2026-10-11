@@ -1,0 +1,1 @@
+{"error":"EXISTS","message":"Destination is nonempty: /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/auth-demo. Choose a new name; nothing was overwritten.","details":{}}

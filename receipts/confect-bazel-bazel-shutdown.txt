@@ -1,0 +1,2 @@
+ERROR: The repo contents cache [/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel/.bazel-cache/cache/repos/v1/contents] is inside the main repo [/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel]. This can cause spurious failures. Disable the repo contents cache with `--repo_contents_cache=`, or specify `--repo_contents_cache=<path outside the main repo>`.
+

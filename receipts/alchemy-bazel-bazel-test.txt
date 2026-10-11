@@ -1,0 +1,36 @@
+
+> alchemy-bazel@0.0.0 bazel:test
+> node scripts/bazel.mjs test //:unit //:typecheck
+
+//:typecheck                                                             PASSED in 2.8s
+//:unit                                                                  PASSED in 2.1s
+
+Executed 2 out of 2 tests: 2 tests pass.
+There were tests whose specified size is too big. Use the --test_verbose_timeout_warnings command line option to see which ones these are.
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+
+Analyzing: 2 targets (25 packages loaded, 55 targets configured)
+
+Analyzing: 2 targets (51 packages loaded, 107 targets configured)
+
+Analyzing: 2 targets (106 packages loaded, 305 targets configured)
+
+INFO: Analyzed 2 targets (156 packages loaded, 495 targets configured).
+[336 / 484] Testing //:unit; 0s darwin-sandbox ... (13 actions, 12 running)
+[399 / 484] Testing //:unit; 1s darwin-sandbox ... (13 actions, 12 running)
+[459 / 484] Testing //:unit; 2s darwin-sandbox ... (13 actions, 12 running)
+[478 / 484] 1 / 2 tests; Extracting npm package @cloudflare/workerd-darwin-arm64@1.20260918.1; 3s darwin-sandbox ... (5 actions running)
+[480 / 484] 1 / 2 tests; Extracting npm package @distilled.cloud/aws@1.0.0-rc.13; 4s darwin-sandbox ... (3 actions running)
+[481 / 484] 1 / 2 tests; Extracting npm package alchemy@2.0.0-beta.81; 6s darwin-sandbox ... (2 actions running)
+[482 / 484] 1 / 2 tests; Extracting npm package alchemy@2.0.0-beta.81; 7s darwin-sandbox
+[483 / 484] 1 / 2 tests; [Prepa] runfiles for //:typecheck
+[484 / 485] 1 / 2 tests; Testing //:typecheck; 1s darwin-sandbox
+[484 / 485] 1 / 2 tests; Testing //:typecheck; 7s darwin-sandbox
+INFO: Found 2 test targets...
+INFO: Elapsed time: 28.806s, Critical Path: 23.06s
+INFO: 421 processes: 1 action cache hit, 265 internal, 158 darwin-sandbox.
+INFO: Build completed successfully, 421 total actions

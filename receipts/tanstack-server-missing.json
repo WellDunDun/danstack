@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "mode": "missing",
+  "actualBuiltHandler": true,
+  "outboundRequests": [],
+  "events": [
+    {
+      "url": "/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "private, no-store",
+      "setCookie": [],
+      "bodyHasSetup": true,
+      "bodyBytes": 12072
+    },
+    {
+      "url": "/api/auth/sign-in?returnPathname=https://evil.invalid",
+      "status": 503,
+      "location": null,
+      "cacheControl": "no-store",
+      "setCookie": [],
+      "bodyHasSetup": false,
+      "bodyBytes": 33
+    },
+    {
+      "url": "/api/auth/callback",
+      "status": 503,
+      "location": null,
+      "cacheControl": "no-store",
+      "setCookie": [],
+      "bodyHasSetup": false,
+      "bodyBytes": 33
+    },
+    {
+      "url": "/authenticated",
+      "status": 307,
+      "location": "/?session=auth_failed",
+      "cacheControl": "private, no-store",
+      "setCookie": [],
+      "bodyHasSetup": false,
+      "bodyBytes": 0
+    },
+    {
+      "url": "/_serverFn/ac686d31a472b15cb3ff9a7703f530d5e604f69a8342ca98c75ec1ffcbcbb990",
+      "status": 403,
+      "location": null,
+      "cacheControl": null,
+      "setCookie": [],
+      "bodyHasSetup": false,
+      "bodyBytes": 9
+    }
+  ]
+}

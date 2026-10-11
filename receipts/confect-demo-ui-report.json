@@ -1,0 +1,397 @@
+{
+  "schemaVersion": "report-1",
+  "run": {
+    "id": "01a12505-2c40-7f4e-a385-0bbafe74d87b",
+    "specVersion": "0.1",
+    "runner": {
+      "name": "e2e",
+      "version": "0.19.0"
+    },
+    "status": "passed",
+    "exitCode": 0,
+    "startedAt": "2026-10-10T08:54:19.256Z",
+    "finishedAt": "2026-10-10T08:54:20.513Z",
+    "project": {
+      "id": "confect-demo",
+      "configDigest": "1389a6a72dcf4fb64e2fde0776e18e1ea70b06a8a08fcf56a8ecd45df7dd352a"
+    },
+    "environment": {
+      "ci": false,
+      "trustNoticeShown": false,
+      "os": "darwin 25.6.0",
+      "arch": "arm64",
+      "runtime": "node v25.8.1"
+    },
+    "targets": [
+      {
+        "id": "local-web",
+        "index": 0,
+        "platform": "web",
+        "baseOrigin": "http://127.0.0.1:55035",
+        "environment": "test",
+        "engine": {
+          "name": "web",
+          "version": "0.14.0",
+          "spiVersion": 1
+        },
+        "capabilities": [
+          "actions",
+          "artifacts",
+          "browser",
+          "keyboard",
+          "location",
+          "observation",
+          "pointer",
+          "state"
+        ],
+        "artifactCapabilities": [
+          "screenshot",
+          "video"
+        ],
+        "stateCapability": true
+      }
+    ],
+    "serialGroups": [],
+    "results": [
+      {
+        "id": "80197f4394de8179735f56ed2a42c50df1891c3f8ca6023d2d5f2b1ab5afc7af",
+        "testId": "tests/demo.e2e.ts::local%20Effect%20greeting%20works%20without%20a%20backend%20or%20model",
+        "kind": "test",
+        "declarationIndex": 0,
+        "titlePath": [
+          "local Effect greeting works without a backend or model"
+        ],
+        "file": "tests/demo.e2e.ts",
+        "source": {
+          "file": "tests/demo.e2e.ts",
+          "line": 3,
+          "column": 1
+        },
+        "targetId": "local-web",
+        "platform": "web",
+        "agent": "default",
+        "repeat": 0,
+        "tags": [],
+        "selected": true,
+        "status": "passed",
+        "attempts": [
+          {
+            "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa",
+            "index": 0,
+            "status": "passed",
+            "startedAt": "2026-10-10T08:54:19.849Z",
+            "durationMs": 616,
+            "artifacts": [
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:artifact:0",
+                "kind": "screenshot",
+                "mediaType": "image/png",
+                "redaction": "complete",
+                "producer": {
+                  "kind": "step",
+                  "stepId": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:8"
+                },
+                "path": "demo-local-effect-greeting-works-80197f4394de8179/attempt-1/screenshots/001-local-effect-greeting.png",
+                "size": 52907,
+                "sha256": "a7fa7b68dfe3d7bdd9ee5da08a2a8b3c3391028ccba5c1378dbce2212780b3a2"
+              }
+            ],
+            "secondaryErrors": [],
+            "cleanup": "complete",
+            "environment": {
+              "browser": "chromium 153.0.8010.12",
+              "user agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36"
+            },
+            "steps": [
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:0",
+                "index": 0,
+                "kind": "app",
+                "api": "app.open",
+                "label": "/",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:19.970Z",
+                "durationMs": 269,
+                "events": [],
+                "artifacts": [],
+                "screen": {
+                  "location": "http://127.0.0.1:55035/",
+                  "nodes": 12,
+                  "changes": []
+                },
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 4,
+                  "column": 13
+                }
+              },
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:1",
+                "index": 1,
+                "kind": "assertion",
+                "api": "expect.toBeVisible",
+                "label": "getByText(\"Local Effect demo · backend not connected\")",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:20.240Z",
+                "durationMs": 18,
+                "events": [
+                  {
+                    "kind": "poll",
+                    "name": "expect",
+                    "startedAt": "2026-10-10T08:54:20.240Z",
+                    "durationMs": 18,
+                    "status": "passed",
+                    "count": 1
+                  }
+                ],
+                "artifacts": [],
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 5,
+                  "column": 79
+                }
+              },
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:2",
+                "index": 2,
+                "kind": "locator",
+                "api": "locator.fill",
+                "label": "getByLabel(\"Your name\")",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:20.258Z",
+                "durationMs": 37,
+                "events": [
+                  {
+                    "kind": "engine",
+                    "name": "fill",
+                    "startedAt": "2026-10-10T08:54:20.258Z",
+                    "durationMs": 37,
+                    "status": "passed",
+                    "detail": "fill textbox \"Your name\""
+                  }
+                ],
+                "artifacts": [],
+                "screen": {
+                  "location": "http://127.0.0.1:55035/",
+                  "nodes": 12,
+                  "since": 0,
+                  "changes": [
+                    "changed textbox \"Your name\" value=\"Ada\" (was: textbox \"Your name\" value=\"Daniel\")"
+                  ]
+                },
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 6,
+                  "column": 40
+                }
+              },
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:3",
+                "index": 3,
+                "kind": "locator",
+                "api": "locator.click",
+                "label": "getByRole(\"button\", name: \"Say hello\")",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:20.296Z",
+                "durationMs": 47,
+                "events": [
+                  {
+                    "kind": "engine",
+                    "name": "tap",
+                    "startedAt": "2026-10-10T08:54:20.296Z",
+                    "durationMs": 47,
+                    "status": "passed",
+                    "detail": "tap button \"Say hello\""
+                  }
+                ],
+                "artifacts": [],
+                "screen": {
+                  "location": "http://127.0.0.1:55035/",
+                  "nodes": 12,
+                  "since": 2,
+                  "changes": [
+                    "changed status \"Hello, Ada!\" (was: status \"Ready when you are.\")"
+                  ]
+                },
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 7,
+                  "column": 59
+                }
+              },
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:4",
+                "index": 4,
+                "kind": "assertion",
+                "api": "expect.toHaveText",
+                "label": "getByRole(\"status\")",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:20.343Z",
+                "durationMs": 28,
+                "events": [
+                  {
+                    "kind": "poll",
+                    "name": "expect",
+                    "startedAt": "2026-10-10T08:54:20.343Z",
+                    "durationMs": 28,
+                    "status": "passed",
+                    "count": 1
+                  }
+                ],
+                "artifacts": [],
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 8,
+                  "column": 44
+                }
+              },
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:5",
+                "index": 5,
+                "kind": "locator",
+                "api": "locator.fill",
+                "label": "getByLabel(\"Your name\")",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:20.371Z",
+                "durationMs": 13,
+                "events": [
+                  {
+                    "kind": "engine",
+                    "name": "fill",
+                    "startedAt": "2026-10-10T08:54:20.371Z",
+                    "durationMs": 13,
+                    "status": "passed",
+                    "detail": "fill textbox \"Your name\""
+                  }
+                ],
+                "artifacts": [],
+                "screen": {
+                  "location": "http://127.0.0.1:55035/",
+                  "nodes": 12,
+                  "since": 3,
+                  "changes": [
+                    "changed textbox \"Your name\" value=\"  \" (was: textbox \"Your name\" value=\"Ada\")"
+                  ]
+                },
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 9,
+                  "column": 40
+                }
+              },
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:6",
+                "index": 6,
+                "kind": "locator",
+                "api": "locator.click",
+                "label": "getByRole(\"button\", name: \"Say hello\")",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:20.384Z",
+                "durationMs": 40,
+                "events": [
+                  {
+                    "kind": "engine",
+                    "name": "tap",
+                    "startedAt": "2026-10-10T08:54:20.385Z",
+                    "durationMs": 40,
+                    "status": "passed",
+                    "detail": "tap button \"Say hello\""
+                  }
+                ],
+                "artifacts": [],
+                "screen": {
+                  "location": "http://127.0.0.1:55035/",
+                  "nodes": 12,
+                  "since": 5,
+                  "changes": [
+                    "changed status \"Hello, friend!\" (was: status \"Hello, Ada!\")"
+                  ]
+                },
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 10,
+                  "column": 59
+                }
+              },
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:7",
+                "index": 7,
+                "kind": "assertion",
+                "api": "expect.toHaveText",
+                "label": "getByRole(\"status\")",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:20.425Z",
+                "durationMs": 4,
+                "events": [
+                  {
+                    "kind": "poll",
+                    "name": "expect",
+                    "startedAt": "2026-10-10T08:54:20.425Z",
+                    "durationMs": 4,
+                    "status": "passed",
+                    "count": 1
+                  }
+                ],
+                "artifacts": [],
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 11,
+                  "column": 44
+                }
+              },
+              {
+                "id": "01a12505-31c9-7c99-bd94-3baba5e2e6fa:8",
+                "index": 8,
+                "kind": "app",
+                "api": "app.screenshot",
+                "label": "local-effect-greeting",
+                "status": "passed",
+                "startedAt": "2026-10-10T08:54:20.429Z",
+                "durationMs": 32,
+                "events": [],
+                "artifacts": [
+                  "01a12505-31c9-7c99-bd94-3baba5e2e6fa:artifact:0"
+                ],
+                "source": {
+                  "file": "tests/demo.e2e.ts",
+                  "line": 12,
+                  "column": 13
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "errors": [],
+    "summary": {
+      "discovered": 1,
+      "selected": 1,
+      "executed": 1,
+      "passed": 1,
+      "failed": 0,
+      "interrupted": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "limits": {
+      "maxAgentContextBytes": 16384,
+      "maxLedgerBytes": 8192,
+      "maxObservationBytes": 262144,
+      "maxEventsPerStep": 1000,
+      "maxModelTokensPerCall": 64000
+    },
+    "usage": {
+      "discoveredResults": 1,
+      "maxAgentContextBytes": 0,
+      "maxLedgerBytes": 0,
+      "maxObservationBytes": 0,
+      "artifactBytes": 52907,
+      "downloads": 0,
+      "events": 7,
+      "modelTokens": 0,
+      "maxModelCallsInStep": 0,
+      "maxActionStepsInStep": 0
+    }
+  }
+}

@@ -1,0 +1,287 @@
+
+> alchemy-bazel@0.0.0 bazel:build
+> node scripts/bazel.mjs build //:bundle
+
+Extracting Bazel installation...
+Starting local Bazel server (9.3.0) and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Analyzing: target //:bundle (5 packages loaded, 6 targets configured)
+Analyzing: target //:bundle (5 packages loaded, 6 targets configured)
+
+Analyzing: target //:bundle (55 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (69 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (69 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (70 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (70 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (70 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (97 packages loaded, 536 targets configured)
+
+Analyzing: target //:bundle (97 packages loaded, 536 targets configured)
+
+Analyzing: target //:bundle (105 packages loaded, 607 targets configured)
+
+Analyzing: target //:bundle (105 packages loaded, 607 targets configured)
+
+Analyzing: target //:bundle (105 packages loaded, 607 targets configured)
+
+Analyzing: target //:bundle (108 packages loaded, 627 targets configured)
+
+Analyzing: target //:bundle (108 packages loaded, 630 targets configured)
+
+Analyzing: target //:bundle (110 packages loaded, 636 targets configured)
+
+Analyzing: target //:bundle (270 packages loaded, 1107 targets configured)
+
+Analyzing: target //:bundle (286 packages loaded, 1176 targets configured)
+
+Analyzing: target //:bundle (287 packages loaded, 5928 targets configured)
+
+INFO: Analyzed target //:bundle (287 packages loaded, 6852 targets configured).
+[635 / 945] Extracting npm package @rolldown/binding-darwin-arm64@1.2.5; 0s darwin-sandbox ... (14 actions, 13 running)
+[728 / 945] Extracting npm package alchemy@2.0.0-beta.81; 1s darwin-sandbox ... (14 actions running)
+[776 / 945] Extracting npm package alchemy@2.0.0-beta.81; 2s darwin-sandbox ... (14 actions running)
+[796 / 945] Extracting npm package alchemy@2.0.0-beta.81; 3s darwin-sandbox ... (14 actions running)
+[813 / 945] Extracting npm package alchemy@2.0.0-beta.81; 4s darwin-sandbox ... (14 actions running)
+[822 / 945] Extracting npm package alchemy@2.0.0-beta.81; 5s darwin-sandbox ... (14 actions running)
+[836 / 945] Extracting npm package alchemy@2.0.0-beta.81; 6s darwin-sandbox ... (14 actions running)
+[848 / 945] Extracting npm package alchemy@2.0.0-beta.81; 7s darwin-sandbox ... (14 actions running)
+[861 / 945] Extracting npm package alchemy@2.0.0-beta.81; 8s darwin-sandbox ... (14 actions running)
+[875 / 945] Extracting npm package alchemy@2.0.0-beta.81; 9s darwin-sandbox ... (14 actions, 13 running)
+[890 / 945] Extracting npm package alchemy@2.0.0-beta.81; 10s darwin-sandbox ... (14 actions, 13 running)
+[896 / 945] Extracting npm package alchemy@2.0.0-beta.81; 12s darwin-sandbox ... (14 actions, 13 running)
+[905 / 945] Extracting npm package alchemy@2.0.0-beta.81; 13s darwin-sandbox ... (14 actions, 13 running)
+[909 / 945] Extracting npm package alchemy@2.0.0-beta.81; 14s darwin-sandbox ... (14 actions running)
+[916 / 945] Extracting npm package alchemy@2.0.0-beta.81; 15s darwin-sandbox ... (14 actions running)
+[933 / 945] Extracting npm package alchemy@2.0.0-beta.81; 16s darwin-sandbox ... (10 actions running)
+[934 / 945] Extracting npm package alchemy@2.0.0-beta.81; 18s darwin-sandbox ... (9 actions running)
+[935 / 945] Extracting npm package alchemy@2.0.0-beta.81; 23s darwin-sandbox ... (8 actions running)
+[936 / 945] Extracting npm package alchemy@2.0.0-beta.81; 24s darwin-sandbox ... (7 actions running)
+java.util.logging.ErrorManager: 1
+java.io.IOException: No space left on device
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(Unknown Source)
+	at com.google.common.io.CountingOutputStream.write(CountingOutputStream.java:53)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(Unknown Source)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(Unknown Source)
+	at java.base/sun.nio.cs.StreamEncoder.implWrite(Unknown Source)
+	at java.base/sun.nio.cs.StreamEncoder.write(Unknown Source)
+	at java.base/sun.nio.cs.StreamEncoder.write(Unknown Source)
+	at java.base/java.io.OutputStreamWriter.write(Unknown Source)
+	at java.base/java.io.Writer.write(Unknown Source)
+	at com.google.devtools.build.lib.util.SimpleLogHandler$Output.write(SimpleLogHandler.java:771)
+	at com.google.devtools.build.lib.util.SimpleLogHandler.publish(SimpleLogHandler.java:434)
+	at java.logging@25.0.2/java.util.logging.Logger.log(Unknown Source)
+	at com.google.common.flogger.backend.system.AbstractBackend.log(AbstractBackend.java:76)
+	at com.google.common.flogger.backend.system.SimpleLoggerBackend.log(SimpleLoggerBackend.java:31)
+	at com.google.common.flogger.AbstractLogger.write(AbstractLogger.java:137)
+	at com.google.common.flogger.LogContext.logImpl(LogContext.java:566)
+	at com.google.common.flogger.LogContext.log(LogContext.java:691)
+	at com.google.devtools.build.lib.sandbox.AsynchronousTreeDeleter.deleteTree(AsynchronousTreeDeleter.java:103)
+	at com.google.devtools.build.lib.sandbox.AbstractContainerizingSandboxedSpawn.delete(AbstractContainerizingSandboxedSpawn.java:190)
+	at com.google.devtools.build.lib.sandbox.SymlinkedSandboxedSpawn.delete(SymlinkedSandboxedSpawn.java:136)
+	at com.google.devtools.build.lib.sandbox.AbstractSandboxSpawnRunner.runSpawn(AbstractSandboxSpawnRunner.java:175)
+	at com.google.devtools.build.lib.sandbox.AbstractSandboxSpawnRunner.exec(AbstractSandboxSpawnRunner.java:115)
+	at com.google.devtools.build.lib.exec.AbstractSpawnStrategy.exec(AbstractSpawnStrategy.java:148)
+	at com.google.devtools.build.lib.exec.AbstractSpawnStrategy.exec(AbstractSpawnStrategy.java:108)
+	at com.google.devtools.build.lib.exec.SpawnStrategyResolver.exec(SpawnStrategyResolver.java:46)
+	at com.google.devtools.build.lib.analysis.actions.SpawnAction.execute(SpawnAction.java:286)
+	at com.google.devtools.build.lib.skyframe.SkyframeActionExecutor$ActionRunner.executeAction(SkyframeActionExecutor.java:1235)
+	at com.google.devtools.build.lib.skyframe.SkyframeActionExecutor$ActionRunner.run(SkyframeActionExecutor.java:1138)
+	at com.google.devtools.build.lib.skyframe.ActionExecutionState.runStateMachine(ActionExecutionState.java:166)
+	at com.google.devtools.build.lib.skyframe.ActionExecutionState.getResultOrDependOnFuture(ActionExecutionState.java:95)
+	at com.google.devtools.build.lib.skyframe.SkyframeActionExecutor.executeAction(SkyframeActionExecutor.java:656)
+	at com.google.devtools.build.lib.skyframe.ActionExecutionFunction.checkCacheAndExecuteIfNeeded(ActionExecutionFunction.java:780)
+	at com.google.devtools.build.lib.skyframe.ActionExecutionFunction.computeInternal(ActionExecutionFunction.java:345)
+	at com.google.devtools.build.lib.skyframe.ActionExecutionFunction.compute(ActionExecutionFunction.java:202)
+	at com.google.devtools.build.skyframe.AbstractParallelEvaluator$Evaluate.run(AbstractParallelEvaluator.java:471)
+	at com.google.devtools.build.lib.concurrent.AbstractQueueVisitor$WrappedRunnable.run(AbstractQueueVisitor.java:435)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[937 / 945] Extracting npm package alchemy@2.0.0-beta.81; 25s darwin-sandbox ... (6 actions running)
+ERROR: /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel/BUILD.bazel:3:22: Extracting npm package @distilled.cloud/gcp@1.0.0-rc.13 failed: (Exit 1): tar failed: error executing NpmPackageExtract command (from npm_package_store_internal rule target //:.aspect_rules_js/node_modules/@distilled.cloud+gcp@1.0.0-rc.13) external/tar.bzl++toolchains+bsd_tar_toolchains_darwin_arm64/tar --extract --no-same-owner --no-same-permissions --strip-components 1 --file ... (remaining 41 arguments skipped)
+
+Use --sandbox_debug to see verbose messages from the sandbox and retain the sandbox build root for debugging
+
+
+[942 / 945] Extracting npm package @cloudflare/workerd-darwin-arm64@1.20260918.1 [for tool]; 21s darwin-sandbox
+Target //:bundle failed to build
+Use --verbose_failures to see the command lines of failed build steps.
+INFO: Elapsed time: 144.547s, Critical Path: 28.01s
+INFO: 943 processes: 569 internal, 374 darwin-sandbox.
+ERROR: Build did NOT complete successfully

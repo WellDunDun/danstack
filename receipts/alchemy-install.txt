@@ -1,0 +1,6 @@
+
+up to date in 1m
+
+added 182 packages in 26s
+installed: /Users/danielpetro/Documents/Codex/2026-10-10/task-3/alchemy-probe
+npm install --ignore-scripts --strict-peer-deps --engine-strict --no-audit --no-fund --registry=https://registry.npmjs.org --global=false --prefix=/Users/danielpetro/Documents/Codex/2026-10-10/task-3/alchemy-probe --@effect:registry=https://registry.npmjs.org --@types:registry=https://registry.npmjs.org --fetch-retries=0 --fetch-timeout=15000

@@ -1,0 +1,48 @@
+
+> effect-bazel-ui@0.0.0 bazel:build
+> node scripts/bazel.mjs build //:bundle
+
+Extracting Bazel installation...
+Starting local Bazel server (9.3.0) and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Analyzing: target //:bundle (5 packages loaded, 6 targets configured)
+Analyzing: target //:bundle (5 packages loaded, 6 targets configured)
+
+Analyzing: target //:bundle (71 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (103 packages loaded, 602 targets configured)
+
+Analyzing: target //:bundle (108 packages loaded, 623 targets configured)
+
+Analyzing: target //:bundle (110 packages loaded, 628 targets configured)
+
+Analyzing: target //:bundle (184 packages loaded, 866 targets configured)
+
+Analyzing: target //:bundle (184 packages loaded, 866 targets configured)
+
+INFO: Analyzed target //:bundle (185 packages loaded, 6337 targets configured).
+[262 / 363] Extracting npm package @rolldown/binding-darwin-arm64@1.2.13 [for tool]; 0s darwin-sandbox ... (14 actions, 13 running)
+[306 / 363] Extracting npm package @typescript/typescript-darwin-arm64@7.0.2 [for tool]; 1s darwin-sandbox ... (14 actions, 13 running)
+[357 / 363] Extracting npm package effect@4.0.2 [for tool]; 2s darwin-sandbox ... (4 actions running)
+[362 / 363] ViteBundle bundle; 0s darwin-sandbox
+INFO: Found 1 target...
+Target //:bundle up-to-date:
+  bazel-bin/bundle
+INFO: Elapsed time: 31.269s, Critical Path: 7.05s
+INFO: 363 processes: 190 internal, 173 darwin-sandbox.
+INFO: Build completed successfully, 363 total actions

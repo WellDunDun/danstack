@@ -1,0 +1,1 @@
+{"error":"COMBINATION","message":"Bazel is not reviewed for the TanStack Start SSR/auth preset. Omit --bazel; npm build/typecheck/test and optional deterministic e2e are supported.","details":{}}

@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-11T11:27:19.198233+00:00",
+  "name": "danstack",
+  "canonicalPath": "/Users/danielpetro/Documents/GitHub/danstack",
+  "githubOwner": "WellDunDun",
+  "requestedVisibility": "private",
+  "runtime": {
+    "node": "25.8.1",
+    "npm": "11.11.0"
+  },
+  "checks": {
+    "existingCliTests": {
+      "passed": 47,
+      "failed": 0,
+      "skipped": 0,
+      "receipt": "danstack-cli-tests.txt"
+    },
+    "npmRunCheck": "passed",
+    "allSourceAndScriptSyntax": "passed",
+    "fourPresetsListed": "passed",
+    "sourceTemplatesTestsByteIdenticalToOriginal": true,
+    "dependencyLockGraphUnchangedExceptRootName": true,
+    "sourceArchiveIntegrity": "passed",
+    "secretScan": {
+      "method": "local credential/private-key/token/authorization/URL/secret-assignment patterns, including UTF-8 archive entries; no secret values printed",
+      "textEntries": 678,
+      "archiveEntries": 355,
+      "candidateFindings": 0,
+      "thirdPartyScannerAvailable": false
+    },
+    "inheritedHistory": "none: original workspace is not a Git repository",
+    "historicalReceiptWhitespace": "Full staged diff check reports 391 pre-existing whitespace warnings in unchanged historical logs, the upstream license notice, and one unchanged test line; preserved for source/provenance fidelity. Diff check for modified metadata/docs/packaging and new receipts passed."
+  },
+  "notRerun": [
+    "live generation and dependency installation",
+    "generated application integration/typecheck/build tests",
+    "Alchemy Worker/KV runtime and Bazel matrix",
+    "browser UI tests",
+    "real OAuth exchange, JWT verification or deployed backend checks"
+  ],
+  "notRerunReason": "Publishing changes only metadata, documentation, exclusions and source packaging. Existing dependencies were reused without installation; historical integration receipts are retained. No cloud/accounts/deployment setup was requested.",
+  "intentionalChanges": [
+    "README repository name/path, compatibility note and historical sample guidance",
+    "package name/description/repository and root lock names",
+    "source-only archive contents/name",
+    "git exclusions and third-party provenance notices"
+  ],
+  "exclusions": [
+    "generated smoke-test apps (samples, probes)",
+    "node_modules",
+    "dependency/vendor/cache binaries except two required offline test fixtures",
+    "recordings",
+    "local runtime and browser state",
+    "delivery/Library helpers and local delivery receipts",
+    "real env files and credentials; empty .env.example template retained"
+  ],
+  "originalWorkspace": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3",
+  "originalWorkspaceIntact": true
+}

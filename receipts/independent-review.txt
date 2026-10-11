@@ -1,0 +1,12 @@
+Independent review performed by a separate reviewer agent on the actual source and tests.
+
+Initial findings remediated and covered by regressions:
+- Installation receipt symlink could truncate its target: validate owned receipts and atomically replace via exclusive temporary file.
+- Extra optionalDependencies, overrides and workspaces could influence npm: reject unsupported manifest fields before install.
+- Newly required peer could resolve then fail installation: fail before generation if it exceeds the reviewed preset.
+- Identical /dev/null user/global npm config paths collided: create two distinct empty temporary configs only during installation.
+- Inherited npm config could enable global install or redirect prefix: strip inherited settings and force local prefix/global=false.
+
+Final reviewer statement: “Final review: no remaining material correctness issue found in the reviewed scope.”
+Review limitations: no deployed Convex behavior verified; no cloud or auth operations performed.
+Parent added regressions after the final review for inherited npm configuration and transitive prerelease rejection; final suite has 22 tests.

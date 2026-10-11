@@ -1,0 +1,113 @@
+{
+  "name": "alchemy-demo",
+  "preset": "cloudflare-alchemy",
+  "bazel": false,
+  "e2e": false,
+  "versions": {
+    "effect": "4.0.2",
+    "alchemy": "2.0.0-beta.81",
+    "@effect/platform-node": "4.0.2",
+    "redis": "6.3.0",
+    "vite": "8.3.4",
+    "typescript": "7.0.2",
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "create-vite": "9.2.1",
+    "@alchemy.run/cloudflare-runtime": "2.0.0-beta.81",
+    "@distilled.cloud/cloudflare": "1.0.0-rc.13"
+  },
+  "checks": [
+    {
+      "label": "install",
+      "command": [
+        "/opt/homebrew/Cellar/node/25.8.1_1/bin/node",
+        "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/src/cli.mjs",
+        "install",
+        "alchemy-demo",
+        "--json"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "alchemy-demo-install.txt"
+    },
+    {
+      "label": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "alchemy-demo-typecheck.txt"
+    },
+    {
+      "label": "unit",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "alchemy-demo-unit.txt"
+    },
+    {
+      "label": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "alchemy-demo-build.txt"
+    },
+    {
+      "label": "local-plan",
+      "command": [
+        "npm",
+        "run",
+        "local:plan"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "alchemy-demo-local-plan.txt"
+    },
+    {
+      "label": "local-worker-kv",
+      "command": [
+        "npm",
+        "run",
+        "test:local"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "alchemy-demo-local-worker-kv.txt"
+    },
+    {
+      "label": "tree",
+      "command": [
+        "npm",
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "alchemy-demo-tree.txt"
+    }
+  ],
+  "snapshotReplay": {
+    "priorObservedAt": "2026-10-10T09:50:48.262Z",
+    "replayedAt": "2026-10-10T10:08:20.508Z",
+    "reason": "Latest platform-node 4.0.3 requires absent stable Effect 4.0.3. Explicit historical integration proof; production CLI has no fallback.",
+    "runtimePeers": "Same exact archives already present in prior locked graph; now declared direct."
+  }
+}

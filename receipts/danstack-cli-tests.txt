@@ -1,0 +1,59 @@
+
+> danstack@0.1.0 test
+> node --test test/*.test.mjs
+
+✔ real bundled Tailwind archive provides collective source proof before npm install (28.392875ms)
+✔ bundle flags cannot bypass archive verification or unsupported parents (0.60825ms)
+✔ bundle package sets, metadata and dependency edges must match the archive (80.897167ms)
+✔ bundled archive links and unexpected manifests are rejected as data (14.576625ms)
+✔ Bazel refuses bundled npm graph until a real translation adapter exists (0.34175ms)
+✔ strict CLI argument handling and help (124.362083ms)
+✔ highest stable release wins regardless of tag order; no prerelease (4.870708ms)
+✔ future unsupported major fails without downgrade (0.482667ms)
+✔ Confect peer mismatch fails with useful evidence (1.538125ms)
+✔ engine node and npm constraints are enforced (0.430792ms)
+✔ optional absent peers are omitted; unknown required peers fail (0.81375ms)
+✔ unknown preset, missing stable and malformed metadata fail (0.3475ms)
+✔ offline, HTTP and corrupt registry errors have no fallback (1.016916ms)
+✔ unsafe names and destinations are refused without writes (8.374916ms)
+✔ plan is non-mutating, both presets emit exact versions and install is explicit (24.636042ms)
+✔ install refuses manifest changes, npmrc and symlinked metadata (9.587958ms)
+✔ lockfile must match root and resolved versions; disallows arbitrary sources (0.396959ms)
+✔ new required peers outside a preset fail before generation (0.292667ms)
+✔ install rejects receipt links, node_modules links and extra npm fields before npm runs (11.782959ms)
+✔ CLI runtime floor is checked even without e2e (0.289041ms)
+✔ complete CLI dry-run uses live-shaped metadata and real archive without target or cache writes (278.615541ms)
+✔ non-e2e starter omits browser packages and scripts (2.729834ms)
+✔ subprocess environment strips inherited npm overrides and forces local mode (75.86675ms)
+✔ lock graph rejects prereleases in transitive dependencies (0.220625ms)
+✔ Alchemy beta is explicitly selected and other packages remain stable (18.347166ms)
+✔ new CLI options do not relax argument validation (0.246292ms)
+✔ root archive matches live generation metadata (0.236208ms)
+✔ Alchemy exception is limited to reviewed names and versions (0.269541ms)
+✔ pnpm import must preserve exact versions, archives and package set (11.736542ms)
+✔ Bazel translation rejects duplicate archive identities and preserves dependency edges (3.638792ms)
+✔ Bazel vendor resolution selects latest stable unyanked versions and checks adapters/engines (2.674584ms)
+✔ Bazel typecheck inputs include all authored test files, including optional UI tests (0.639459ms)
+✔ Bazel install dry-run refuses linked or unowned translated locks before npm (9.755875ms)
+✔ newly published platform release selects newest compatible stable with disclosed peer reason (1.409375ms)
+✔ compatible solver handles supporting dependency peers and their declared ranges (2.446333ms)
+✔ compatible solver backtracks cross-package constraints with deterministic newest-first priority (0.536083ms)
+✔ engines may select a disclosed compatible release but malformed metadata cannot be hidden (1.482792ms)
+✔ official auth scaffold uses verified blobs and rejects unsafe/drifting source (4.664875ms)
+✔ auth preset resolves newest compatible WorkOS peer and records below-latest reason (12.831666ms)
+✔ auth preset has explicit runtime selection and rejects unreviewed combinations before reads (0.456208ms)
+✔ auth generation leaves account/setup/install explicit and no fake generated sources (29.661666ms)
+✔ shadcn current registry data rejects executable drift and unsafe mutation surfaces (1.074042ms)
+✔ shadcn is complete and scoped to the React preset without affecting auth safety (14.218666ms)
+✔ TanStack prerelease exception requires exact reviewed runtime and explicit selection (0.474542ms)
+✔ reviewed real upstream scaffold archive reads without execution (13.840708ms)
+✔ upstream integrity and foreign hosts fail (2.141125ms)
+✔ unexpected template paths are rejected rather than extracted (10.954083ms)
+ℹ tests 47
+ℹ suites 0
+ℹ pass 47
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 689.482459

@@ -1,0 +1,29 @@
+{
+  "command": [
+    "node",
+    "src/cli.mjs",
+    "create",
+    "current-alchemy-dry",
+    "--preset",
+    "cloudflare-alchemy",
+    "--alchemy-channel",
+    "beta",
+    "--bazel",
+    "--e2e",
+    "--dry-run",
+    "--json"
+  ],
+  "exit": 1,
+  "diagnostic": {
+    "error": "PEER",
+    "message": "@effect/platform-node@4.0.3 requires effect ^4.0.3; newest stable is 4.0.2. No silent downgrade or incompatible major mixing.",
+    "details": {
+      "name": "@effect/platform-node",
+      "peer": "effect",
+      "range": "^4.0.3",
+      "selected": "4.0.2"
+    }
+  },
+  "destinationAbsent": true,
+  "passed": true
+}

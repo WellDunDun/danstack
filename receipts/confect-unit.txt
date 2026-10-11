@@ -1,0 +1,14 @@
+
+> confect-demo@0.0.0 test
+> node --import tsx --test tests/unit.test.ts
+
+✔ Effect greeting handles trimmed and empty names (1.069584ms)
+✔ real registered Convex query validates arguments and returns (4.07275ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 631.373667

@@ -1,0 +1,75 @@
+
+> effect-bazel@0.0.0 bazel:build
+> node scripts/bazel.mjs build //:bundle
+
+Extracting Bazel installation...
+Starting local Bazel server (9.3.0) and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Loading: 0 packages loaded
+    currently loading: 
+Analyzing: target //:bundle (1 packages loaded)
+Analyzing: target //:bundle (5 packages loaded, 6 targets configured)
+Analyzing: target //:bundle (5 packages loaded, 6 targets configured)
+
+Analyzing: target //:bundle (67 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (72 packages loaded, 13 targets configured)
+
+Analyzing: target //:bundle (106 packages loaded, 617 targets configured)
+
+Analyzing: target //:bundle (106 packages loaded, 617 targets configured)
+
+Analyzing: target //:bundle (109 packages loaded, 626 targets configured)
+
+Analyzing: target //:bundle (110 packages loaded, 627 targets configured)
+
+INFO: Analyzed target //:bundle (141 packages loaded, 6112 targets configured).
+[99 / 163] Extracting npm package lightningcss-darwin-arm64@1.33.0; 0s darwin-sandbox ... (14 actions running)
+[145 / 163] Extracting npm package @typescript/typescript-darwin-arm64@7.0.2; 1s darwin-sandbox ... (14 actions, 12 running)
+[157 / 163] Extracting npm package convex@1.46.0 [for tool]; 2s darwin-sandbox ... (4 actions running)
+[162 / 163] ViteBundle bundle; 0s darwin-sandbox
+INFO: Found 1 target...
+Target //:bundle up-to-date:
+  bazel-bin/bundle
+INFO: Elapsed time: 48.528s, Critical Path: 6.13s
+INFO: 163 processes: 80 internal, 83 darwin-sandbox.
+INFO: Build completed successfully, 163 total actions

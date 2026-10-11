@@ -1,0 +1,25 @@
+{
+  "action": "installed",
+  "target": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel-ui",
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--strict-peer-deps",
+    "--engine-strict",
+    "--no-audit",
+    "--no-fund",
+    "--registry=https://registry.npmjs.org",
+    "--global=false",
+    "--prefix=/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel-ui",
+    "--@effect:registry=https://registry.npmjs.org",
+    "--@types:registry=https://registry.npmjs.org",
+    "--@alchemy.run:registry=https://registry.npmjs.org",
+    "--@distilled.cloud:registry=https://registry.npmjs.org",
+    "--@e2e-dev:registry=https://registry.npmjs.org",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ]
+}
+
+added 224 packages in 15s

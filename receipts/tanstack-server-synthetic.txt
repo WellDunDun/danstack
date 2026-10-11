@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "mode": "synthetic",
+  "actualBuiltHandler": true,
+  "outboundRequests": [],
+  "events": [
+    {
+      "url": "/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "private, no-store",
+      "setCookie": [],
+      "bodyHasSetup": false,
+      "bodyBytes": 9927
+    },
+    {
+      "url": "/",
+      "status": 200,
+      "location": null,
+      "cacheControl": "private, no-store",
+      "setCookie": [],
+      "bodyHasSetup": false,
+      "bodyBytes": 9927
+    },
+    {
+      "url": "/api/auth/sign-in?returnPathname=//evil.invalid",
+      "status": 307,
+      "location": "https://api.workos.com/user_management/authorize [query values redacted]",
+      "cacheControl": "no-store",
+      "setCookie": [
+        "wos-auth-verifier-e5fb22e6"
+      ],
+      "bodyHasSetup": false,
+      "bodyBytes": 0
+    },
+    {
+      "url": "/api/auth/callback",
+      "status": 302,
+      "location": "http://127.0.0.1:3000/?session=auth_failed",
+      "cacheControl": "private, no-store",
+      "setCookie": [],
+      "bodyHasSetup": false,
+      "bodyBytes": 0
+    },
+    {
+      "url": "alternate-loopback-origin",
+      "status": 400
+    },
+    {
+      "url": "/_serverFn/ac686d31a472b15cb3ff9a7703f530d5e604f69a8342ca98c75ec1ffcbcbb990",
+      "status": 403,
+      "location": null,
+      "cacheControl": null,
+      "setCookie": [],
+      "bodyHasSetup": false,
+      "bodyBytes": 9
+    }
+  ]
+}
+[authkit-tanstack-react-start] OAuth callback failed: Error: Missing authorization code
+    at handleCallbackInternal (file:///Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/auth-demo/dist/server/assets/router-DTIWe_Jl.js:126:50)

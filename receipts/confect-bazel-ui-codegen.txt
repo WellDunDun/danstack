@@ -1,0 +1,19 @@
+
+> confect-bazel-ui@0.0.0 codegen:local
+> confect codegen
+
+[33m⭘[0m Performing initial sync…
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/[0m
+[33m⚠[0m No tables discovered in `confect/tables/`. Generating an empty schema; add a `Table.make(...)` module under that directory unless this backend is intentionally tables-free.
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/id.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/schema.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/spec.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/refs.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/convexSchema.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/components.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/docs.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/services.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconfect/_generated/registeredFunctions/demo.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconvex/schema.ts[0m
+[32m+[0m [90m/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-bazel-ui/[0m[32mconvex/demo.ts[0m
+[32m✔︎[0m Generated files are up-to-date

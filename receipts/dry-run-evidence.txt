@@ -1,0 +1,9 @@
+Full current metadata dry run: node src/cli.mjs create dry-infra-demo --preset cloudflare-alchemy --alchemy-channel beta --bazel --e2e --dry-run --json
+Exit: 0. Receipt: infra-dry-run.json.
+Postcondition: destination dry-infra-demo absent (ls returned ENOENT).
+No generation, installation, auth or cloud operations occurred in this dry run.
+
+Final production checks after adapter fixes and upstream publish change:
+- Convex + Bazel + e2e live dry-run: exit 0, final-live-convex-dry-run.json; destination absent.
+- Alchemy + Bazel + e2e current live dry-run: expected exit 1 PEER, current-live-alchemy-dry-run.json; destination absent.
+- Earlier combined Alchemy dry-run was successful at its prior observed metadata. It is historical evidence, not a current success claim.

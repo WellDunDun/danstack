@@ -1,0 +1,24 @@
+{
+  "action": "installed",
+  "target": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel",
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts",
+    "--strict-peer-deps",
+    "--engine-strict",
+    "--no-audit",
+    "--no-fund",
+    "--registry=https://registry.npmjs.org",
+    "--global=false",
+    "--prefix=/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel",
+    "--@effect:registry=https://registry.npmjs.org",
+    "--@types:registry=https://registry.npmjs.org",
+    "--@alchemy.run:registry=https://registry.npmjs.org",
+    "--@distilled.cloud:registry=https://registry.npmjs.org",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ]
+}
+
+added 182 packages in 14s

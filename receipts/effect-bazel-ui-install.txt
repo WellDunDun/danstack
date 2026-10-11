@@ -1,0 +1,24 @@
+{
+  "action": "installed",
+  "target": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/effect-bazel-ui",
+  "command": [
+    "npm",
+    "install",
+    "--ignore-scripts",
+    "--strict-peer-deps",
+    "--engine-strict",
+    "--no-audit",
+    "--no-fund",
+    "--registry=https://registry.npmjs.org",
+    "--global=false",
+    "--prefix=/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/effect-bazel-ui",
+    "--@types:registry=https://registry.npmjs.org",
+    "--@e2e-dev:registry=https://registry.npmjs.org",
+    "--fetch-retries=0",
+    "--fetch-timeout=15000"
+  ]
+}
+
+up to date in 9s
+
+added 74 packages in 1s

@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "label": "install",
+      "command": [
+        "/opt/homebrew/Cellar/node/25.8.1_1/bin/node",
+        "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/src/cli.mjs",
+        "install",
+        "effect-bazel-ui"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "ui-input-install.txt"
+    },
+    {
+      "label": "setup",
+      "command": [
+        "npm",
+        "run",
+        "bazel:setup"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "ui-input-setup.txt"
+    },
+    {
+      "label": "baseline",
+      "command": [
+        "npm",
+        "run",
+        "bazel:test"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "ui-input-baseline.txt"
+    },
+    {
+      "label": "negative",
+      "command": [
+        "npm",
+        "run",
+        "bazel:test"
+      ],
+      "exit": 3,
+      "expected": 3,
+      "passed": true,
+      "receipt": "ui-input-negative.txt"
+    },
+    {
+      "label": "restored",
+      "command": [
+        "npm",
+        "run",
+        "bazel:test"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "ui-input-restored.txt"
+    }
+  ],
+  "harnessCorrection": "Initial expected exit 1 was corrected to actual Bazel test-failure exit 3; command outputs/exits unchanged. The recorded TypeScript errors prove the declared UI input was checked; restored run exited 0."
+}

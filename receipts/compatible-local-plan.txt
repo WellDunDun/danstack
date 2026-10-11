@@ -1,0 +1,5 @@
+
+> alchemy-compatible@0.0.0 local:plan
+> node scripts/local.mjs plan
+
+Local-only plan constructed; no apply, no remote state.

@@ -1,0 +1,20 @@
+
+> auth-demo@0.0.0 test
+> node --import tsx --test tests/*.test.ts tests/*.test.tsx
+
+✔ redirects are constrained to known local pages (0.896625ms)
+✔ server clients are isolated and stale auth is cleared; no token/session serialization (0.93025ms)
+✔ Convex token bridge respects force refresh, unauthenticated and expired states (0.203416ms)
+✔ configuration rejects unsafe redirect/secret exposure and reports names only (0.297ms)
+✔ origin aliases fail safely and expiry requires a completed formerly authenticated session (0.1075ms)
+✔ actual registered private query refuses anonymous direct calls (21.497334ms)
+✔ actual backend authorizes each synthetic identity independently (0.540916ms)
+✔ setup and loading are honest; signed-out/expired/auth errors contain safe actions (26.714166ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 344.307125

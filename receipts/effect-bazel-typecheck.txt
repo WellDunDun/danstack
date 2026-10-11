@@ -1,0 +1,4 @@
+
+> effect-bazel@0.0.0 typecheck
+> tsc --noEmit
+

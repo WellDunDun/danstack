@@ -1,0 +1,3648 @@
+{
+  "convex": {
+    "dist-tags": {
+      "latest": "1.46.0"
+    },
+    "versions": {
+      "1.46.0": {
+        "name": "convex",
+        "version": "1.46.0",
+        "peerDependencies": {
+          "react": "^18.0.0 || ^19.0.0-0 || ^19.0.0",
+          "@clerk/react": "^6.4.3",
+          "@auth0/auth0-react": "^2.0.1",
+          "@clerk/clerk-react": "^4.12.8 || ^5.0.0"
+        },
+        "peerDependenciesMeta": {
+          "react": {
+            "optional": true
+          },
+          "@clerk/react": {
+            "optional": true
+          },
+          "@auth0/auth0-react": {
+            "optional": true
+          },
+          "@clerk/clerk-react": {
+            "optional": true
+          }
+        },
+        "dependencies": {},
+        "engines": {
+          "npm": ">=7.0.0",
+          "node": ">=20.0.0"
+        },
+        "dist": {
+          "tarball": "https://registry.npmjs.org/convex/-/convex-1.46.0.tgz",
+          "integrity": "sha512-dhBwDQTZDOhi5SUGAX17EWNehCdNq6/UFrSL0eLZuGfMkdsQbCVWVRZCzbZ5CF+/pgvoGxtApbEoTSipqL4JTw=="
+        }
+      }
+    }
+  },
+  "@tanstack/react-start": {
+    "dist-tags": {
+      "beta": "0.0.1-beta.204",
+      "alpha": "1.132.0-alpha.25",
+      "pre": "1.168.33-pre.0",
+      "latest": "1.168.61"
+    },
+    "versions": {
+      "1.168.61": {
+        "_id": "@tanstack/react-start@1.168.61",
+        "dist": {
+          "shasum": "11e7ca34e770fbfee04ce7a03cfbfa983418872f",
+          "tarball": "https://registry.npmjs.org/@tanstack/react-start/-/react-start-1.168.61.tgz",
+          "fileCount": 92,
+          "integrity": "sha512-qZdnI9Hug445JN5dEpq5aIVGqu6YVSmKOE3rw82ugJ9D65Kd7SWvP9/4M6jAo+P3qX1y6RtGuD3ascVxB0WIgQ==",
+          "signatures": [
+            {
+              "sig": "MEUCICK0VuJz1TwumzyLYYcOfbdJod1HfpcAJTZTiUXRwWd6AiEA/xnxhjq4jyz0aLMbqXSawj3OHUdjanoJKT2pjAEEIyI=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIHIODLAXv3J1CCWG5n2vH9GwYzFJy4FzKwIsAHjhKILUAiEAjPciSbl1Pe3aDFhzTnYgU7aI77TaIS+OubTyIsyEBis="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tanstack%2freact-start@1.168.61",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 105997
+        },
+        "name": "@tanstack/react-start",
+        "type": "module",
+        "types": "dist/esm/index.d.ts",
+        "author": "Tanner Linsley",
+        "engines": {
+          "node": ">=22.12.0"
+        },
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./dist/esm/index.d.ts",
+              "default": "./dist/esm/index.js"
+            },
+            "react-server": {
+              "types": "./dist/esm/index.d.ts",
+              "default": "./dist/esm/index.js"
+            }
+          },
+          "./rsc": {
+            "import": {
+              "types": "./dist/esm/rsc.d.ts",
+              "default": "./dist/esm/rsc.js"
+            },
+            "react-server": {
+              "types": "./dist/esm/rsc.rsc.d.ts",
+              "default": "./dist/esm/rsc.rsc.js"
+            }
+          },
+          "./client": {
+            "import": {
+              "types": "./dist/esm/client.d.ts",
+              "default": "./dist/esm/client.js"
+            }
+          },
+          "./server": {
+            "import": {
+              "types": "./dist/esm/server.d.ts",
+              "default": "./dist/esm/server.js"
+            },
+            "react-server": {
+              "types": "./dist/esm/server.rsc.d.ts",
+              "default": "./dist/esm/server.rsc.js"
+            }
+          },
+          "./ssr-rpc": {
+            "import": {
+              "types": "./dist/esm/ssr-rpc.d.ts",
+              "default": "./dist/esm/ssr-rpc.js"
+            }
+          },
+          "./hydration": {
+            "import": {
+              "types": "./dist/esm/hydration.d.ts",
+              "default": "./dist/esm/hydration.js"
+            }
+          },
+          "./client-rpc": {
+            "import": {
+              "types": "./dist/esm/client-rpc.d.ts",
+              "default": "./dist/esm/client-rpc.js"
+            }
+          },
+          "./server-rpc": {
+            "import": {
+              "types": "./dist/esm/server-rpc.d.ts",
+              "default": "./dist/esm/server-rpc.js"
+            }
+          },
+          "./client-only": {
+            "import": {
+              "types": "./dist/esm/client-only.d.ts",
+              "default": "./dist/esm/client-only.js"
+            }
+          },
+          "./plugin/vite": {
+            "import": {
+              "types": "./dist/esm/plugin/vite.d.ts",
+              "default": "./dist/esm/plugin/vite.js"
+            }
+          },
+          "./server-only": {
+            "import": {
+              "types": "./dist/esm/server-only.d.ts",
+              "default": "./dist/esm/server-only.js"
+            }
+          },
+          "./package.json": "./package.json",
+          "./server-entry": {
+            "import": {
+              "types": "./dist/default-entry/esm/server.d.ts",
+              "default": "./dist/default-entry/esm/server.js"
+            }
+          },
+          "./plugin/rsbuild": {
+            "import": {
+              "types": "./dist/esm/plugin/rsbuild.d.ts",
+              "default": "./dist/esm/plugin/rsbuild.js"
+            }
+          },
+          "./rsbuild/ssr-decode": {
+            "import": {
+              "types": "./dist/esm/rsbuild/ssr-decode.d.ts",
+              "default": "./dist/esm/rsbuild/ssr-decode.js"
+            }
+          },
+          "./rsbuild/browser-decode": {
+            "import": {
+              "types": "./dist/esm/rsbuild/browser-decode.d.ts",
+              "default": "./dist/esm/rsbuild/browser-decode.js"
+            }
+          },
+          "./rsc/serialization/client": {
+            "import": {
+              "types": "./dist/esm/rsc/serialization/client.d.ts",
+              "default": "./dist/esm/rsc/serialization/client.js"
+            }
+          },
+          "./rsc/serialization/server": {
+            "import": {
+              "types": "./dist/esm/rsc/serialization/server.d.ts",
+              "default": "./dist/esm/rsc/serialization/server.js"
+            }
+          }
+        },
+        "funding": {
+          "url": "https://github.com/sponsors/tannerlinsley",
+          "type": "github"
+        },
+        "license": "MIT",
+        "scripts": {
+          "test": "pnpm test:build",
+          "build": "vite build && vite build -c vite.config.server-entry.ts",
+          "clean": "rimraf ./dist && rimraf ./coverage",
+          "test:build": "publint --strict && attw --ignore-rules no-resolution --pack ."
+        },
+        "version": "1.168.61",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "7777278a-c617-4c19-9bcd-94a4f7505d81"
+          }
+        },
+        "homepage": "https://tanstack.com/start",
+        "keywords": [
+          "react",
+          "location",
+          "router",
+          "routing",
+          "async",
+          "async router",
+          "typescript"
+        ],
+        "repository": {
+          "url": "git+https://github.com/TanStack/router.git",
+          "type": "git",
+          "directory": "packages/react-start"
+        },
+        "description": "Modern and scalable routing for React applications",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "tannerlinsley",
+            "email": "tannerlinsley@gmail.com"
+          },
+          {
+            "name": "alemtuzlak",
+            "email": "t.zlak97@gmail.com"
+          },
+          {
+            "name": "kevinvandy",
+            "email": "kevinvandy656@gmail.com"
+          }
+        ],
+        "sideEffects": false,
+        "_nodeVersion": "24.8.0",
+        "dependencies": {
+          "pathe": "^2.0.3",
+          "@tanstack/react-router": "1.170.42",
+          "@tanstack/router-utils": "1.162.3",
+          "@tanstack/react-start-rsc": "0.1.60",
+          "@tanstack/start-client-core": "1.170.35",
+          "@tanstack/start-plugin-core": "1.171.50",
+          "@tanstack/start-server-core": "1.169.40",
+          "@tanstack/react-start-client": "1.168.40",
+          "@tanstack/react-start-server": "1.167.47"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "jsdom": "^25.0.1",
+          "react": "^19.2.3",
+          "rimraf": "^6.1.2",
+          "vitest": "^4.1.4",
+          "publint": "^0.3.16",
+          "react-dom": "^19.2.3",
+          "@types/node": ">=20",
+          "@types/react": "^19.2.8",
+          "@rsbuild/core": "^2.2.5",
+          "@types/react-dom": "^19.2.3",
+          "@arethetypeswrong/cli": "^0.18.4",
+          "@tanstack/vite-config": "0.5.2",
+          "eslint-plugin-react-hooks": "^5.1.0",
+          "@eslint-react/eslint-plugin": "^1.26.2"
+        },
+        "peerDependencies": {
+          "vite": ">=7.0.0",
+          "react": ">=18.0.0 || >=19.0.0",
+          "react-dom": ">=18.0.0 || >=19.0.0",
+          "@rsbuild/core": "^2.0.0"
+        },
+        "peerDependenciesMeta": {
+          "vite": {
+            "optional": true
+          },
+          "@rsbuild/core": {
+            "optional": true
+          },
+          "@vitejs/plugin-rsc": {
+            "optional": true
+          }
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/react-start_1.168.61_1791617373471_0.8954378477664071"
+        }
+      }
+    }
+  },
+  "@workos/authkit-tanstack-react-start": {
+    "dist-tags": {
+      "latest": "0.11.1"
+    },
+    "versions": {
+      "0.11.1": {
+        "_id": "@workos/authkit-tanstack-react-start@0.11.1",
+        "bugs": {
+          "url": "https://github.com/workos/authkit-tanstack-start/issues"
+        },
+        "dist": {
+          "shasum": "6a4db9e1bbaff003730003829e0c5270bd4d30a9",
+          "tarball": "https://registry.npmjs.org/@workos/authkit-tanstack-react-start/-/authkit-tanstack-react-start-0.11.1.tgz",
+          "fileCount": 90,
+          "integrity": "sha512-Fep4gR7W9Op6tHnFMMO57UZacMdgT7FPpSPqST/D6Ot/wShVNbaWPlotZbdvSznyb/R86LzSBEJV7xlBEfNLcw==",
+          "signatures": [
+            {
+              "sig": "MEUCIQC8mong/VcYTZhRr+FjYqlp4Wvrym56yPCVt2qa5+yX4AIgb5zMzKRCUtmSyYVMlEhUeHioRUZj+P1aaSl/qpAbQy8=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIQCkvdewkCZZIMLL23BSqCe3vVmPnJaj3Agj8aQzl9JAMgIgJskOso68yfewO1MzDBewIvIN80N53miQfHivsKy17GM="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@workos%2fauthkit-tanstack-react-start@0.11.1",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 149784
+        },
+        "main": "./dist/index.js",
+        "name": "@workos/authkit-tanstack-react-start",
+        "type": "module",
+        "_from": "file:workos-authkit-tanstack-react-start-0.11.1.tgz",
+        "types": "./dist/index.d.ts",
+        "author": {
+          "name": "WorkOS"
+        },
+        "module": "./dist/index.js",
+        "engines": {
+          "node": ">=22.11.0"
+        },
+        "exports": {
+          ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+          },
+          "./client": {
+            "types": "./dist/client/index.d.ts",
+            "import": "./dist/client/index.js"
+          }
+        },
+        "license": "MIT",
+        "scripts": {
+          "dev": "tsc --watch",
+          "lint": "oxlint",
+          "test": "vitest run",
+          "build": "tsc -p tsconfig.build.json",
+          "clean": "rm -rf dist",
+          "format": "oxfmt .",
+          "test:ui": "vitest --ui",
+          "prebuild": "npm run clean",
+          "typecheck": "tsc --noEmit",
+          "test:watch": "vitest",
+          "build:check": "scripts/check-bundle-leak.sh",
+          "format:check": "oxfmt --check .",
+          "test:coverage": "vitest run --coverage"
+        },
+        "version": "0.11.1",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:914ccc2b-de3d-4774-b653-f0dfe5a9707b"
+          }
+        },
+        "homepage": "https://github.com/workos/authkit-tanstack-start#readme",
+        "keywords": [
+          "auth",
+          "authentication",
+          "authkit",
+          "oauth",
+          "react",
+          "react-start",
+          "session",
+          "sso",
+          "tanstack",
+          "tanstack-start",
+          "workos"
+        ],
+        "_resolved": "/tmp/792b32bf296fb8d94df439730f942db5/workos-authkit-tanstack-react-start-0.11.1.tgz",
+        "_integrity": "sha512-Fep4gR7W9Op6tHnFMMO57UZacMdgT7FPpSPqST/D6Ot/wShVNbaWPlotZbdvSznyb/R86LzSBEJV7xlBEfNLcw==",
+        "repository": {
+          "url": "git+https://github.com/workos/authkit-tanstack-start.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "description": "The WorkOS library for TanStack React Start provides convenient helpers for authentication and session management using WorkOS & AuthKit with TanStack React Start.",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "gjtorikian",
+            "email": "gjtorikian@gmail.com"
+          },
+          {
+            "name": "jch-workos",
+            "email": "jacob.card-howe@workos.com"
+          },
+          {
+            "name": "mjdavidson",
+            "email": "matt@mattdavidson.kiwi"
+          },
+          {
+            "name": "npm-workos",
+            "email": "service+npm@workos.com"
+          },
+          {
+            "name": "peakematt-workos",
+            "email": "matt.peake@workos.com"
+          },
+          {
+            "name": "jacobia",
+            "email": "jacobia@workos.com"
+          },
+          {
+            "name": "mark-workos",
+            "email": "mark@workos.com"
+          },
+          {
+            "name": "grinich",
+            "email": "mgrinich@gmail.com"
+          },
+          {
+            "name": "nicknisi",
+            "email": "nick@nisi.org"
+          }
+        ],
+        "sideEffects": false,
+        "_nodeVersion": "24.20.0",
+        "dependencies": {
+          "@workos/authkit-session": "^0.7.0"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "tsup": "^8.5.0",
+          "oxfmt": "^0.35.0",
+          "react": "^19.2.3",
+          "oxlint": "^1.50.0",
+          "vitest": "^4.0.15",
+          "happy-dom": "^20.0.11",
+          "react-dom": "^19.2.3",
+          "@vitest/ui": "^4.0.15",
+          "typescript": "^5.9.3",
+          "@types/react": "^19.2.7",
+          "@types/react-dom": "^19.2.2",
+          "@workos-inc/node": "^10.7.0",
+          "@vitest/coverage-v8": "4.0.15",
+          "@tanstack/react-start": "^1.168.25",
+          "@tanstack/react-router": "^1.170.15",
+          "@testing-library/react": "^16.3.1",
+          "@testing-library/jest-dom": "^6.9.1",
+          "@tanstack/start-server-core": "^1.169.14",
+          "@testing-library/user-event": "^14.6.1",
+          "@tanstack/react-router-devtools": "^1.167.0"
+        },
+        "peerDependencies": {
+          "react": "^18.0 || ^19.0",
+          "react-dom": "^18.0 || ^19.0",
+          "@workos-inc/node": "^10.7.0",
+          "@tanstack/react-start": ">=1.168.25",
+          "@tanstack/react-router": ">=1.0.0"
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/authkit-tanstack-react-start_0.11.1_1789433131254_0.2279266855821922"
+        }
+      }
+    }
+  },
+  "@workos-inc/node": {
+    "dist-tags": {
+      "alpha": "2.5.0-alpha.1",
+      "beta": "8.0.0-beta.4",
+      "next": "8.0.0-rc.10",
+      "latest": "11.0.0"
+    },
+    "versions": {
+      "10.14.0": {
+        "name": "@workos-inc/node",
+        "version": "10.14.0",
+        "keywords": [
+          "workos"
+        ],
+        "author": {
+          "name": "WorkOS"
+        },
+        "license": "MIT",
+        "_id": "@workos-inc/node@10.14.0",
+        "maintainers": [
+          {
+            "name": "mark-workos",
+            "email": "mark@workos.com"
+          },
+          {
+            "name": "grinich",
+            "email": "mgrinich@gmail.com"
+          },
+          {
+            "name": "npm-workos",
+            "email": "service+npm@workos.com"
+          },
+          {
+            "name": "cameron-workos",
+            "email": "cameron@workos.com"
+          },
+          {
+            "name": "gjtorikian",
+            "email": "gjtorikian@gmail.com"
+          },
+          {
+            "name": "chance-workos",
+            "email": "chance@workos.com"
+          },
+          {
+            "name": "jch-workos",
+            "email": "jacob.card-howe@workos.com"
+          },
+          {
+            "name": "mjdavidson",
+            "email": "matt@mattdavidson.kiwi"
+          },
+          {
+            "name": "peakematt-workos",
+            "email": "matt.peake@workos.com"
+          },
+          {
+            "name": "nicknisi",
+            "email": "nick@nisi.org"
+          }
+        ],
+        "homepage": "https://github.com/workos/workos-node",
+        "bugs": {
+          "url": "https://github.com/workos/workos-node/issues"
+        },
+        "dist": {
+          "shasum": "9242fa623103b323e3ba349e4a0db236290853b5",
+          "tarball": "https://registry.npmjs.org/@workos-inc/node/-/node-10.14.0.tgz",
+          "fileCount": 26,
+          "integrity": "sha512-SnY9OHTzTyOmgJQj9+/6x116m+d+zJoQw5e8teNWKUuGe8FOKngVdBXRvZgdFxaL+3UfQbMlp95V67t43VYOWQ==",
+          "signatures": [
+            {
+              "sig": "MEUCIQC+Paf5eF/4wI0jb89qC4Cv2LeO5CTaTNrYR44Jbrz/gQIgaBhpLJe8PgsxqfXMUIq2g+suOQtNzEMpN+rV+UUyMhA=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEQCIAaMqZSPTF7nmu3CtmER8VDff2V5u8+OUj/rytdoqJpMAiB7IVpLhsfH94KB+nWOQsyf0NOkSwMUxOdsl6p0Zf4nZw==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@workos-inc%2fnode@10.14.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 3992970
+        },
+        "main": "./lib/index.cjs",
+        "type": "module",
+        "types": "./lib/index.d.cts",
+        "module": "./lib/index.mjs",
+        "engines": {
+          "node": ">=22.11.0"
+        },
+        "exports": {
+          ".": {
+            "convex": {
+              "import": "./lib/index.worker.mjs",
+              "default": "./lib/index.worker.cjs"
+            },
+            "import": "./lib/index.mjs",
+            "require": "./lib/index.cjs",
+            "workerd": {
+              "import": "./lib/index.worker.mjs",
+              "require": "./lib/index.worker.cjs"
+            },
+            "edge-light": {
+              "import": "./lib/index.worker.mjs",
+              "require": "./lib/index.worker.cjs"
+            }
+          },
+          "./worker": {
+            "import": "./lib/index.worker.mjs",
+            "require": "./lib/index.worker.cjs"
+          },
+          "./package.json": "./package.json"
+        },
+        "gitHead": "4c12d5a1d0ce96840d5930ba6e8ffd97024d197c",
+        "scripts": {
+          "lint": "eslint",
+          "test": "jest",
+          "build": "tsdown",
+          "clean": "rm -rf lib",
+          "format": "prettier \"src/**/*.{js,ts,tsx}\" --write",
+          "prettier": "prettier \"src/**/*.{js,ts,tsx}\" --check",
+          "typecheck": "tsc --noEmit",
+          "test:watch": "jest --watch",
+          "build:watch": "tsdown --watch",
+          "check:runtimes": "tsx scripts/ecosystem-check.ts",
+          "prepublishOnly": "npm run build"
+        },
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:721afaee-8ec8-4b13-9c2e-2aa730625618"
+          }
+        },
+        "repository": {
+          "url": "git+https://github.com/workos/workos-node.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "description": "A Node wrapper for the WorkOS API",
+        "directories": {},
+        "_nodeVersion": "24.20.0",
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "tsx": "^4.20.6",
+          "jest": "30.5.1",
+          "jose": "^6.2.0",
+          "eslint": "^10.0.0",
+          "tsdown": "^0.23.0",
+          "esbuild": "^0.28.0",
+          "publint": "^0.3.18",
+          "prettier": "^3.5.3",
+          "miniflare": "^5.20260811.1-alpha",
+          "@eslint/js": "^10.0.0",
+          "babel-jest": "^30.2.0",
+          "typescript": "^6.0.3",
+          "@types/jest": "^30.0.0",
+          "@types/node": "~22",
+          "iron-webcrypto": "^2.0.0",
+          "eslint-plugin-n": "^18.0.0",
+          "jest-fetch-mock": "^3.0.3",
+          "@babel/preset-env": "^7.26.9",
+          "typescript-eslint": "^8.58.0",
+          "eslint-plugin-jest": "^29.0.1",
+          "@arethetypeswrong/cli": "^0.18.2",
+          "@babel/preset-typescript": "^7.27.0",
+          "@typescript-eslint/parser": "^8.58.0",
+          "@babel/plugin-transform-modules-commonjs": "^7.26.3"
+        },
+        "inlinedDependencies": {
+          "jose": "6.2.12",
+          "iron-webcrypto": "2.0.0",
+          "uint8array-extras": "1.5.0"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/node_10.14.0_1790180678312_0.4369565018743995",
+          "host": "s3://npm-registry-packages-npm-production"
+        }
+      },
+      "11.0.0": {
+        "_id": "@workos-inc/node@11.0.0",
+        "bugs": {
+          "url": "https://github.com/workos/workos-node/issues"
+        },
+        "dist": {
+          "shasum": "4f9ac7071bf7d26efb29b64f86e0201daabda877",
+          "tarball": "https://registry.npmjs.org/@workos-inc/node/-/node-11.0.0.tgz",
+          "fileCount": 26,
+          "integrity": "sha512-swUT6CbkuVQXMOtUpI70LZ8usjSg8OXcKMjKdoYLeqCApRI0Oo97l+nZ0lKzZ5GxjxgcVZGGVK025h7z9WyCJg==",
+          "signatures": [
+            {
+              "sig": "MEYCIQCsLhIvJbVWiiCMOdGxmpyVsQj5z1yRSZ3944YNOZq72AIhAPKfDxTIB4mzkza9uUpgthT5m5QqnNEKPEoSt5X88mnt",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEYCIQChHkic5zyBCgHkgMNnNRAFzO9qR8TzlzkhqHT3EI732wIhALxT8kZ3TZpdIICbXuaUrtu7Ix6MM1J+MZEhYTDS/SFf"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@workos-inc%2fnode@11.0.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 4305917
+        },
+        "main": "./lib/index.cjs",
+        "name": "@workos-inc/node",
+        "type": "module",
+        "types": "./lib/index.d.cts",
+        "author": {
+          "name": "WorkOS"
+        },
+        "module": "./lib/index.mjs",
+        "engines": {
+          "node": ">=22.11.0"
+        },
+        "exports": {
+          ".": {
+            "convex": {
+              "import": "./lib/index.worker.mjs",
+              "default": "./lib/index.worker.cjs"
+            },
+            "import": "./lib/index.mjs",
+            "require": "./lib/index.cjs",
+            "workerd": {
+              "import": "./lib/index.worker.mjs",
+              "require": "./lib/index.worker.cjs"
+            },
+            "edge-light": {
+              "import": "./lib/index.worker.mjs",
+              "require": "./lib/index.worker.cjs"
+            }
+          },
+          "./worker": {
+            "import": "./lib/index.worker.mjs",
+            "require": "./lib/index.worker.cjs"
+          },
+          "./package.json": "./package.json"
+        },
+        "gitHead": "3b1e39871458456bb335b8ab929442e430c33f22",
+        "license": "MIT",
+        "scripts": {
+          "lint": "eslint",
+          "test": "jest",
+          "build": "tsdown",
+          "clean": "rm -rf lib",
+          "format": "prettier \"src/**/*.{js,ts,tsx}\" --write",
+          "prettier": "prettier \"src/**/*.{js,ts,tsx}\" --check",
+          "typecheck": "tsc --noEmit",
+          "test:watch": "jest --watch",
+          "build:watch": "tsdown --watch",
+          "check:runtimes": "tsx scripts/ecosystem-check.ts",
+          "prepublishOnly": "npm run build"
+        },
+        "version": "11.0.0",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:721afaee-8ec8-4b13-9c2e-2aa730625618"
+          }
+        },
+        "homepage": "https://github.com/workos/workos-node",
+        "keywords": [
+          "workos"
+        ],
+        "repository": {
+          "url": "git+https://github.com/workos/workos-node.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "description": "A Node wrapper for the WorkOS API",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "mark-workos",
+            "email": "mark@workos.com"
+          },
+          {
+            "name": "grinich",
+            "email": "mgrinich@gmail.com"
+          },
+          {
+            "name": "npm-workos",
+            "email": "service+npm@workos.com"
+          },
+          {
+            "name": "cameron-workos",
+            "email": "cameron@workos.com"
+          },
+          {
+            "name": "gjtorikian",
+            "email": "gjtorikian@gmail.com"
+          },
+          {
+            "name": "chance-workos",
+            "email": "chance@workos.com"
+          },
+          {
+            "name": "jch-workos",
+            "email": "jacob.card-howe@workos.com"
+          },
+          {
+            "name": "mjdavidson",
+            "email": "matt@mattdavidson.kiwi"
+          },
+          {
+            "name": "peakematt-workos",
+            "email": "matt.peake@workos.com"
+          },
+          {
+            "name": "nicknisi",
+            "email": "nick@nisi.org"
+          }
+        ],
+        "_nodeVersion": "24.21.0",
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "tsx": "^4.20.6",
+          "jest": "30.5.1",
+          "jose": "^6.2.0",
+          "eslint": "^10.0.0",
+          "tsdown": "^0.23.0",
+          "esbuild": "^0.28.0",
+          "publint": "^0.3.18",
+          "prettier": "^3.5.3",
+          "miniflare": "^5.20260811.1-alpha",
+          "@eslint/js": "^10.0.0",
+          "babel-jest": "^30.2.0",
+          "typescript": "^6.0.3",
+          "@types/jest": "^30.0.0",
+          "@types/node": "~22",
+          "iron-webcrypto": "^2.0.0",
+          "eslint-plugin-n": "^18.0.0",
+          "jest-fetch-mock": "^3.0.3",
+          "@babel/preset-env": "^7.26.9",
+          "typescript-eslint": "^8.58.0",
+          "eslint-plugin-jest": "^29.0.1",
+          "@arethetypeswrong/cli": "^0.18.2",
+          "@babel/preset-typescript": "^7.27.0",
+          "@typescript-eslint/parser": "^8.58.0",
+          "@babel/plugin-transform-modules-commonjs": "^7.26.3"
+        },
+        "inlinedDependencies": {
+          "jose": "6.2.12",
+          "iron-webcrypto": "2.0.0",
+          "uint8array-extras": "1.5.0"
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/node_11.0.0_1790624214391_0.605059697244279"
+        }
+      }
+    }
+  },
+  "@tanstack/react-router": {
+    "dist-tags": {
+      "beta": "0.0.1-beta.286",
+      "alpha": "1.132.0-alpha.25",
+      "pre": "1.170.19-pre.0",
+      "latest": "1.170.42"
+    },
+    "versions": {
+      "1.170.42": {
+        "_id": "@tanstack/react-router@1.170.42",
+        "dist": {
+          "shasum": "9352cf33dda2cc93c2ae6de5626355b4f3aa1cfd",
+          "tarball": "https://registry.npmjs.org/@tanstack/react-router/-/react-router-1.170.42.tgz",
+          "fileCount": 356,
+          "integrity": "sha512-4wBptX7DRvc+v/XQ0MxL9rKlmSFb0ob3tSEZWF4ssSl1DD+1HAofWM3HwSn9liQN0r7e00qiv5WQMp6rObOc1g==",
+          "signatures": [
+            {
+              "sig": "MEYCIQC9ueLoJ0WXZXYtIbJ6IZcaP3P4UDd2r8tPDtIYlZMIRAIhANNPVrnxB+ZvQJ5l74q9obCV/4o0IufNiJxbuCbscxZ5",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEQCIFUhmkY3pZmi6Jg+6PONJoMmItnagSoG8WOS6Fy+NW55AiBYIf+NKVNTdrs1AmT4OsVV2fIwnzlsdzn6iqUjeIPskw=="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tanstack%2freact-router@1.170.42",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 1035073
+        },
+        "main": "dist/cjs/index.cjs",
+        "name": "@tanstack/react-router",
+        "type": "module",
+        "types": "dist/esm/index.d.ts",
+        "author": "Tanner Linsley",
+        "module": "dist/esm/index.js",
+        "engines": {
+          "node": ">=20.19"
+        },
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./dist/esm/index.d.ts",
+              "default": "./dist/esm/index.js",
+              "development": "./dist/esm/index.dev.js"
+            },
+            "require": {
+              "types": "./dist/cjs/index.d.cts",
+              "default": "./dist/cjs/index.cjs",
+              "development": "./dist/cjs/index.dev.cjs"
+            },
+            "react-server": {
+              "types": "./dist/esm/index.rsc.d.ts",
+              "default": "./dist/esm/index.rsc.js"
+            }
+          },
+          "./ssr/client": {
+            "import": {
+              "types": "./dist/esm/ssr/client.d.ts",
+              "default": "./dist/esm/ssr/client.js"
+            },
+            "require": {
+              "types": "./dist/cjs/ssr/client.d.cts",
+              "default": "./dist/cjs/ssr/client.cjs"
+            }
+          },
+          "./ssr/server": {
+            "import": {
+              "types": "./dist/esm/ssr/server.d.ts",
+              "default": "./dist/esm/ssr/server.js"
+            },
+            "require": {
+              "types": "./dist/cjs/ssr/server.d.cts",
+              "default": "./dist/cjs/ssr/server.cjs"
+            }
+          },
+          "./package.json": "./package.json"
+        },
+        "funding": {
+          "url": "https://github.com/sponsors/tannerlinsley",
+          "type": "github"
+        },
+        "license": "MIT",
+        "scripts": {
+          "build": "vite build",
+          "clean": "rimraf ./dist && rimraf ./coverage",
+          "test:perf": "vitest bench",
+          "test:unit": "vitest",
+          "test:build": "publint --strict && attw --ignore-rules no-resolution --pack .",
+          "test:types": "pnpm run \"/^test:types:ts[0-9]{2}$/\"",
+          "test:eslint": "eslint",
+          "test:perf:dev": "pnpm run test:perf --watch --hideSkippedTests",
+          "test:unit:dev": "pnpm run test:unit --watch --hideSkippedTests",
+          "test:types:ts56": "node ../../node_modules/typescript56/lib/tsc.js -p tsconfig.legacy.json",
+          "test:types:ts57": "node ../../node_modules/typescript57/lib/tsc.js -p tsconfig.legacy.json",
+          "test:types:ts58": "node ../../node_modules/typescript58/lib/tsc.js -p tsconfig.legacy.json",
+          "test:types:ts59": "node ../../node_modules/typescript59/lib/tsc.js -p tsconfig.legacy.json",
+          "test:types:ts60": "tsc6 -p tsconfig.legacy.json",
+          "test:types:ts70": "tsc -p tsconfig.legacy.json"
+        },
+        "version": "1.170.42",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "3bb9f032-aa47-415c-a32a-6d3277f24f0b"
+          }
+        },
+        "homepage": "https://tanstack.com/router",
+        "keywords": [
+          "react",
+          "location",
+          "router",
+          "routing",
+          "async",
+          "async router",
+          "typescript"
+        ],
+        "repository": {
+          "url": "git+https://github.com/TanStack/router.git",
+          "type": "git",
+          "directory": "packages/react-router"
+        },
+        "description": "Modern and scalable routing for React applications",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "tannerlinsley",
+            "email": "tannerlinsley@gmail.com"
+          },
+          {
+            "name": "alemtuzlak",
+            "email": "t.zlak97@gmail.com"
+          },
+          {
+            "name": "kevinvandy",
+            "email": "kevinvandy656@gmail.com"
+          }
+        ],
+        "sideEffects": false,
+        "_nodeVersion": "24.8.0",
+        "dependencies": {
+          "isbot": "^5.1.22",
+          "@tanstack/history": "1.162.5",
+          "@tanstack/react-store": "^0.11.2",
+          "@tanstack/router-core": "1.171.35"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "zod": "^4.5.4",
+          "vite": "*",
+          "jsdom": "^25.0.1",
+          "react": "^19.2.3",
+          "rimraf": "^6.1.2",
+          "vitest": "^4.1.4",
+          "publint": "^0.3.16",
+          "combinate": "^1.1.11",
+          "react-dom": "^19.2.3",
+          "@types/node": ">=20",
+          "@types/react": "^19.2.8",
+          "@types/react-dom": "^19.2.3",
+          "@vitejs/plugin-react": "^4.3.4",
+          "@arethetypeswrong/cli": "^0.18.4",
+          "@tanstack/react-query": "^5.102.0",
+          "@tanstack/vite-config": "0.5.2",
+          "@testing-library/react": "^16.2.0",
+          "@testing-library/jest-dom": "^6.6.3",
+          "eslint-plugin-react-hooks": "^5.1.0",
+          "@eslint-react/eslint-plugin": "^1.26.2"
+        },
+        "peerDependencies": {
+          "react": ">=18.0.0 || >=19.0.0",
+          "react-dom": ">=18.0.0 || >=19.0.0"
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/react-router_1.170.42_1791617392524_0.12219078140789863"
+        }
+      }
+    }
+  },
+  "@tanstack/react-router-ssr-query": {
+    "dist-tags": {
+      "alpha": "1.132.0-alpha.25",
+      "pre": "1.167.2-pre.0",
+      "latest": "1.167.3"
+    },
+    "versions": {
+      "1.167.3": {
+        "_id": "@tanstack/react-router-ssr-query@1.167.3",
+        "dist": {
+          "shasum": "30e241e9b5e1d8fccc6a4d023ebf467bf9e9d46b",
+          "tarball": "https://registry.npmjs.org/@tanstack/react-router-ssr-query/-/react-router-ssr-query-1.167.3.tgz",
+          "fileCount": 10,
+          "integrity": "sha512-HA0pxuPuhU+rwoe+z1Xcbytuoo6ZbcROpgNgNSm38s3/hGLmgzOBLzDg+Vyx6ex26QilnPbZ+5Ypet5mImm9bQ==",
+          "signatures": [
+            {
+              "sig": "MEQCIGTFmxFrVWHl5KLhkMF3uKX5IpYWO4mGmkD/oND2QKO5AiBdS4fQJvixedvS40NPbrNWPCBu0rVZ+fiq15XrYn5C/Q==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIQCQ0TPDGpm+b71aZOm4f3aTzfN1Uac87CtcmiR3I/7diQIgZ4/zwawpkmHwGwSazUS/5SVSq0PFSqZ1eM2xzWoEiwc="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tanstack%2freact-router-ssr-query@1.167.3",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 12471
+        },
+        "main": "dist/cjs/index.cjs",
+        "name": "@tanstack/react-router-ssr-query",
+        "type": "module",
+        "types": "dist/esm/index.d.ts",
+        "author": "Tanner Linsley",
+        "module": "dist/esm/index.js",
+        "engines": {
+          "node": ">=20.19"
+        },
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./dist/esm/index.d.ts",
+              "default": "./dist/esm/index.js"
+            },
+            "require": {
+              "types": "./dist/cjs/index.d.cts",
+              "default": "./dist/cjs/index.cjs"
+            }
+          },
+          "./package.json": "./package.json"
+        },
+        "funding": {
+          "url": "https://github.com/sponsors/tannerlinsley",
+          "type": "github"
+        },
+        "license": "MIT",
+        "scripts": {
+          "build": "vite build",
+          "clean": "rimraf ./dist && rimraf ./coverage",
+          "test:unit": "exit 0; vitest",
+          "test:build": "publint --strict && attw --ignore-rules no-resolution --pack .",
+          "test:types": "pnpm run \"/^test:types:ts[0-9]{2}$/\"",
+          "test:eslint": "eslint ./src",
+          "test:unit:dev": "pnpm run test:unit --watch",
+          "test:types:ts56": "node ../../node_modules/typescript56/lib/tsc.js",
+          "test:types:ts57": "node ../../node_modules/typescript57/lib/tsc.js",
+          "test:types:ts58": "node ../../node_modules/typescript58/lib/tsc.js",
+          "test:types:ts59": "node ../../node_modules/typescript59/lib/tsc.js",
+          "test:types:ts60": "tsc6",
+          "test:types:ts70": "tsc"
+        },
+        "version": "1.167.3",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:f33293a1-1b27-4df4-95b9-82e379ad5e93"
+          }
+        },
+        "homepage": "https://tanstack.com/router",
+        "keywords": [
+          "react",
+          "location",
+          "router",
+          "routing",
+          "async",
+          "async router",
+          "typescript"
+        ],
+        "repository": {
+          "url": "git+https://github.com/TanStack/router.git",
+          "type": "git",
+          "directory": "packages/react-router-ssr-query"
+        },
+        "description": "Modern and scalable routing for React applications",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "tannerlinsley",
+            "email": "tannerlinsley@gmail.com"
+          },
+          {
+            "name": "alemtuzlak",
+            "email": "t.zlak97@gmail.com"
+          },
+          {
+            "name": "kevinvandy",
+            "email": "kevinvandy656@gmail.com"
+          }
+        ],
+        "sideEffects": false,
+        "_nodeVersion": "24.8.0",
+        "dependencies": {
+          "@tanstack/router-ssr-query-core": "1.169.3"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "vite": "*",
+          "jsdom": "^25.0.1",
+          "react": "^19.2.3",
+          "rimraf": "^6.1.2",
+          "vitest": "^4.1.4",
+          "publint": "^0.3.16",
+          "react-dom": "^19.2.3",
+          "@types/react": "^19.2.8",
+          "@types/react-dom": "^19.2.3",
+          "@vitejs/plugin-react": "^4.3.4",
+          "@arethetypeswrong/cli": "^0.18.4",
+          "@tanstack/react-query": ">=5.102.0",
+          "@tanstack/vite-config": "0.5.2",
+          "@tanstack/react-router": "1.170.37",
+          "eslint-plugin-react-hooks": "^5.1.0",
+          "@eslint-react/eslint-plugin": "^1.26.2"
+        },
+        "peerDependencies": {
+          "react": ">=18.0.0 || >=19.0.0",
+          "react-dom": ">=18.0.0 || >=19.0.0",
+          "@tanstack/query-core": ">=5.102.0",
+          "@tanstack/react-query": ">=5.102.0",
+          "@tanstack/react-router": ">=1.170.33"
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/react-router-ssr-query_1.167.3_1789593237754_0.7202702416122575"
+        }
+      }
+    }
+  },
+  "@tanstack/react-query": {
+    "dist-tags": {
+      "alpha": "5.0.0-alpha.91",
+      "beta": "5.0.0-beta.35",
+      "rc": "5.0.0-rc.16",
+      "previous": "4.44.0",
+      "latest": "5.104.1"
+    },
+    "versions": {
+      "5.104.1": {
+        "_id": "@tanstack/react-query@5.104.1",
+        "dist": {
+          "shasum": "c9c6b66ea96f8b5f73f4f3491b1776036a3c5456",
+          "tarball": "https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.104.1.tgz",
+          "fileCount": 410,
+          "integrity": "sha512-Zz70EgjahNI7aCz8BZxM3vUGU44ycxEAzMuCUjLeA7SVhhOkg3ZgPjPJPvHjs6Rmky/dtmnu1WzjGHNHmhCoZQ==",
+          "signatures": [
+            {
+              "sig": "MEUCIQDD2rD2D153pFMYBA3V9dDjjFDBgp+Jb7i3HvMOsQvawQIgWWpacqcKvsHe7VblI8jUiW6EESC7VUCRIWBR9csQ5bk=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEYCIQDBrFTknkaiD293rKmbrZ9JdceUq71SBf0AebrmMpbUOAIhAIKjJXv2AxUmN7uFFCf+A3cO5f+aqlSV+gxEttWh9U+S"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tanstack%2freact-query@5.104.1",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 1731356
+        },
+        "main": "build/legacy/index.cjs",
+        "name": "@tanstack/react-query",
+        "type": "module",
+        "types": "build/legacy/index.d.ts",
+        "author": "tannerlinsley",
+        "module": "build/legacy/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/modern/index.d.ts",
+              "default": "./build/modern/index.js"
+            },
+            "require": {
+              "types": "./build/modern/index.d.cts",
+              "default": "./build/modern/index.cjs"
+            },
+            "@tanstack/custom-condition": "./src/index.ts"
+          },
+          "./package.json": "./package.json"
+        },
+        "funding": {
+          "url": "https://github.com/sponsors/tannerlinsley",
+          "type": "github"
+        },
+        "license": "MIT",
+        "scripts": {
+          "build": "pnpm build:tsdown && pnpm build:codemods",
+          "clean": "premove ./build ./coverage ./dist-ts ./.cache/test-types",
+          "compile": "tsc --project tsconfig.json",
+          "test:lib": "vitest",
+          "test:build": "publint --strict && attw --pack",
+          "test:types": "npm-run-all --serial test:types:*",
+          "test:eslint": "eslint --concurrency=auto ./src",
+          "build:tsdown": "tsdown --tsconfig tsconfig.prod.json",
+          "test:lib:dev": "pnpm run test:lib --watch",
+          "build:codemods": "rm -rf ./build/codemods && mkdir ./build/codemods && cp -r ../query-codemods/src/* ./build/codemods",
+          "test:types:ts56": "node ../../node_modules/typescript56/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts56 --tsBuildInfoFile .cache/test-types/ts56.tsbuildinfo",
+          "test:types:ts57": "node ../../node_modules/typescript57/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts57 --tsBuildInfoFile .cache/test-types/ts57.tsbuildinfo",
+          "test:types:ts58": "node ../../node_modules/typescript58/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts58 --tsBuildInfoFile .cache/test-types/ts58.tsbuildinfo",
+          "test:types:ts59": "node ../../node_modules/typescript59/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts59 --tsBuildInfoFile .cache/test-types/ts59.tsbuildinfo",
+          "test:types:ts70": "node ../../node_modules/typescript70/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts70 --tsBuildInfoFile .cache/test-types/ts70.tsbuildinfo",
+          "test:types:tscurrent": "tsc --project tsconfig.json --outDir .cache/test-types/tscurrent --tsBuildInfoFile .cache/test-types/tscurrent.tsbuildinfo"
+        },
+        "version": "5.104.1",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "723a6f52-dd1e-45dd-997e-011d5c0b77a0"
+          }
+        },
+        "homepage": "https://tanstack.com/query",
+        "repository": {
+          "url": "git+https://github.com/TanStack/query.git",
+          "type": "git",
+          "directory": "packages/react-query"
+        },
+        "description": "Hooks for managing, caching and syncing asynchronous and remote data in React",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "tannerlinsley",
+            "email": "tannerlinsley@gmail.com"
+          },
+          {
+            "name": "alemtuzlak",
+            "email": "t.zlak97@gmail.com"
+          },
+          {
+            "name": "kevinvandy",
+            "email": "kevinvandy656@gmail.com"
+          }
+        ],
+        "sideEffects": false,
+        "dependencies": {
+          "@tanstack/query-core": "5.104.1"
+        },
+        "react-native": "src/index.ts",
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "react": "^19.2.1",
+          "react-dom": "^19.2.1",
+          "typescript": "6.0.3",
+          "@types/react": "^19.2.7",
+          "@types/react-dom": "^19.2.3",
+          "@vitejs/plugin-react": "^6.1.1",
+          "react-error-boundary": "^4.1.2",
+          "@testing-library/react": "^16.1.0",
+          "eslint-plugin-react-hooks": "^7.1.1",
+          "@tanstack/query-test-utils": "0.0.0",
+          "@eslint-react/eslint-plugin": "^5.21.0",
+          "@tanstack/query-persist-client-core": "5.104.1",
+          "@testing-library/react-render-stream": "^2.0.2"
+        },
+        "peerDependencies": {
+          "react": "^18 || ^19"
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/react-query_5.104.1_1790935496920_0.5172513889827337"
+        }
+      }
+    }
+  },
+  "@tanstack/query-core": {
+    "dist-tags": {
+      "alpha": "5.0.0-alpha.91",
+      "beta": "5.0.0-beta.35",
+      "rc": "5.0.0-rc.12",
+      "previous": "4.44.0",
+      "latest": "5.104.1"
+    },
+    "versions": {
+      "5.104.1": {
+        "_id": "@tanstack/query-core@5.104.1",
+        "dist": {
+          "shasum": "c9819a22f8183e423bbe04b71780a4e17b42aff8",
+          "tarball": "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.104.1.tgz",
+          "fileCount": 365,
+          "integrity": "sha512-TiRghcrGkUTE+M4JBxvpPSpBhxvIzQairw+cksrHYGr+2uwC77yW1SY9nYxnYRYOppvucf8rEg6b5byoz4rTpw==",
+          "signatures": [
+            {
+              "sig": "MEUCIQDAC+ko8nUz2dYNxTMicGRRiaJawQgXdhik8wQsVKEVrgIgXu9vAshUcfGd1awhF9if3Gz+uVlnipp+W26juTGUxLE=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIHqlG0BkDXGyz0ZKOt7ch2RK1YfYJ2PiAF8hohIojYwTAiEAzjaSF+9LMuGtl06meM227ofcCuQjrYo2ibY2ZEDAkFU="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tanstack%2fquery-core@5.104.1",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 3193597
+        },
+        "main": "build/legacy/index.cjs",
+        "name": "@tanstack/query-core",
+        "type": "module",
+        "types": "build/legacy/index.d.ts",
+        "author": "tannerlinsley",
+        "module": "build/legacy/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/modern/index.d.ts",
+              "default": "./build/modern/index.js"
+            },
+            "require": {
+              "types": "./build/modern/index.d.cts",
+              "default": "./build/modern/index.cjs"
+            },
+            "@tanstack/custom-condition": "./src/index.ts"
+          },
+          "./package.json": "./package.json"
+        },
+        "funding": {
+          "url": "https://github.com/sponsors/tannerlinsley",
+          "type": "github"
+        },
+        "license": "MIT",
+        "scripts": {
+          "build": "tsdown --tsconfig tsconfig.prod.json",
+          "clean": "premove ./build ./coverage ./dist-ts ./.cache/test-types",
+          "compile": "tsc --project tsconfig.json",
+          "test:lib": "vitest",
+          "test:build": "publint --strict && attw --pack",
+          "test:types": "npm-run-all --serial test:types:*",
+          "test:eslint": "eslint --concurrency=auto ./src",
+          "test:lib:dev": "pnpm run test:lib --watch",
+          "test:types:ts56": "node ../../node_modules/typescript56/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts56 --tsBuildInfoFile .cache/test-types/ts56.tsbuildinfo",
+          "test:types:ts57": "node ../../node_modules/typescript57/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts57 --tsBuildInfoFile .cache/test-types/ts57.tsbuildinfo",
+          "test:types:ts58": "node ../../node_modules/typescript58/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts58 --tsBuildInfoFile .cache/test-types/ts58.tsbuildinfo",
+          "test:types:ts59": "node ../../node_modules/typescript59/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts59 --tsBuildInfoFile .cache/test-types/ts59.tsbuildinfo",
+          "test:types:ts70": "node ../../node_modules/typescript70/lib/tsc.js --project tsconfig.legacy.json --outDir .cache/test-types/ts70 --tsBuildInfoFile .cache/test-types/ts70.tsbuildinfo",
+          "test:types:tscurrent": "tsc --project tsconfig.json --outDir .cache/test-types/tscurrent --tsBuildInfoFile .cache/test-types/tscurrent.tsbuildinfo"
+        },
+        "version": "5.104.1",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "f154169d-63a2-44d3-ab06-733a52e9bf6c"
+          }
+        },
+        "homepage": "https://tanstack.com/query",
+        "repository": {
+          "url": "git+https://github.com/TanStack/query.git",
+          "type": "git",
+          "directory": "packages/query-core"
+        },
+        "description": "The framework agnostic core that powers TanStack Query",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "tannerlinsley",
+            "email": "tannerlinsley@gmail.com"
+          },
+          {
+            "name": "alemtuzlak",
+            "email": "t.zlak97@gmail.com"
+          },
+          {
+            "name": "kevinvandy",
+            "email": "kevinvandy656@gmail.com"
+          }
+        ],
+        "sideEffects": false,
+        "react-native": "src/index.ts",
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "typescript": "6.0.3",
+          "@tanstack/query-test-utils": "0.0.0"
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/query-core_5.104.1_1790935510137_0.17793803771028216"
+        }
+      }
+    }
+  },
+  "@convex-dev/react-query": {
+    "dist-tags": {
+      "alpha": "0.0.0-alpha.4",
+      "latest": "0.1.0"
+    },
+    "versions": {
+      "0.1.0": {
+        "name": "@convex-dev/react-query",
+        "version": "0.1.0",
+        "license": "Apache-2.0",
+        "_id": "@convex-dev/react-query@0.1.0",
+        "maintainers": [
+          {
+            "name": "cowling",
+            "email": "james@convex.dev"
+          },
+          {
+            "name": "jordanhunt",
+            "email": "jordan@convex.dev"
+          },
+          {
+            "name": "gautamg795",
+            "email": "gautam@convex.dev"
+          },
+          {
+            "name": "emmaling27",
+            "email": "emma@convex.dev"
+          },
+          {
+            "name": "nipunn",
+            "email": "nipunn1313@gmail.com"
+          },
+          {
+            "name": "ballingt",
+            "email": "thomasballinger@gmail.com"
+          },
+          {
+            "name": "aritrakh",
+            "email": "aritrakh@gmail.com"
+          },
+          {
+            "name": "ianatconvex",
+            "email": "ian@convex.dev"
+          },
+          {
+            "name": "erquhart",
+            "email": "shawn@erquh.art"
+          },
+          {
+            "name": "jamwt",
+            "email": "jamwt@convex.dev"
+          },
+          {
+            "name": "nicolapps",
+            "email": "nicolas@ettlin.dev"
+          }
+        ],
+        "dist": {
+          "shasum": "71ad197bd2377441f567f9e3143d1b04c0f61bb5",
+          "tarball": "https://registry.npmjs.org/@convex-dev/react-query/-/react-query-0.1.0.tgz",
+          "fileCount": 14,
+          "integrity": "sha512-ULmBZCtAQDUePdBhUv7hj1Yy4QiCelhi6uEIOtMpjW8db6W9CFKvQwLt9heLngccFyMFfAZdOfSrT+cP4AH0Jw==",
+          "signatures": [
+            {
+              "sig": "MEUCIBRiH1pjIDIJhL/nQLjmehGPWutExbmigY/TFs1RZp6kAiEAy+WUAbAzNFTcZMdcg2bfybH67FMnVe+h3U6L5u7dkIE=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "unpackedSize": 105613
+        },
+        "main": "./dist/commonjs/index.js",
+        "tshy": {
+          "exclude": [
+            "src/example.tsx",
+            "src/suspense.tsx",
+            "src/**/*.test.ts",
+            "convex/**/*"
+          ],
+          "exports": {
+            ".": "./src/index.ts",
+            "./package.json": "./package.json"
+          },
+          "dialects": [
+            "esm",
+            "commonjs"
+          ],
+          "selfLink": false
+        },
+        "type": "module",
+        "_from": "file:convex-dev-react-query-0.1.0.tgz",
+        "types": "./dist/commonjs/index.d.ts",
+        "module": "./dist/esm/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./dist/esm/index.d.ts",
+              "default": "./dist/esm/index.js"
+            },
+            "require": {
+              "types": "./dist/commonjs/index.d.ts",
+              "default": "./dist/commonjs/index.js"
+            }
+          },
+          "./package.json": "./package.json"
+        },
+        "scripts": {
+          "dev": "npm-run-all --parallel dev:db dev:frontend",
+          "lint": "eslint .",
+          "test": "vitest run --typecheck",
+          "build": "tshy",
+          "dev:db": "convex dev",
+          "preview": "vite preview",
+          "test:types": "tsc --noEmit",
+          "dev:frontend": "vite --open --clearScreen false"
+        },
+        "_npmUser": {
+          "name": "nicolapps",
+          "email": "nicolas@ettlin.dev"
+        },
+        "_resolved": "/private/var/folders/n9/xm1cw_7n1g36x2n1jl13p1440000gn/T/92208229099419fcd2eec6f804b75bc7/convex-dev-react-query-0.1.0.tgz",
+        "overrides": {
+          "typescript": "~5.0.3"
+        },
+        "_integrity": "sha512-ULmBZCtAQDUePdBhUv7hj1Yy4QiCelhi6uEIOtMpjW8db6W9CFKvQwLt9heLngccFyMFfAZdOfSrT+cP4AH0Jw==",
+        "_npmVersion": "10.8.2",
+        "description": "Instead of polling you subscribe to receive update from server-side query functions in a Convex deployment. Convex is a database with server-side (db-side? like stored procedures) functions that update reactively.",
+        "directories": {},
+        "_nodeVersion": "20.19.5",
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "tshy": "^3.0.0",
+          "vite": "^6.4.1",
+          "react": "^18.0.0",
+          "convex": "1.29.3",
+          "eslint": "^9.37.0",
+          "vitest": "^3.2.4",
+          "react-dom": "^18.0.0",
+          "@eslint/js": "~9.34.0",
+          "typescript": "~5.0.3",
+          "@types/node": "^18.17.0",
+          "@types/react": "^18.0.0",
+          "npm-run-all2": "^7.0.0",
+          "@eslint/compat": "~1.3.0",
+          "convex-helpers": "^0.1.105",
+          "@convex-dev/auth": "^0.0.90",
+          "@eslint/eslintrc": "^3",
+          "@types/react-dom": "^18.0.0",
+          "typescript-eslint": "^8.45.0",
+          "@vitejs/plugin-react": "^4.2.1",
+          "@tanstack/react-query": "^5.90.2",
+          "eslint-config-prettier": "^10.0.0",
+          "@convex-dev/eslint-plugin": "1.0.0",
+          "@tanstack/eslint-plugin-query": "^5.74.7",
+          "@tanstack/react-query-devtools": "^5.90.2"
+        },
+        "peerDependencies": {
+          "convex": "^1.29.3",
+          "@tanstack/react-query": "^5.0.0"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/react-query_0.1.0_1763610076091_0.22667411923526393",
+          "host": "s3://npm-registry-packages-npm-production"
+        }
+      }
+    }
+  },
+  "react": {
+    "dist-tags": {
+      "beta": "19.0.0-beta-26f2496093-20240514",
+      "rc": "19.0.0-rc.1",
+      "next": "19.3.0-canary-d5736f09-20260507",
+      "backport": "19.0.8",
+      "latest": "19.3.0",
+      "experimental": "0.0.0-experimental-b618bbb4-20261007",
+      "canary": "19.3.0-canary-b618bbb4-20261007"
+    },
+    "versions": {
+      "19.3.0": {
+        "name": "react",
+        "version": "19.3.0",
+        "keywords": [
+          "react"
+        ],
+        "license": "MIT",
+        "_id": "react@19.3.0",
+        "maintainers": [
+          {
+            "name": "fb",
+            "email": "opensource+npm@fb.com"
+          },
+          {
+            "name": "react-bot",
+            "email": "react-core@meta.com"
+          }
+        ],
+        "homepage": "https://react.dev/",
+        "bugs": {
+          "url": "https://github.com/react/react/issues"
+        },
+        "dist": {
+          "shasum": "e20aa3a14687075ce863351b5878b0608c3fbfb2",
+          "tarball": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+          "fileCount": 27,
+          "integrity": "sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==",
+          "signatures": [
+            {
+              "sig": "MEUCIALru2uJjzTwQTeh/ax6FRZSyVBDySuUEr4k+TiaANpDAiEAgJVCX1upjcvo4FzKCrJW9vcVnWVJwMbuM4Wsc4UM61o=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEYCIQCLRI5uegHedldoJjX7BioMz8AnR5jZmFZB2+1PMyrFagIhAMlHH0dBWncX0Nq4vSqkVKZtP7Jolgae2aodnOtIRrQK",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/react@19.3.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 178663
+        },
+        "main": "index.js",
+        "engines": {
+          "node": ">=0.10.0"
+        },
+        "exports": {
+          ".": {
+            "default": "./index.js",
+            "react-server": "./react.react-server.js"
+          },
+          "./jsx-runtime": {
+            "default": "./jsx-runtime.js",
+            "react-server": "./jsx-runtime.react-server.js"
+          },
+          "./package.json": "./package.json",
+          "./jsx-dev-runtime": {
+            "default": "./jsx-dev-runtime.js",
+            "react-server": "./jsx-dev-runtime.react-server.js"
+          },
+          "./compiler-runtime": {
+            "default": "./compiler-runtime.js",
+            "react-server": "./compiler-runtime.js"
+          }
+        },
+        "gitHead": "1d34f91dfde6bba84d08b683aaba164c7194dacb",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:19f8086e-9f33-439e-8cce-d73997f53038"
+          }
+        },
+        "repository": {
+          "url": "git+https://github.com/react/react.git",
+          "type": "git",
+          "directory": "packages/react"
+        },
+        "_npmVersion": "11.19.0",
+        "description": "React is a JavaScript library for building user interfaces.",
+        "directories": {},
+        "_nodeVersion": "24.20.0",
+        "_hasShrinkwrap": false,
+        "_npmOperationalInternal": {
+          "tmp": "tmp/react_19.3.0_1788974489959_0.967607494339469",
+          "host": "s3://npm-registry-packages-npm-production"
+        }
+      }
+    }
+  },
+  "react-dom": {
+    "dist-tags": {
+      "beta": "19.0.0-beta-26f2496093-20240514",
+      "rc": "19.0.0-rc.1",
+      "next": "19.3.0-canary-d5736f09-20260507",
+      "backport": "19.0.8",
+      "latest": "19.3.0",
+      "experimental": "0.0.0-experimental-b618bbb4-20261007",
+      "canary": "19.3.0-canary-b618bbb4-20261007"
+    },
+    "versions": {
+      "19.3.0": {
+        "name": "react-dom",
+        "version": "19.3.0",
+        "keywords": [
+          "react"
+        ],
+        "license": "MIT",
+        "_id": "react-dom@19.3.0",
+        "maintainers": [
+          {
+            "name": "fb",
+            "email": "opensource+npm@fb.com"
+          },
+          {
+            "name": "react-bot",
+            "email": "react-core@meta.com"
+          }
+        ],
+        "homepage": "https://react.dev/",
+        "bugs": {
+          "url": "https://github.com/react/react/issues"
+        },
+        "dist": {
+          "shasum": "a0ff19161d7f4e9be5469a07278b0c06e00f9001",
+          "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+          "fileCount": 43,
+          "integrity": "sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==",
+          "signatures": [
+            {
+              "sig": "MEUCIQDl7gfoVlOoqKLgPU325X6EcrNHIYuFJJX0R9PHDs9KygIgAQaRzlBCG57IDn6XBjaOL/adBCuf/oiguaTixpmBBjw=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEUCIBJlBwP9e+XpqYfXpAJxCFTZ2i9tt8XCm9JYmuFMXsm1AiEAi9g3MN8fg6vModu7alAeUKmJ6iWO6untLGlvHfX1mb4=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/react-dom@19.3.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 8063782
+        },
+        "main": "index.js",
+        "browser": {
+          "./server.js": "./server.browser.js",
+          "./static.js": "./static.browser.js"
+        },
+        "exports": {
+          ".": {
+            "default": "./index.js",
+            "react-server": "./react-dom.react-server.js"
+          },
+          "./client": {
+            "default": "./client.js",
+            "react-server": "./client.react-server.js"
+          },
+          "./server": {
+            "bun": "./server.bun.js",
+            "deno": "./server.node.js",
+            "node": "./server.node.js",
+            "worker": "./server.browser.js",
+            "browser": "./server.browser.js",
+            "default": "./server.node.js",
+            "workerd": "./server.edge.js",
+            "edge-light": "./server.edge.js",
+            "react-server": "./server.react-server.js"
+          },
+          "./static": {
+            "deno": "./static.browser.js",
+            "node": "./static.node.js",
+            "worker": "./static.browser.js",
+            "browser": "./static.browser.js",
+            "default": "./static.node.js",
+            "workerd": "./static.edge.js",
+            "edge-light": "./static.edge.js",
+            "react-server": "./static.react-server.js"
+          },
+          "./profiling": {
+            "default": "./profiling.js",
+            "react-server": "./profiling.react-server.js"
+          },
+          "./server.bun": {
+            "default": "./server.bun.js",
+            "react-server": "./server.react-server.js"
+          },
+          "./test-utils": "./test-utils.js",
+          "./server.edge": {
+            "default": "./server.edge.js",
+            "react-server": "./server.react-server.js"
+          },
+          "./server.node": {
+            "default": "./server.node.js",
+            "react-server": "./server.react-server.js"
+          },
+          "./static.edge": {
+            "default": "./static.edge.js",
+            "react-server": "./static.react-server.js"
+          },
+          "./static.node": {
+            "default": "./static.node.js",
+            "react-server": "./static.react-server.js"
+          },
+          "./package.json": "./package.json",
+          "./server.browser": {
+            "default": "./server.browser.js",
+            "react-server": "./server.react-server.js"
+          },
+          "./static.browser": {
+            "default": "./static.browser.js",
+            "react-server": "./static.react-server.js"
+          }
+        },
+        "gitHead": "1d34f91dfde6bba84d08b683aaba164c7194dacb",
+        "scripts": {
+          "start": "node server.js"
+        },
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:d9cd0825-8595-47d6-b8ae-76fbc589cbd8"
+          }
+        },
+        "repository": {
+          "url": "git+https://github.com/react/react.git",
+          "type": "git",
+          "directory": "packages/react-dom"
+        },
+        "_npmVersion": "11.19.0",
+        "description": "React package for working with the DOM.",
+        "directories": {},
+        "_nodeVersion": "24.20.0",
+        "dependencies": {
+          "scheduler": "^0.28.0"
+        },
+        "_hasShrinkwrap": false,
+        "peerDependencies": {
+          "react": "^19.3.0"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/react-dom_19.3.0_1788974259597_0.7644406281030367",
+          "host": "s3://npm-registry-packages-npm-production"
+        }
+      }
+    }
+  },
+  "vite": {
+    "dist-tags": {
+      "latest": "8.3.4"
+    },
+    "versions": {
+      "8.3.4": {
+        "name": "vite",
+        "version": "8.3.4",
+        "peerDependencies": {
+          "tsx": "^4.8.1",
+          "jiti": ">=1.21.0",
+          "less": "^4.0.0",
+          "sass": "^1.70.0",
+          "yaml": "^2.4.2",
+          "stylus": ">=0.54.8",
+          "terser": "^5.16.0",
+          "esbuild": "^0.27.0 || ^0.28.0",
+          "sugarss": "^5.0.0",
+          "@types/node": "^20.19.0 || >=22.12.0",
+          "sass-embedded": "^1.70.0",
+          "@vitejs/devtools": "^0.7.1"
+        },
+        "peerDependenciesMeta": {
+          "tsx": {
+            "optional": true
+          },
+          "jiti": {
+            "optional": true
+          },
+          "less": {
+            "optional": true
+          },
+          "sass": {
+            "optional": true
+          },
+          "yaml": {
+            "optional": true
+          },
+          "stylus": {
+            "optional": true
+          },
+          "terser": {
+            "optional": true
+          },
+          "esbuild": {
+            "optional": true
+          },
+          "sugarss": {
+            "optional": true
+          },
+          "@types/node": {
+            "optional": true
+          },
+          "sass-embedded": {
+            "optional": true
+          },
+          "@vitejs/devtools": {
+            "optional": true
+          }
+        },
+        "dependencies": {},
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "dist": {
+          "tarball": "https://registry.npmjs.org/vite/-/vite-8.3.4.tgz",
+          "integrity": "sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ=="
+        }
+      }
+    }
+  },
+  "typescript": {
+    "dist-tags": {
+      "latest": "7.0.2"
+    },
+    "versions": {
+      "7.0.2": {
+        "name": "typescript",
+        "version": "7.0.2",
+        "peerDependencies": {},
+        "peerDependenciesMeta": {},
+        "dependencies": {},
+        "engines": {
+          "node": ">=16.20.0"
+        },
+        "dist": {
+          "tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+          "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA=="
+        }
+      }
+    }
+  },
+  "@types/node": {
+    "dist-tags": {
+      "latest": "26.6.5"
+    },
+    "versions": {
+      "26.6.5": {
+        "name": "@types/node",
+        "version": "26.6.5",
+        "peerDependencies": {},
+        "peerDependenciesMeta": {},
+        "dependencies": {},
+        "engines": {},
+        "dist": {
+          "tarball": "https://registry.npmjs.org/@types/node/-/node-26.6.5.tgz",
+          "integrity": "sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg=="
+        }
+      }
+    }
+  },
+  "tsx": {
+    "dist-tags": {
+      "latest": "4.23.15"
+    },
+    "versions": {
+      "4.23.15": {
+        "name": "tsx",
+        "version": "4.23.15",
+        "peerDependencies": {},
+        "peerDependenciesMeta": {},
+        "dependencies": {},
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "dist": {
+          "tarball": "https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz",
+          "integrity": "sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw=="
+        }
+      }
+    }
+  },
+  "convex-test": {
+    "dist-tags": {
+      "latest": "0.0.61"
+    },
+    "versions": {
+      "0.0.61": {
+        "name": "convex-test",
+        "version": "0.0.61",
+        "peerDependencies": {
+          "convex": "^1.43.0"
+        },
+        "peerDependenciesMeta": {},
+        "dependencies": {},
+        "engines": {},
+        "dist": {
+          "tarball": "https://registry.npmjs.org/convex-test/-/convex-test-0.0.61.tgz",
+          "integrity": "sha512-uYKCFk9+iu8jJB7TW3BHm3EAM6yPoXERoLHGiomhgUwuTLdSUjOk9SYnnnDc1UA1MQrMPYfUFSp+0+GWyFREng=="
+        }
+      }
+    }
+  },
+  "@tanstack/router-cli": {
+    "dist-tags": {
+      "beta": "0.0.1-beta.286",
+      "alpha": "1.132.0-alpha.25",
+      "pre": "1.167.22-pre.0",
+      "latest": "1.167.41"
+    },
+    "versions": {
+      "1.167.41": {
+        "_id": "@tanstack/router-cli@1.167.41",
+        "bin": {
+          "tsr": "bin/tsr.cjs"
+        },
+        "dist": {
+          "shasum": "1c62f07c637ff71cb2d9df95ad863e28099b1f5d",
+          "tarball": "https://registry.npmjs.org/@tanstack/router-cli/-/router-cli-1.167.41.tgz",
+          "fileCount": 26,
+          "integrity": "sha512-hi9lqsq9dS6sFWYS642BdQmW/ZFsIj3Ava8wElgAo8czCNZrE12BMFPCS0j4legpCMH8pVJrSCORvdYbIlQVAA==",
+          "signatures": [
+            {
+              "sig": "MEUCIAZXDLl4TYSAHta/czX9RDdR/jNcsErPg1XRDygNWk8wAiEA82pP17LtlFc6OYH327djX8XTMxdWt+0GXVP8TEhecLw=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEQCIHaUKN/1gVrkDbYK08VcTTe0Ozp4e5G1hvjcHYoo3xvOAiAu98KzNri9tcjlFw/iDgYNp4TBW2aujKBpaf/YLtDlcg=="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tanstack%2frouter-cli@1.167.41",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 21209
+        },
+        "main": "dist/cjs/index.cjs",
+        "name": "@tanstack/router-cli",
+        "type": "module",
+        "types": "dist/esm/index.d.ts",
+        "author": "Tanner Linsley",
+        "module": "dist/esm/index.js",
+        "engines": {
+          "node": ">=20.19"
+        },
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./dist/esm/index.d.ts",
+              "default": "./dist/esm/index.js"
+            },
+            "require": {
+              "types": "./dist/cjs/index.d.cts",
+              "default": "./dist/cjs/index.cjs"
+            }
+          },
+          "./package.json": "./package.json"
+        },
+        "funding": {
+          "url": "https://github.com/sponsors/tannerlinsley",
+          "type": "github"
+        },
+        "license": "MIT",
+        "scripts": {
+          "build": "vite build",
+          "clean": "rimraf ./dist && rimraf ./coverage",
+          "test:build": "publint --strict && attw --ignore-rules no-resolution --pack .",
+          "test:types": "pnpm run \"/^test:types:ts[0-9]{2}$/\"",
+          "test:eslint": "eslint ./src",
+          "test:types:ts56": "node ../../node_modules/typescript56/lib/tsc.js",
+          "test:types:ts57": "node ../../node_modules/typescript57/lib/tsc.js",
+          "test:types:ts58": "node ../../node_modules/typescript58/lib/tsc.js",
+          "test:types:ts59": "node ../../node_modules/typescript59/lib/tsc.js",
+          "test:types:ts60": "tsc6",
+          "test:types:ts70": "tsc"
+        },
+        "version": "1.167.41",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "8016fa8f-cece-4ca7-b066-742074743007"
+          }
+        },
+        "homepage": "https://tanstack.com/router",
+        "keywords": [
+          "react",
+          "location",
+          "router",
+          "routing",
+          "async",
+          "async router",
+          "typescript"
+        ],
+        "repository": {
+          "url": "git+https://github.com/TanStack/router.git",
+          "type": "git",
+          "directory": "packages/router-cli"
+        },
+        "description": "Modern and scalable routing for React applications",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "tannerlinsley",
+            "email": "tannerlinsley@gmail.com"
+          },
+          {
+            "name": "alemtuzlak",
+            "email": "t.zlak97@gmail.com"
+          },
+          {
+            "name": "kevinvandy",
+            "email": "kevinvandy656@gmail.com"
+          }
+        ],
+        "sideEffects": false,
+        "_nodeVersion": "24.8.0",
+        "dependencies": {
+          "yargs": "^17.7.2",
+          "chokidar": "^5.0.0",
+          "@tanstack/router-generator": "1.167.41"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "vite": "^8.3.4",
+          "rimraf": "^6.1.2",
+          "vitest": "^4.1.4",
+          "publint": "^0.3.16",
+          "@types/node": ">=20",
+          "@types/yargs": "^17.0.33",
+          "@arethetypeswrong/cli": "^0.18.4",
+          "@tanstack/vite-config": "0.5.2"
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/router-cli_1.167.41_1791617371239_0.8871768395659976"
+        }
+      }
+    }
+  },
+  "@vitejs/plugin-react": {
+    "dist-tags": {
+      "alpha": "3.0.0-alpha.2",
+      "beta": "6.0.0-beta.0",
+      "latest": "6.1.2"
+    },
+    "versions": {
+      "6.1.2": {
+        "_id": "@vitejs/plugin-react@6.1.2",
+        "bugs": {
+          "url": "https://github.com/vitejs/vite-plugin-react/issues"
+        },
+        "dist": {
+          "shasum": "924d47e890a78cdf2b72f3f41fe8ab98e089b81e",
+          "tarball": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.2.tgz",
+          "fileCount": 8,
+          "integrity": "sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==",
+          "signatures": [
+            {
+              "sig": "MEUCIQCgpYsgjqTlOLHoKHGebF/CVGDeZXj631NLMep/SKoPxwIgQWZS4mOR+zKRUVL7FUDOOFDZyuMuywEGKrwry5GdV1Q=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIQDLH4vCHenzBgP8wEYtZ9kCyKB71ErIPflGwaTlK1x9UwIgD2g6OSfhpU2OeghhDhPrAlwcunG8FMKXva4cki2sYlM="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@vitejs%2fplugin-react@6.1.2",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 46296
+        },
+        "name": "@vitejs/plugin-react",
+        "type": "module",
+        "author": {
+          "name": "Evan You"
+        },
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "exports": {
+          ".": "./dist/index.js",
+          "./preamble": "./types/preamble.d.ts"
+        },
+        "gitHead": "ac47648e17674299accb51816e9e33b8a7b07b05",
+        "imports": {
+          "#optionalTypes": "./types/optionalTypes.d.ts"
+        },
+        "license": "MIT",
+        "scripts": {
+          "dev": "tsdown --watch ./src --watch ../common",
+          "build": "tsdown",
+          "test-unit": "vitest run",
+          "prepublishOnly": "npm run build"
+        },
+        "version": "6.1.2",
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "edf31d29-a728-45df-ba8b-a16b612e2d5f"
+          }
+        },
+        "homepage": "https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#readme",
+        "keywords": [
+          "fast refresh",
+          "react",
+          "react-refresh",
+          "vite",
+          "vite-plugin"
+        ],
+        "repository": {
+          "url": "git+https://github.com/vitejs/vite-plugin-react.git",
+          "type": "git",
+          "directory": "packages/plugin-react"
+        },
+        "_npmVersion": "11.21.0",
+        "description": "The default Vite plugin for React projects",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "yyx990803",
+            "email": "yyx990803@gmail.com"
+          },
+          {
+            "name": "vitebot",
+            "email": "vite@voidzero.dev"
+          }
+        ],
+        "_nodeVersion": "24.21.0",
+        "contributors": [
+          {
+            "name": "Alec Larson"
+          },
+          {
+            "name": "Arnaud Barré"
+          }
+        ],
+        "dependencies": {
+          "@rolldown/pluginutils": "^1.0.1"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "vite": "^8.3.2",
+          "react": "^19.3.0",
+          "tsdown": "^0.23.0",
+          "rolldown": "^1.2.12",
+          "react-dom": "^19.3.0",
+          "oxc-transform-react": "^0.152.0",
+          "@vitejs/react-common": "workspace:*",
+          "@rolldown/plugin-babel": "^0.2.4",
+          "babel-plugin-react-compiler": "^1.0.0"
+        },
+        "peerDependencies": {
+          "vite": "^8.0.0",
+          "oxc-transform-react": "^0.152.0",
+          "@rolldown/plugin-babel": "^0.1.7 || ^0.2.0",
+          "babel-plugin-react-compiler": "^1.0.0"
+        },
+        "compatiblePackages": {
+          "rollup": {
+            "type": "incompatible",
+            "reason": "Uses Rolldown-specific APIs or Vite-specific APIs"
+          },
+          "rolldown": {
+            "note": "You can use Rolldown's built-in feature directly.",
+            "type": "compatible",
+            "versions": "^1.0.0"
+          },
+          "schemaVersion": 1
+        },
+        "peerDependenciesMeta": {
+          "oxc-transform-react": {
+            "optional": true
+          },
+          "@rolldown/plugin-babel": {
+            "optional": true
+          },
+          "babel-plugin-react-compiler": {
+            "optional": true
+          }
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/plugin-react_6.1.2_1791194907068_0.8215568399569912"
+        }
+      }
+    }
+  },
+  "vite-tsconfig-paths": {
+    "dist-tags": {
+      "latest": "6.1.1",
+      "next": "7.0.0-alpha.3"
+    },
+    "versions": {
+      "6.1.1": {
+        "name": "vite-tsconfig-paths",
+        "version": "6.1.1",
+        "keywords": [
+          "vite",
+          "resolver",
+          "tsconfig",
+          "paths"
+        ],
+        "author": {
+          "name": "aleclarson"
+        },
+        "license": "MIT",
+        "_id": "vite-tsconfig-paths@6.1.1",
+        "maintainers": [
+          {
+            "name": "aleclarson",
+            "email": "alec.stanford.larson@gmail.com"
+          }
+        ],
+        "homepage": "https://github.com/aleclarson/vite-tsconfig-paths#readme",
+        "bugs": {
+          "url": "https://github.com/aleclarson/vite-tsconfig-paths/issues"
+        },
+        "dist": {
+          "shasum": "d5c28cba79c89ebf76489ef1040024b21df6da3a",
+          "tarball": "https://registry.npmjs.org/vite-tsconfig-paths/-/vite-tsconfig-paths-6.1.1.tgz",
+          "fileCount": 14,
+          "integrity": "sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==",
+          "signatures": [
+            {
+              "sig": "MEYCIQDcxjdevKUNUKUeAq1t6s8fDy7gdD5Kx04SubZBkfBlYQIhAOVncZ+6LXgWO8TIHOiElRdYmhwNZmWD/pG+XnrM/krg",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "unpackedSize": 112525
+        },
+        "main": "dist/index.js",
+        "type": "module",
+        "_from": "file:vite-tsconfig-paths-6.1.1.tgz",
+        "types": "dist/index.d.ts",
+        "exports": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        },
+        "scripts": {
+          "dev": "pnpm bundle --watch",
+          "test": "vitest",
+          "build": "pnpm clean && pnpm bundle",
+          "clean": "rimraf dist && git checkout HEAD dist",
+          "bundle": "tsup src/index.ts --sourcemap --dts --format esm"
+        },
+        "_npmUser": {
+          "name": "aleclarson",
+          "email": "alec.stanford.larson@gmail.com"
+        },
+        "_resolved": "/private/var/folders/4l/lb2f5pj1221bm7d89gh08fx80000gn/T/5fd77eebefe5276d02d94b08862246a4/vite-tsconfig-paths-6.1.1.tgz",
+        "_integrity": "sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==",
+        "repository": {
+          "url": "git+https://github.com/aleclarson/vite-tsconfig-paths.git",
+          "type": "git"
+        },
+        "_npmVersion": "10.9.4",
+        "description": "Vite resolver for TypeScript compilerOptions.paths",
+        "directories": {},
+        "_nodeVersion": "22.22.0",
+        "dependencies": {
+          "debug": "^4.1.1",
+          "globrex": "^0.1.2",
+          "tsconfck": "^3.0.3"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "tsup": "^6.5.0",
+          "execa": "^9.5.1",
+          "klona": "^2.0.4",
+          "rimraf": "^6.1.2",
+          "rollup": "^2.45.2",
+          "vitest": "^4.0.18",
+          "esbuild": "^0.11.12",
+          "prettier": "^2.8.7",
+          "typescript": "^5.7.2",
+          "@types/node": "^22.2.0",
+          "@types/debug": "^4.1.5",
+          "@types/globrex": "^0.1.0",
+          "vite-tsconfig-paths": "link:."
+        },
+        "peerDependencies": {
+          "vite": "*"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/vite-tsconfig-paths_6.1.1_1770852368032_0.7541839358895159",
+          "host": "s3://npm-registry-packages-npm-production"
+        }
+      }
+    }
+  },
+  "dotenv": {
+    "dist-tags": {
+      "latest": "18.0.7"
+    },
+    "versions": {
+      "18.0.7": {
+        "_id": "dotenv@18.0.7",
+        "bin": {
+          "dotenv": "dist/index.cjs"
+        },
+        "bugs": {
+          "url": "https://github.com/motdotla/dotenv/issues"
+        },
+        "dist": {
+          "shasum": "ee6bec88c59298d9b218acdf49377f2c110a7698",
+          "tarball": "https://registry.npmjs.org/dotenv/-/dotenv-18.0.7.tgz",
+          "fileCount": 7,
+          "integrity": "sha512-QEvMEF8ca3GNZJJnAbOgxpj5ULhBvnMcURp+XKrtvqFNPgjBvYoswQ0Jl2cO7JzCjxZjJhr9ZuIEhlrRxMft/Q==",
+          "signatures": [
+            {
+              "sig": "MEYCIQCeF9LfvDRbpxFe+7YLCSyo8XhHC9MunSJIvxlYKEUT1AIhAPGhJDWb+xqge276BMTxMWTT4G5iesgbmHIxTMxGPSob",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIAs/L1xnObT4GHQV79qyFpz492vQs3snkoMLIrwCfnyYAiEA3fjfaqET2ZgOGb5dfEDCrajPu8aaJTY7gSXDKdbf24k="
+            }
+          ],
+          "unpackedSize": 45996
+        },
+        "main": "dist/index.cjs",
+        "name": "dotenv",
+        "types": "dist/index.d.ts",
+        "browser": {
+          "fs": false
+        },
+        "engines": {
+          "node": ">=12"
+        },
+        "exports": {
+          ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.cjs",
+            "require": "./dist/index.cjs"
+          },
+          "./config": {
+            "types": "./dist/config.d.ts",
+            "default": "./dist/config.cjs",
+            "require": "./dist/config.cjs"
+          },
+          "./config.js": {
+            "types": "./dist/config.d.ts",
+            "default": "./dist/config.cjs",
+            "require": "./dist/config.cjs"
+          },
+          "./package.json": "./package.json"
+        },
+        "funding": "https://dotenvx.com",
+        "gitHead": "295320751866efa323236c719cdc1b5306fa3de7",
+        "license": "BSD-2-Clause",
+        "scripts": {
+          "lint": "standard",
+          "test": "npm run build && npm run lint && npm run dts-check && tap run tests/**/*.js --allow-empty-coverage --disable-coverage --timeout=60000",
+          "build": "node scripts/build.js",
+          "prepack": "npm run build",
+          "release": "standard-version",
+          "dts-check": "tsc --project tests/types/tsconfig.json",
+          "test:perf": "node scripts/parse-perf.js",
+          "prerelease": "npm test",
+          "prepublishOnly": "npm pack --dry-run"
+        },
+        "version": "18.0.7",
+        "_npmUser": {
+          "name": "motdotla",
+          "email": "mot@mot.la"
+        },
+        "homepage": "https://github.com/motdotla/dotenv#readme",
+        "keywords": [
+          "dotenv",
+          "env",
+          ".env",
+          "environment",
+          "variables",
+          "config",
+          "settings",
+          "env vars",
+          "environment variables",
+          "secret-management",
+          "secrets"
+        ],
+        "repository": {
+          "url": "git://github.com/motdotla/dotenv.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.17.0",
+        "description": "Loads environment variables from .env file",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "scottmotte",
+            "email": "scott@scottmotte.com"
+          },
+          {
+            "name": "motdotla",
+            "email": "mot@mot.la"
+          },
+          {
+            "name": "motdotenv",
+            "email": "mot@dotenv.org"
+          }
+        ],
+        "_nodeVersion": "26.5.0",
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "tap": "^21.7.4",
+          "sinon": "^14.0.1",
+          "decache": "^4.6.2",
+          "esbuild": "^0.28.1",
+          "standard": "^17.0.0",
+          "typescript": "^4.8.4",
+          "@types/node": "^18.11.3",
+          "process-on-spawn": "^1.1.0",
+          "standard-version": "^9.5.0"
+        },
+        "_npmOperationalInternal": {
+          "host": "s3://npm-registry-packages-npm-production",
+          "tmp": "tmp/dotenv_18.0.7_1791559310352_0.9733654199945709"
+        }
+      }
+    }
+  },
+  "@types/react": {
+    "dist-tags": {
+      "ts2.0": "15.0.1",
+      "ts2.1": "15.0.20",
+      "ts2.2": "15.0.30",
+      "ts2.4": "16.0.36",
+      "ts2.3": "16.0.36",
+      "ts2.5": "16.0.36",
+      "ts2.7": "16.4.7",
+      "ts2.6": "16.4.7",
+      "ts2.8": "16.9.34",
+      "ts2.9": "16.9.35",
+      "ts3.0": "16.9.46",
+      "ts3.1": "16.9.49",
+      "ts3.2": "16.9.56",
+      "ts3.3": "17.0.0",
+      "ts3.4": "17.0.2",
+      "ts3.5": "17.0.8",
+      "ts3.6": "17.0.19",
+      "ts3.7": "17.0.35",
+      "ts3.8": "17.0.39",
+      "ts3.9": "18.0.12",
+      "ts4.0": "18.0.18",
+      "ts4.1": "18.0.25",
+      "ts4.2": "18.0.28",
+      "ts4.3": "18.2.21",
+      "ts4.4": "18.2.21",
+      "ts4.5": "18.2.39",
+      "ts4.6": "18.2.64",
+      "ts4.7": "18.3.3",
+      "ts4.9": "18.3.12",
+      "ts4.8": "18.3.12",
+      "ts5.0": "19.0.12",
+      "ts5.1": "19.1.9",
+      "ts5.2": "19.2.14",
+      "ts5.4": "19.2.17",
+      "ts5.3": "19.2.17",
+      "ts5.5": "19.2.17",
+      "ts5.9": "19.3.0",
+      "ts5.6": "19.3.0",
+      "ts5.8": "19.3.0",
+      "ts7.0": "19.3.0",
+      "ts5.7": "19.3.0",
+      "ts6.0": "19.3.0",
+      "latest": "19.3.0",
+      "ts7.1": "19.3.0"
+    },
+    "versions": {
+      "19.3.0": {
+        "name": "@types/react",
+        "version": "19.3.0",
+        "license": "MIT",
+        "_id": "@types/react@19.3.0",
+        "maintainers": [
+          {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          }
+        ],
+        "contributors": [
+          {
+            "url": "https://asana.com",
+            "name": "Asana"
+          },
+          {
+            "url": "http://www.assuresign.com",
+            "name": "AssureSign"
+          },
+          {
+            "url": "https://microsoft.com",
+            "name": "Microsoft"
+          },
+          {
+            "url": "https://github.com/johnnyreilly",
+            "name": "John Reilly",
+            "githubUsername": "johnnyreilly"
+          },
+          {
+            "url": "https://github.com/bbenezech",
+            "name": "Benoit Benezech",
+            "githubUsername": "bbenezech"
+          },
+          {
+            "url": "https://github.com/pzavolinsky",
+            "name": "Patricio Zavolinsky",
+            "githubUsername": "pzavolinsky"
+          },
+          {
+            "url": "https://github.com/ericanderson",
+            "name": "Eric Anderson",
+            "githubUsername": "ericanderson"
+          },
+          {
+            "url": "https://github.com/DovydasNavickas",
+            "name": "Dovydas Navickas",
+            "githubUsername": "DovydasNavickas"
+          },
+          {
+            "url": "https://github.com/theruther4d",
+            "name": "Josh Rutherford",
+            "githubUsername": "theruther4d"
+          },
+          {
+            "url": "https://github.com/guilhermehubner",
+            "name": "Guilherme Hübner",
+            "githubUsername": "guilhermehubner"
+          },
+          {
+            "url": "https://github.com/ferdaber",
+            "name": "Ferdy Budhidharma",
+            "githubUsername": "ferdaber"
+          },
+          {
+            "url": "https://github.com/jrakotoharisoa",
+            "name": "Johann Rakotoharisoa",
+            "githubUsername": "jrakotoharisoa"
+          },
+          {
+            "url": "https://github.com/pascaloliv",
+            "name": "Olivier Pascal",
+            "githubUsername": "pascaloliv"
+          },
+          {
+            "url": "https://github.com/hotell",
+            "name": "Martin Hochel",
+            "githubUsername": "hotell"
+          },
+          {
+            "url": "https://github.com/franklixuefei",
+            "name": "Frank Li",
+            "githubUsername": "franklixuefei"
+          },
+          {
+            "url": "https://github.com/Jessidhia",
+            "name": "Jessica Franco",
+            "githubUsername": "Jessidhia"
+          },
+          {
+            "url": "https://github.com/saranshkataria",
+            "name": "Saransh Kataria",
+            "githubUsername": "saranshkataria"
+          },
+          {
+            "url": "https://github.com/lukyth",
+            "name": "Kanitkorn Sujautra",
+            "githubUsername": "lukyth"
+          },
+          {
+            "url": "https://github.com/eps1lon",
+            "name": "Sebastian Silbermann",
+            "githubUsername": "eps1lon"
+          },
+          {
+            "url": "https://github.com/zieka",
+            "name": "Kyle Scully",
+            "githubUsername": "zieka"
+          },
+          {
+            "url": "https://github.com/dancerphil",
+            "name": "Cong Zhang",
+            "githubUsername": "dancerphil"
+          },
+          {
+            "url": "https://github.com/dimitropoulos",
+            "name": "Dimitri Mitropoulos",
+            "githubUsername": "dimitropoulos"
+          },
+          {
+            "url": "https://github.com/disjukr",
+            "name": "JongChan Choi",
+            "githubUsername": "disjukr"
+          },
+          {
+            "url": "https://github.com/vhfmag",
+            "name": "Victor Magalhães",
+            "githubUsername": "vhfmag"
+          },
+          {
+            "url": "https://github.com/priyanshurav",
+            "name": "Priyanshu Rav",
+            "githubUsername": "priyanshurav"
+          },
+          {
+            "url": "https://github.com/Semigradsky",
+            "name": "Dmitry Semigradsky",
+            "githubUsername": "Semigradsky"
+          },
+          {
+            "url": "https://github.com/mattpocock",
+            "name": "Matt Pocock",
+            "githubUsername": "mattpocock"
+          }
+        ],
+        "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react",
+        "dist": {
+          "shasum": "3b3ce8d8c1627fb5ccd4dadd57ef445c5a153b77",
+          "tarball": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+          "fileCount": 18,
+          "integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+          "signatures": [
+            {
+              "sig": "MEQCICO9E9W9sN+6oHDGno2fJYJ8YEsNOa01MoJJmauunAjGAiAVusL8FBYYoRgnVrnz0RY2KMSjP1OlJ7GunY0YhIr0GA==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEYCIQCG/2kbQCjMBz9wJNsFnPRUQFtQzxGIbkrwTxQ3ZYlQrwIhAKZAxRpE46wtsHz27OGDgRmXLV83Q5GivNToLaMzF7Q2",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "unpackedSize": 408108
+        },
+        "main": "",
+        "types": "index.d.ts",
+        "exports": {
+          ".": {
+            "types": {
+              "default": "./index.d.ts"
+            },
+            "types@<=5.0": {
+              "default": "./ts5.0/index.d.ts"
+            }
+          },
+          "./canary": {
+            "types": {
+              "default": "./canary.d.ts"
+            },
+            "types@<=5.0": {
+              "default": "./ts5.0/canary.d.ts"
+            }
+          },
+          "./jsx-runtime": {
+            "types": {
+              "default": "./jsx-runtime.d.ts"
+            },
+            "types@<=5.0": {
+              "default": "./ts5.0/jsx-runtime.d.ts"
+            }
+          },
+          "./experimental": {
+            "types": {
+              "default": "./experimental.d.ts"
+            },
+            "types@<=5.0": {
+              "default": "./ts5.0/experimental.d.ts"
+            }
+          },
+          "./package.json": "./package.json",
+          "./jsx-dev-runtime": {
+            "types": {
+              "default": "./jsx-dev-runtime.d.ts"
+            },
+            "types@<=5.0": {
+              "default": "./ts5.0/jsx-dev-runtime.d.ts"
+            }
+          },
+          "./compiler-runtime": {
+            "types": {
+              "default": "./compiler-runtime.d.ts"
+            }
+          }
+        },
+        "scripts": {},
+        "_npmUser": {
+          "name": "types",
+          "email": "ts-npm-types@microsoft.com"
+        },
+        "repository": {
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "type": "git",
+          "directory": "types/react"
+        },
+        "description": "TypeScript definitions for react",
+        "directories": {},
+        "_nodeVersion": "24.20.0",
+        "dependencies": {
+          "csstype": "^3.2.2"
+        },
+        "typesVersions": {
+          "<=5.0": {
+            "*": [
+              "ts5.0/*"
+            ]
+          }
+        },
+        "_hasShrinkwrap": false,
+        "peerDependencies": {},
+        "typeScriptVersion": "5.6",
+        "_npmOperationalInternal": {
+          "tmp": "tmp/react_19.3.0_1788977329666_0.02040962383132161",
+          "host": "s3://npm-registry-packages-npm-production"
+        },
+        "typesPublisherContentHash": "86ea5f223efc88fcaa71962f0f031a623142285e331499ee981e201dc8d2a77e"
+      }
+    }
+  },
+  "@types/react-dom": {
+    "dist-tags": {
+      "ts2.0": "0.14.20",
+      "ts2.1": "15.5.0",
+      "ts2.2": "15.5.0",
+      "ts2.5": "16.0.3",
+      "ts2.3": "16.0.3",
+      "ts2.4": "16.0.3",
+      "ts2.7": "16.0.6",
+      "ts2.6": "16.0.6",
+      "ts2.8": "16.9.7",
+      "ts3.0": "16.9.8",
+      "ts2.9": "16.9.8",
+      "ts3.1": "16.9.8",
+      "ts3.2": "16.9.9",
+      "ts3.3": "17.0.0",
+      "ts3.4": "17.0.1",
+      "ts3.5": "17.0.5",
+      "ts3.6": "17.0.9",
+      "ts3.8": "17.0.11",
+      "ts3.7": "17.0.11",
+      "ts3.9": "18.0.5",
+      "ts4.0": "18.0.6",
+      "ts4.1": "18.0.9",
+      "ts4.2": "18.0.11",
+      "ts4.4": "18.2.7",
+      "ts4.3": "18.2.7",
+      "ts4.5": "18.2.17",
+      "ts4.6": "18.2.21",
+      "ts4.7": "18.3.0",
+      "ts4.8": "18.3.1",
+      "ts4.9": "18.3.1",
+      "ts5.0": "19.0.4",
+      "ts5.1": "19.1.7",
+      "ts5.2": "19.2.3",
+      "ts5.5": "19.2.3",
+      "ts5.3": "19.2.3",
+      "ts5.4": "19.2.3",
+      "ts5.8": "19.3.0",
+      "ts5.7": "19.3.0",
+      "ts6.0": "19.3.0",
+      "ts5.9": "19.3.0",
+      "ts7.0": "19.3.0",
+      "ts5.6": "19.3.0",
+      "latest": "19.3.0",
+      "ts7.1": "19.3.0"
+    },
+    "versions": {
+      "19.3.0": {
+        "name": "@types/react-dom",
+        "version": "19.3.0",
+        "license": "MIT",
+        "_id": "@types/react-dom@19.3.0",
+        "maintainers": [
+          {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          }
+        ],
+        "contributors": [
+          {
+            "url": "https://asana.com",
+            "name": "Asana"
+          },
+          {
+            "url": "http://www.assuresign.com",
+            "name": "AssureSign"
+          },
+          {
+            "url": "https://microsoft.com",
+            "name": "Microsoft"
+          },
+          {
+            "url": "https://github.com/MartynasZilinskas",
+            "name": "MartynasZilinskas",
+            "githubUsername": "MartynasZilinskas"
+          },
+          {
+            "url": "https://github.com/theruther4d",
+            "name": "Josh Rutherford",
+            "githubUsername": "theruther4d"
+          },
+          {
+            "url": "https://github.com/Jessidhia",
+            "name": "Jessica Franco",
+            "githubUsername": "Jessidhia"
+          },
+          {
+            "url": "https://github.com/eps1lon",
+            "name": "Sebastian Silbermann",
+            "githubUsername": "eps1lon"
+          }
+        ],
+        "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom",
+        "dist": {
+          "shasum": "90294a9266efd928a5266f2110d60d5dba5015d2",
+          "tarball": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+          "fileCount": 19,
+          "integrity": "sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==",
+          "signatures": [
+            {
+              "sig": "MEYCIQDeggFlao9be7yHQ/b9bEJ/aNUgA9ewpLiMScDNunzitAIhAKh8Ct2ZYAjnfZI/KeuIMkZ0Qz2vlOS1C1PkdT2UacvQ",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEYCIQDfRDroOzjwBEz1yqXRbBWKCYOt7p/DKB+WIMPoMWCfUAIhAMPChj/cPQOALZVIGvV0h+QYQERrlQ5RJZb3dptWvQFV",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "unpackedSize": 32862
+        },
+        "main": "",
+        "types": "index.d.ts",
+        "exports": {
+          ".": {
+            "types": {
+              "default": "./index.d.ts"
+            }
+          },
+          "./canary": {
+            "types": {
+              "default": "./canary.d.ts"
+            }
+          },
+          "./client": {
+            "types": {
+              "default": "./client.d.ts"
+            }
+          },
+          "./server": {
+            "types": {
+              "default": "./server.d.ts"
+            }
+          },
+          "./static": {
+            "types": {
+              "default": "./static.d.ts"
+            }
+          },
+          "./server.bun": {
+            "types": {
+              "default": "./server.bun.d.ts"
+            }
+          },
+          "./test-utils": {
+            "types": {
+              "default": "./test-utils/index.d.ts"
+            }
+          },
+          "./server.edge": {
+            "types": {
+              "default": "./server.edge.d.ts"
+            }
+          },
+          "./server.node": {
+            "types": {
+              "default": "./server.node.d.ts"
+            }
+          },
+          "./static.edge": {
+            "types": {
+              "default": "./static.edge.d.ts"
+            }
+          },
+          "./static.node": {
+            "types": {
+              "default": "./static.node.d.ts"
+            }
+          },
+          "./experimental": {
+            "types": {
+              "default": "./experimental.d.ts"
+            }
+          },
+          "./package.json": "./package.json",
+          "./server.browser": {
+            "types": {
+              "default": "./server.browser.d.ts"
+            }
+          },
+          "./static.browser": {
+            "types": {
+              "default": "./static.browser.d.ts"
+            }
+          }
+        },
+        "scripts": {},
+        "_npmUser": {
+          "name": "types",
+          "email": "ts-npm-types@microsoft.com"
+        },
+        "repository": {
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "type": "git",
+          "directory": "types/react-dom"
+        },
+        "description": "TypeScript definitions for react-dom",
+        "directories": {},
+        "_nodeVersion": "24.20.0",
+        "dependencies": {},
+        "_hasShrinkwrap": false,
+        "peerDependencies": {
+          "@types/react": "^19.3.0"
+        },
+        "typeScriptVersion": "5.6",
+        "_npmOperationalInternal": {
+          "tmp": "tmp/react-dom_19.3.0_1788977271772_0.8048079603249982",
+          "host": "s3://npm-registry-packages-npm-production"
+        },
+        "typesPublisherContentHash": "345e361651b67ba93e5757949902dbca94f299c8328b8d01937dc05b5e487d8f"
+      }
+    }
+  },
+  "e2e": {
+    "dist-tags": {
+      "latest": "0.19.0"
+    },
+    "versions": {
+      "0.19.0": {
+        "name": "e2e",
+        "version": "0.19.0",
+        "peerDependencies": {
+          "ai": "^7.0.0",
+          "@ai-sdk/xai": "^5.0.0",
+          "@ai-sdk/google": "^4.0.0",
+          "@ai-sdk/openai": "^4.0.0",
+          "@ai-sdk/anthropic": "^4.0.0",
+          "@ai-sdk/openai-compatible": "^3.0.0"
+        },
+        "peerDependenciesMeta": {
+          "ai": {
+            "optional": true
+          },
+          "@ai-sdk/xai": {
+            "optional": true
+          },
+          "@ai-sdk/google": {
+            "optional": true
+          },
+          "@ai-sdk/openai": {
+            "optional": true
+          },
+          "@ai-sdk/anthropic": {
+            "optional": true
+          },
+          "@ai-sdk/openai-compatible": {
+            "optional": true
+          }
+        },
+        "dependencies": {},
+        "engines": {
+          "node": "^22.22.3 || >=24.8.0"
+        },
+        "dist": {
+          "tarball": "https://registry.npmjs.org/e2e/-/e2e-0.19.0.tgz",
+          "integrity": "sha512-tTWgVR9tQTeESXkAxCh8H/gR4bGxbSbidw07/GngKT5P5tAPdsJ+bW5bQwIaAL/LUTwIG106V64/oiWLXkS29Q=="
+        }
+      }
+    }
+  },
+  "@e2e-dev/web": {
+    "dist-tags": {
+      "latest": "0.14.0"
+    },
+    "versions": {
+      "0.14.0": {
+        "name": "@e2e-dev/web",
+        "version": "0.14.0",
+        "peerDependencies": {
+          "e2e": ">=0.18.0 <1"
+        },
+        "peerDependenciesMeta": {},
+        "dependencies": {},
+        "engines": {
+          "node": "^22.22.3 || >=24.8.0"
+        },
+        "dist": {
+          "tarball": "https://registry.npmjs.org/@e2e-dev/web/-/web-0.14.0.tgz",
+          "integrity": "sha512-GscnN1Gt3Vj+w6AicDImO64PEO2y6kh49hV1RdOn3YLMcuMIYgE3rET0/A783qUzqLbS0gX+wyLvtfBkMKBTlw=="
+        }
+      }
+    }
+  },
+  "create-convex": {
+    "dist-tags": {
+      "alpha": "0.0.29-alpha.1",
+      "latest": "0.0.47"
+    },
+    "versions": {
+      "0.0.47": {
+        "name": "create-convex",
+        "version": "0.0.47",
+        "author": {
+          "name": "Convex, Inc.",
+          "email": "team@convex.dev"
+        },
+        "license": "Apache-2.0",
+        "_id": "create-convex@0.0.47",
+        "maintainers": [
+          {
+            "name": "cowling",
+            "email": "james@convex.dev"
+          },
+          {
+            "name": "jordanhunt",
+            "email": "jordan@convex.dev"
+          },
+          {
+            "name": "gautamg795",
+            "email": "gautam@convex.dev"
+          },
+          {
+            "name": "emmaling27",
+            "email": "emma@convex.dev"
+          },
+          {
+            "name": "nipunn",
+            "email": "nipunn1313@gmail.com"
+          },
+          {
+            "name": "aritrakh",
+            "email": "aritrakh@gmail.com"
+          },
+          {
+            "name": "ianatconvex",
+            "email": "ian@convex.dev"
+          },
+          {
+            "name": "dowski-convex",
+            "email": "christian@convex.dev"
+          },
+          {
+            "name": "reece-convex",
+            "email": "reece@convex.dev"
+          },
+          {
+            "name": "erquhart",
+            "email": "shawn@erquh.art"
+          },
+          {
+            "name": "sethconvex",
+            "email": "seth@convex.dev"
+          },
+          {
+            "name": "jamwt",
+            "email": "jamwt@convex.dev"
+          },
+          {
+            "name": "nicolapps",
+            "email": "nicolas@ettlin.dev"
+          }
+        ],
+        "homepage": "https://convex.dev",
+        "bugs": {
+          "url": "https://github.com/get-convex/templates/issues"
+        },
+        "bin": {
+          "create-convex": "index.js"
+        },
+        "dist": {
+          "shasum": "7d3ee1f56dbaf30dbf0da29b0588f25eb0d25813",
+          "tarball": "https://registry.npmjs.org/create-convex/-/create-convex-0.0.47.tgz",
+          "fileCount": 6,
+          "integrity": "sha512-BBK6fyBz7R24N/hZvrJcZ+o1frS0NURzzx+4fzydz5l7hkA8SIaL7YERiw2u/G+yq5ZCQKkUuj82Egnn3xnGYQ==",
+          "signatures": [
+            {
+              "sig": "MEQCIDn4tBoUPb9JfiLiKoMxLIY2vckc0Fk2nUMfxNvJk5z+AiBAufZSbjGHYxm1A7fQwRLCFOXPe7GQtg1vjCf09SZsxg==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "unpackedSize": 463905
+        },
+        "type": "module",
+        "engines": {
+          "node": ">=20.0.0"
+        },
+        "gitHead": "a443c2cb9588e0e738ec7fe74603101419069dd0",
+        "scripts": {
+          "dev": "unbuild --stub",
+          "lint": "echo ESLint is not configured",
+          "test": "vitest run --typecheck",
+          "build": "unbuild",
+          "dev:run": "node ./dist/index.mjs",
+          "prepack": "node dont-publish-alpha-as-latest.cjs",
+          "prepare": "patch-package",
+          "dev:test": "vitest --typecheck",
+          "typecheck": "tsc --noEmit",
+          "prepublishOnly": "npm run build"
+        },
+        "_npmUser": {
+          "name": "nicolapps",
+          "email": "nicolas@ettlin.dev"
+        },
+        "repository": {
+          "url": "git+https://github.com/get-convex/templates.git",
+          "type": "git",
+          "directory": "create-convex"
+        },
+        "_npmVersion": "11.11.0",
+        "description": "```bash $ npm create convex@latest ```",
+        "directories": {},
+        "_nodeVersion": "22.22.2",
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "degit": "^3.6.1",
+          "vitest": "^4.1.4",
+          "prompts": "^2.4.2",
+          "unbuild": "^3.6.1",
+          "kolorist": "^1.8.0",
+          "minimist": "^1.2.8",
+          "prettier": "^3.8.3",
+          "cross-spawn": "^7.0.6",
+          "patch-package": "^8.0.1",
+          "@types/prompts": "^2.4.9",
+          "@types/minimist": "^1.2.5",
+          "@types/cross-spawn": "^6.0.6"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/create-convex_0.0.47_1784336408833_0.33105219452896106",
+          "host": "s3://npm-registry-packages-npm-production"
+        }
+      }
+    }
+  },
+  "tailwindcss": {
+    "dist-tags": {
+      "latest": "4.3.3"
+    },
+    "versions": {
+      "4.3.3": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "dist": {
+          "shasum": "c006861611c213c1877893ab5b23daa16be2bb55",
+          "tarball": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz",
+          "fileCount": 34,
+          "integrity": "sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ==",
+          "signatures": [
+            {
+              "sig": "MEQCIBhVHX/RChjUWt77CdssLibpRhMHsS3XWOKLRtP/ibJvAiBt9/qLAVxC6nR+eobWqzs5j/1ztHVMWGH0p/sMFj08bw==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/tailwindcss@4.3.3",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 772893
+        }
+      }
+    }
+  },
+  "@tailwindcss/vite": {
+    "dist-tags": {
+      "latest": "4.3.3"
+    },
+    "versions": {
+      "4.3.3": {
+        "name": "@tailwindcss/vite",
+        "version": "4.3.3",
+        "dist": {
+          "shasum": "1f4037badcb5e6c6bb574d3d8a0172c83f26b97f",
+          "tarball": "https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.3.3.tgz",
+          "fileCount": 5,
+          "integrity": "sha512-yYU8cogLeSh/ms2jh8Fj7jaba/EWa7Ja6GoUqYZaraEuCI5YS6ms6ObZgjjedm+jm6XZjdNRWBpPP6Z86oOxcw==",
+          "signatures": [
+            {
+              "sig": "MEQCIAiPWBXY0DZ2rAkCNr7Cjo7KhJ1O8aq5SFWPTZ/NPJhPAiA0/SteZVX1HoTmrKS0BoaUzk4kzLmst7+D0cvaf8a39g==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@tailwindcss%2fvite@4.3.3",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 13509
+        },
+        "peerDependencies": {
+          "vite": "^5.2.0 || ^6 || ^7 || ^8"
+        },
+        "dependencies": {
+          "tailwindcss": "4.3.3",
+          "@tailwindcss/node": "4.3.3",
+          "@tailwindcss/oxide": "4.3.3"
+        }
+      }
+    }
+  },
+  "shadcn": {
+    "dist-tags": {
+      "latest": "4.21.4"
+    },
+    "versions": {
+      "4.21.4": {
+        "name": "shadcn",
+        "version": "4.21.4",
+        "dist": {
+          "shasum": "32b5aadf994e045c18153a88743d82ddbbe6abfd",
+          "tarball": "https://registry.npmjs.org/shadcn/-/shadcn-4.21.4.tgz",
+          "fileCount": 21,
+          "integrity": "sha512-YYfn/hsHbRH2mGwnKBx9tk+DjTQH+RUMS5iCxjKzwzuJ5uoHPqLOFUCJSeX0sXfrcBSfgQaXiOLGKNLjlIQxxw==",
+          "signatures": [
+            {
+              "sig": "MEYCIQDiZTcZpqIBUsPThNHsn6xtolfZskzaQuB7Qv0EG9X/+QIhAPQ6YtkXRiXXzRL60t6T8520FELqAb3Tg8H/p/6Zu7GS",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIEPEnpSP0Y83wU+SO+IgWJcOPrABhg6Rz9tE0HZdOiNbAiEA3yYanphdQkSBBFj+Fp8eKK86K/Bmfdv6VwO/8MWLc+0="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/shadcn@4.21.4",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 217288
+        },
+        "engines": {
+          "node": ">=20.18.1"
+        },
+        "dependencies": {
+          "cn": "^0.2.4",
+          "ora": "^8.2.0",
+          "zod": "^3.24.1",
+          "diff": "^8.0.2",
+          "open": "^11.0.0",
+          "execa": "^9.6.0",
+          "kleur": "^4.1.5",
+          "socks": "^2.8.8",
+          "dedent": "^1.6.0",
+          "recast": "^0.23.11",
+          "undici": "^7.29.0",
+          "postcss": "^8.5.23",
+          "prompts": "^2.4.2",
+          "fs-extra": "^11.3.1",
+          "ts-morph": "^26.0.0",
+          "commander": "^14.0.0",
+          "deepmerge": "^4.3.1",
+          "fast-glob": "^3.3.3",
+          "fuzzysort": "^3.1.0",
+          "@babel/core": "^7.28.0",
+          "browserslist": "^4.26.2",
+          "@babel/parser": "^7.28.0",
+          "tsconfig-paths": "^4.2.0",
+          "@dotenvx/dotenvx": "^1.48.4",
+          "@shadcn/registry": "0.1.3",
+          "stringify-object": "^5.0.0",
+          "zod-to-json-schema": "^3.24.6",
+          "postcss-selector-parser": "^7.1.3",
+          "@babel/preset-typescript": "^7.27.1",
+          "@modelcontextprotocol/sdk": "^1.26.0",
+          "validate-npm-package-name": "^7.0.1",
+          "@types/validate-npm-package-name": "^4.0.2",
+          "@babel/plugin-transform-typescript": "^7.28.0"
+        }
+      }
+    }
+  },
+  "cn": {
+    "dist-tags": {
+      "latest": "0.4.0"
+    },
+    "versions": {
+      "0.4.0": {
+        "name": "cn",
+        "version": "0.4.0",
+        "dist": {
+          "shasum": "474a2b0799b393a028a30da0917b08b7d99c8800",
+          "tarball": "https://registry.npmjs.org/cn/-/cn-0.4.0.tgz",
+          "fileCount": 54,
+          "integrity": "sha512-qOAeUhPwPzBxx6jaeQdo646XIKliKHc2j1ZF7Ngb1o0pJZKH5gq8FkA0aVdUdPFUDXNXyUCXpCtoJISo6dhizg==",
+          "signatures": [
+            {
+              "sig": "MEUCIQC6kU1FMHHGIoqD2c2FHYsBxOg3EWNWFeU0ikqZXdZaxAIgKqILZGcKbXn99KZ+oV+lhARnCvOQv+s/8sPDKXZBdWI=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIQDphZRrhkdwEhsbDhWkkOE5wz+BCtbfMf8wohSMthkcSgIgHHbQwKb56REp2nyJQ99UKFFqSbmhwsm4+rEpFLSwG0o="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/cn@0.4.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 382671
+        },
+        "engines": {
+          "node": ">=20"
+        }
+      },
+      "0.2.6": {
+        "name": "cn",
+        "version": "0.2.6",
+        "dist": {
+          "shasum": "16e7a9f1746efcb104fbea027806c17810b5ee6a",
+          "tarball": "https://registry.npmjs.org/cn/-/cn-0.2.6.tgz",
+          "fileCount": 34,
+          "integrity": "sha512-+i4L0zUGgRcEnhsxueVrP7iBGxBx5iD0WOTYg1MwFEu2ZyCmH5Ov2V1cul2Ht5UchRQQgftCf4be/RxspuW6QQ==",
+          "signatures": [
+            {
+              "sig": "MEUCICltDKIktF4sI9A4tfGMb/7EijpjcXo2RZyCx3VxjzUXAiEAyIJ0f4hXYrISnyvsqnzBUI/9eAEGQz8vbhjohgdhi0A=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEYCIQDSM3glZMcWj3yNejvo8L2odhXdJFnxsD8TAlQ57wHIxgIhAOQRhy4hztXVwX9xtf0mgB41HAGkAPeS1jARn+VTU9Rh",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/cn@0.2.6",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 331194
+        },
+        "engines": {
+          "node": ">=20"
+        }
+      }
+    }
+  },
+  "class-variance-authority": {
+    "dist-tags": {
+      "latest": "0.7.1"
+    },
+    "versions": {
+      "0.7.1": {
+        "name": "class-variance-authority",
+        "version": "0.7.1",
+        "dist": {
+          "integrity": "sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==",
+          "shasum": "4008a798a0e4553a781a57ac5177c9fb5d043787",
+          "tarball": "https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz",
+          "fileCount": 9,
+          "unpackedSize": 22073,
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIQD8Ow1fDpGJrlJunCUBoC6MmqcGhmiMrjgR/7XLqD+vwQIgJjg1VIoLC6xKrdXZj9wvuoLJmI0erWC7gAeRTTjq9EE="
+            }
+          ]
+        },
+        "dependencies": {
+          "clsx": "^2.1.1"
+        }
+      }
+    }
+  },
+  "lucide-react": {
+    "dist-tags": {
+      "latest": "1.55.0"
+    },
+    "versions": {
+      "1.55.0": {
+        "name": "lucide-react",
+        "version": "1.55.0",
+        "dist": {
+          "shasum": "20d7410a79317ee32e8116fc38c813aba005af10",
+          "tarball": "https://registry.npmjs.org/lucide-react/-/lucide-react-1.55.0.tgz",
+          "fileCount": 4328,
+          "integrity": "sha512-bSozQHiI3/8q7JvgoqVRGOYUi7fYT3siAZwmZsljjsOH2Husp/2ODdFf/leD+ZC/2yKfn7r8oh6yeoR3ITR5vA==",
+          "signatures": [
+            {
+              "sig": "MEUCIQDTlPJxxOwXYWSqb/1DlEso2lOzCphLfj3eaccwncIZQwIgdUm/wKaja2y/rWmhm2ae3JsksewNDfGgHZMdQaF6Ho0=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEYCIQClEkTr22RRx0i1hn1BFQrGm45RsTv2Y925ytErB4sRgQIhALTgSTfpUipFlOfW3U1jz0yhrRlZV0032JvfZtUUmE8d"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/lucide-react@1.55.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 35801694
+        },
+        "peerDependencies": {
+          "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "@types/react": "*"
+        },
+        "peerDependenciesMeta": {
+          "@types/react": {
+            "optional": true
+          }
+        }
+      }
+    }
+  },
+  "tw-animate-css": {
+    "dist-tags": {
+      "latest": "1.4.0"
+    },
+    "versions": {
+      "1.4.0": {
+        "name": "tw-animate-css",
+        "version": "1.4.0",
+        "dist": {
+          "shasum": "b4a06f68244cba39428aa47e65e6e4c0babc21ee",
+          "tarball": "https://registry.npmjs.org/tw-animate-css/-/tw-animate-css-1.4.0.tgz",
+          "fileCount": 5,
+          "integrity": "sha512-7bziOlRqH0hJx80h/3mbicLW7o8qLsH5+RaLR2t+OHM3D0JlWGODQKQ4cxbK7WlvmUxpcj6Kgu6EKqjrGFe3QQ==",
+          "signatures": [
+            {
+              "sig": "MEYCIQDxQcFyYIRfedb9C/BDkkxRtLlPu0fTBQR8hDI6LAI1EwIhAPJmOjYR9rvSe1mC6vP/yaaux+GEJdHZgbI6hLeJ8HRl",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/tw-animate-css@1.4.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 47012
+        }
+      }
+    }
+  },
+  "@base-ui/react": {
+    "dist-tags": {
+      "latest": "1.9.0"
+    },
+    "versions": {
+      "1.9.0": {
+        "name": "@base-ui/react",
+        "version": "1.9.0",
+        "dist": {
+          "shasum": "950dbd8cd4fd6f8d8796fa6a227346115eca8204",
+          "tarball": "https://registry.npmjs.org/@base-ui/react/-/react-1.9.0.tgz",
+          "fileCount": 3451,
+          "integrity": "sha512-S8CSYosASBKtpL8SWUfS78rFElfLijiCgA7oHOK22jCJ95FULsYyKwBNFOgudt0RA+/7yNc7F81bOvQnRgbBiQ==",
+          "signatures": [
+            {
+              "sig": "MEYCIQCydmkCCQlcqWOsNCwsAJxCNwyHh6+/d44amPvZcXHd4wIhALKkvOp5Avmufu4G/OpwTVZOJmewzbM/c2Q0HHMpMfgv",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEYCIQDDsGEH5M+bKkAgfoFVwEEh/CwaTl10+p/oupg7dtaZNAIhAO8udyLkIKDomga2r8xWjb6NBVo6rmtAkHrakSmKtPhU"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@base-ui%2freact@1.9.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 10377319
+        },
+        "engines": {
+          "node": ">=14.0.0"
+        },
+        "peerDependencies": {
+          "react": "^17 || ^18 || ^19",
+          "date-fns": "^4.0.0",
+          "react-dom": "^17 || ^18 || ^19",
+          "@date-fns/tz": "^1.2.0",
+          "@types/react": "^17 || ^18 || ^19"
+        },
+        "peerDependenciesMeta": {
+          "date-fns": {
+            "optional": true
+          },
+          "@date-fns/tz": {
+            "optional": true
+          },
+          "@types/react": {
+            "optional": true
+          }
+        },
+        "dependencies": {
+          "@babel/runtime": "^7.29.7 || ^8.0.0",
+          "@base-ui/utils": "0.5.0",
+          "@floating-ui/utils": "^0.2.12",
+          "@floating-ui/react-dom": "^2.1.9",
+          "use-sync-external-store": "^1.7.0"
+        }
+      }
+    }
+  }
+}

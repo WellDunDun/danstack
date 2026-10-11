@@ -1,0 +1,6 @@
+
+> auth-demo@0.0.0 typecheck
+> tsr generate && tsc --noEmit
+
+(node:63419) Warning: Accessing non-existent property 'replaceRouteChunk' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)

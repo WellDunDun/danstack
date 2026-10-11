@@ -1,0 +1,7 @@
+
+> confect-demo@0.0.0 codegen:local
+> confect codegen
+
+[33m⭘[0m Performing initial sync…
+[33m⚠[0m No tables discovered in `confect/tables/`. Generating an empty schema; add a `Table.make(...)` module under that directory unless this backend is intentionally tables-free.
+[32m✔︎[0m Generated files are up-to-date

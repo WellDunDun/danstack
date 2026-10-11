@@ -1,0 +1,17 @@
+
+> confect-demo@0.0.0 test:ui
+> node scripts/ui-test.mjs
+
+
+ RUN  e2e v0.19.0 /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/confect-demo
+      run 01a12505-2c40-7f4e-a385-0bbafe74d87b · targets: local-web
+
+ ✓ target "local-web" command ready 207ms
+ ✓ |local-web| tests/demo.e2e.ts (1 test) 616ms
+   ✓ local Effect greeting works without a backend or model 616ms
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  11:54:19
+   Duration  1.26s (startup 207ms)
+

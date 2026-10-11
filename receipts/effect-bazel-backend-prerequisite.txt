@@ -1,0 +1,5 @@
+
+> effect-bazel@0.0.0 backend:codegen
+> node scripts/backend-codegen.mjs
+
+BACKEND_PREREQUISITE: No existing Convex deployment is configured. Codegen was not started. Run npm run backend:setup only when you intend authentication/provisioning, then retry.

@@ -1,0 +1,775 @@
+{
+  "action": "plan",
+  "target": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/auth-plan",
+  "files": [
+    ".env.example",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "SHADCN-LICENSE.md",
+    "components.json",
+    "convex.json",
+    "convex/auth.config.ts",
+    "convex/demo.ts",
+    "convex/schema.ts",
+    "e2e.config.ts",
+    "fresh-stack.json",
+    "package.json",
+    "public/convex.svg",
+    "scripts/backend-codegen.mjs",
+    "scripts/check-config.ts",
+    "scripts/ui-test.mjs",
+    "src/app.css",
+    "src/components/AuthPanel.tsx",
+    "src/components/SessionProviders.tsx",
+    "src/components/SessionRevalidator.tsx",
+    "src/components/ui/button.tsx",
+    "src/components/ui/card.tsx",
+    "src/components/ui/input.tsx",
+    "src/lib/auth-boundaries.ts",
+    "src/lib/auth-routes.server.ts",
+    "src/lib/backend.ts",
+    "src/lib/env.server.ts",
+    "src/lib/env.ts",
+    "src/lib/session.ts",
+    "src/lib/utils.ts",
+    "src/router.tsx",
+    "src/routes/__root.tsx",
+    "src/routes/_authenticated.tsx",
+    "src/routes/_authenticated/authenticated.tsx",
+    "src/routes/api/auth/callback.tsx",
+    "src/routes/api/auth/sign-in.tsx",
+    "src/routes/index.tsx",
+    "src/start.ts",
+    "src/vite-env.d.ts",
+    "tests/auth.e2e.ts",
+    "tests/auth.test.ts",
+    "tests/backend.test.ts",
+    "tests/components.test.tsx",
+    "tsconfig.json",
+    "vite.config.ts"
+  ],
+  "resolution": {
+    "schemaVersion": 1,
+    "generator": "fresh-stack@0.1.0",
+    "preset": "tanstack-convex-workos",
+    "e2e": true,
+    "bazel": false,
+    "tanstackRuntime": "rc",
+    "permittedPrereleases": {
+      "h3-v2": "2.0.1-rc.20",
+      "gensync": "1.0.0-beta.2"
+    },
+    "resolvedAt": "2026-10-10T12:16:04.744Z",
+    "registry": "https://registry.npmjs.org",
+    "runtime": {
+      "node": "25.8.1",
+      "npm": "11.11.0"
+    },
+    "policy": "newest compatible published releases within reviewed adapters; stable ordinary packages; explicit reviewed ecosystem prerelease selections; every below-latest selection disclosed",
+    "selectionOrder": [
+      "convex",
+      "@tanstack/react-start",
+      "@workos/authkit-tanstack-react-start",
+      "@workos-inc/node",
+      "@tanstack/react-router",
+      "@tanstack/react-router-ssr-query",
+      "@tanstack/react-query",
+      "@tanstack/query-core",
+      "@convex-dev/react-query",
+      "react",
+      "react-dom",
+      "@base-ui/react",
+      "cn",
+      "class-variance-authority",
+      "lucide-react",
+      "tw-animate-css",
+      "vite",
+      "typescript",
+      "@types/node",
+      "tsx",
+      "convex-test",
+      "@tanstack/router-cli",
+      "@vitejs/plugin-react",
+      "vite-tsconfig-paths",
+      "dotenv",
+      "@types/react",
+      "@types/react-dom",
+      "tailwindcss",
+      "@tailwindcss/vite",
+      "shadcn",
+      "e2e",
+      "@e2e-dev/web",
+      "create-convex"
+    ],
+    "selections": [
+      {
+        "name": "@workos-inc/node",
+        "selected": "10.14.0",
+        "latestEligible": "11.0.0",
+        "distTagLatest": "11.0.0",
+        "reasons": [
+          {
+            "kind": "peer",
+            "name": "@workos/authkit-tanstack-react-start",
+            "version": "0.11.1",
+            "peer": "@workos-inc/node",
+            "range": "^10.7.0",
+            "selected": "11.0.0",
+            "available": [
+              "11.0.0"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "cn",
+        "selected": "0.2.6",
+        "latestEligible": "0.4.0",
+        "distTagLatest": "0.4.0",
+        "reasons": [
+          {
+            "kind": "dependency",
+            "name": "shadcn",
+            "version": "4.21.4",
+            "peer": "cn",
+            "range": "^0.2.4",
+            "selected": "0.4.0",
+            "available": [
+              "0.4.0"
+            ]
+          }
+        ]
+      }
+    ],
+    "groups": {
+      "dependencies": [
+        "convex",
+        "@tanstack/react-start",
+        "@workos/authkit-tanstack-react-start",
+        "@workos-inc/node",
+        "@tanstack/react-router",
+        "@tanstack/react-router-ssr-query",
+        "@tanstack/react-query",
+        "@tanstack/query-core",
+        "@convex-dev/react-query",
+        "react",
+        "react-dom",
+        "@base-ui/react",
+        "cn",
+        "class-variance-authority",
+        "lucide-react",
+        "tw-animate-css"
+      ],
+      "devDependencies": [
+        "vite",
+        "typescript",
+        "@types/node",
+        "tsx",
+        "convex-test",
+        "@tanstack/router-cli",
+        "@vitejs/plugin-react",
+        "vite-tsconfig-paths",
+        "dotenv",
+        "@types/react",
+        "@types/react-dom",
+        "tailwindcss",
+        "@tailwindcss/vite",
+        "shadcn",
+        "e2e",
+        "@e2e-dev/web"
+      ],
+      "tools": [
+        "create-convex"
+      ]
+    },
+    "packages": {
+      "convex": {
+        "version": "1.46.0",
+        "integrity": "sha512-dhBwDQTZDOhi5SUGAX17EWNehCdNq6/UFrSL0eLZuGfMkdsQbCVWVRZCzbZ5CF+/pgvoGxtApbEoTSipqL4JTw==",
+        "tarball": "https://registry.npmjs.org/convex/-/convex-1.46.0.tgz",
+        "engines": {
+          "npm": ">=7.0.0",
+          "node": ">=20.0.0"
+        },
+        "peers": {
+          "react": "^18.0.0 || ^19.0.0-0 || ^19.0.0",
+          "@clerk/react": "^6.4.3",
+          "@auth0/auth0-react": "^2.0.1",
+          "@clerk/clerk-react": "^4.12.8 || ^5.0.0"
+        },
+        "optionalPeers": [
+          "react",
+          "@clerk/react",
+          "@auth0/auth0-react",
+          "@clerk/clerk-react"
+        ],
+        "dependencies": {},
+        "latestEligible": "1.46.0",
+        "distTagLatest": "1.46.0"
+      },
+      "@tanstack/react-start": {
+        "version": "1.168.61",
+        "integrity": "sha512-qZdnI9Hug445JN5dEpq5aIVGqu6YVSmKOE3rw82ugJ9D65Kd7SWvP9/4M6jAo+P3qX1y6RtGuD3ascVxB0WIgQ==",
+        "tarball": "https://registry.npmjs.org/@tanstack/react-start/-/react-start-1.168.61.tgz",
+        "engines": {
+          "node": ">=22.12.0"
+        },
+        "peers": {
+          "vite": ">=7.0.0",
+          "react": ">=18.0.0 || >=19.0.0",
+          "react-dom": ">=18.0.0 || >=19.0.0",
+          "@rsbuild/core": "^2.0.0"
+        },
+        "optionalPeers": [
+          "vite",
+          "@rsbuild/core",
+          "@vitejs/plugin-rsc"
+        ],
+        "dependencies": {
+          "@tanstack/react-router": "1.170.42"
+        },
+        "latestEligible": "1.168.61",
+        "distTagLatest": "1.168.61"
+      },
+      "@workos/authkit-tanstack-react-start": {
+        "version": "0.11.1",
+        "integrity": "sha512-Fep4gR7W9Op6tHnFMMO57UZacMdgT7FPpSPqST/D6Ot/wShVNbaWPlotZbdvSznyb/R86LzSBEJV7xlBEfNLcw==",
+        "tarball": "https://registry.npmjs.org/@workos/authkit-tanstack-react-start/-/authkit-tanstack-react-start-0.11.1.tgz",
+        "engines": {
+          "node": ">=22.11.0"
+        },
+        "peers": {
+          "react": "^18.0 || ^19.0",
+          "react-dom": "^18.0 || ^19.0",
+          "@workos-inc/node": "^10.7.0",
+          "@tanstack/react-start": ">=1.168.25",
+          "@tanstack/react-router": ">=1.0.0"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "0.11.1",
+        "distTagLatest": "0.11.1"
+      },
+      "@workos-inc/node": {
+        "version": "10.14.0",
+        "integrity": "sha512-SnY9OHTzTyOmgJQj9+/6x116m+d+zJoQw5e8teNWKUuGe8FOKngVdBXRvZgdFxaL+3UfQbMlp95V67t43VYOWQ==",
+        "tarball": "https://registry.npmjs.org/@workos-inc/node/-/node-10.14.0.tgz",
+        "engines": {
+          "node": ">=22.11.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "11.0.0",
+        "distTagLatest": "11.0.0"
+      },
+      "@tanstack/react-router": {
+        "version": "1.170.42",
+        "integrity": "sha512-4wBptX7DRvc+v/XQ0MxL9rKlmSFb0ob3tSEZWF4ssSl1DD+1HAofWM3HwSn9liQN0r7e00qiv5WQMp6rObOc1g==",
+        "tarball": "https://registry.npmjs.org/@tanstack/react-router/-/react-router-1.170.42.tgz",
+        "engines": {
+          "node": ">=20.19"
+        },
+        "peers": {
+          "react": ">=18.0.0 || >=19.0.0",
+          "react-dom": ">=18.0.0 || >=19.0.0"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "1.170.42",
+        "distTagLatest": "1.170.42"
+      },
+      "@tanstack/react-router-ssr-query": {
+        "version": "1.167.3",
+        "integrity": "sha512-HA0pxuPuhU+rwoe+z1Xcbytuoo6ZbcROpgNgNSm38s3/hGLmgzOBLzDg+Vyx6ex26QilnPbZ+5Ypet5mImm9bQ==",
+        "tarball": "https://registry.npmjs.org/@tanstack/react-router-ssr-query/-/react-router-ssr-query-1.167.3.tgz",
+        "engines": {
+          "node": ">=20.19"
+        },
+        "peers": {
+          "react": ">=18.0.0 || >=19.0.0",
+          "react-dom": ">=18.0.0 || >=19.0.0",
+          "@tanstack/query-core": ">=5.102.0",
+          "@tanstack/react-query": ">=5.102.0",
+          "@tanstack/react-router": ">=1.170.33"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "1.167.3",
+        "distTagLatest": "1.167.3"
+      },
+      "@tanstack/react-query": {
+        "version": "5.104.1",
+        "integrity": "sha512-Zz70EgjahNI7aCz8BZxM3vUGU44ycxEAzMuCUjLeA7SVhhOkg3ZgPjPJPvHjs6Rmky/dtmnu1WzjGHNHmhCoZQ==",
+        "tarball": "https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.104.1.tgz",
+        "engines": {},
+        "peers": {
+          "react": "^18 || ^19"
+        },
+        "optionalPeers": [],
+        "dependencies": {
+          "@tanstack/query-core": "5.104.1"
+        },
+        "latestEligible": "5.104.1",
+        "distTagLatest": "5.104.1"
+      },
+      "@tanstack/query-core": {
+        "version": "5.104.1",
+        "integrity": "sha512-TiRghcrGkUTE+M4JBxvpPSpBhxvIzQairw+cksrHYGr+2uwC77yW1SY9nYxnYRYOppvucf8rEg6b5byoz4rTpw==",
+        "tarball": "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.104.1.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "5.104.1",
+        "distTagLatest": "5.104.1"
+      },
+      "@convex-dev/react-query": {
+        "version": "0.1.0",
+        "integrity": "sha512-ULmBZCtAQDUePdBhUv7hj1Yy4QiCelhi6uEIOtMpjW8db6W9CFKvQwLt9heLngccFyMFfAZdOfSrT+cP4AH0Jw==",
+        "tarball": "https://registry.npmjs.org/@convex-dev/react-query/-/react-query-0.1.0.tgz",
+        "engines": {},
+        "peers": {
+          "convex": "^1.29.3",
+          "@tanstack/react-query": "^5.0.0"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "0.1.0",
+        "distTagLatest": "0.1.0"
+      },
+      "react": {
+        "version": "19.3.0",
+        "integrity": "sha512-E8LUcbtBWt20bbl2YoHfx4ZDBdxVTfOKtCZn9cDSJ4l6/nuoApcpIBcj47t2wZoVX8g2ZHuMHbiShgCR1T5Sog==",
+        "tarball": "https://registry.npmjs.org/react/-/react-19.3.0.tgz",
+        "engines": {
+          "node": ">=0.10.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "19.3.0",
+        "distTagLatest": "19.3.0"
+      },
+      "react-dom": {
+        "version": "19.3.0",
+        "integrity": "sha512-JDk8dgif51OjFoDE70+OT9ICyYr+69HlmihNwp1+Nsfbna3t5sIiCa9ZJktDmQ4/1b/rn26hIAR2uYXDMr5r0Q==",
+        "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz",
+        "engines": {},
+        "peers": {
+          "react": "^19.3.0"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "19.3.0",
+        "distTagLatest": "19.3.0"
+      },
+      "@base-ui/react": {
+        "version": "1.9.0",
+        "integrity": "sha512-S8CSYosASBKtpL8SWUfS78rFElfLijiCgA7oHOK22jCJ95FULsYyKwBNFOgudt0RA+/7yNc7F81bOvQnRgbBiQ==",
+        "tarball": "https://registry.npmjs.org/@base-ui/react/-/react-1.9.0.tgz",
+        "engines": {
+          "node": ">=14.0.0"
+        },
+        "peers": {
+          "react": "^17 || ^18 || ^19",
+          "date-fns": "^4.0.0",
+          "react-dom": "^17 || ^18 || ^19",
+          "@date-fns/tz": "^1.2.0",
+          "@types/react": "^17 || ^18 || ^19"
+        },
+        "optionalPeers": [
+          "date-fns",
+          "@date-fns/tz",
+          "@types/react"
+        ],
+        "dependencies": {},
+        "latestEligible": "1.9.0",
+        "distTagLatest": "1.9.0"
+      },
+      "cn": {
+        "version": "0.2.6",
+        "integrity": "sha512-+i4L0zUGgRcEnhsxueVrP7iBGxBx5iD0WOTYg1MwFEu2ZyCmH5Ov2V1cul2Ht5UchRQQgftCf4be/RxspuW6QQ==",
+        "tarball": "https://registry.npmjs.org/cn/-/cn-0.2.6.tgz",
+        "engines": {
+          "node": ">=20"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "0.4.0",
+        "distTagLatest": "0.4.0"
+      },
+      "class-variance-authority": {
+        "version": "0.7.1",
+        "integrity": "sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==",
+        "tarball": "https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "0.7.1",
+        "distTagLatest": "0.7.1"
+      },
+      "lucide-react": {
+        "version": "1.55.0",
+        "integrity": "sha512-bSozQHiI3/8q7JvgoqVRGOYUi7fYT3siAZwmZsljjsOH2Husp/2ODdFf/leD+ZC/2yKfn7r8oh6yeoR3ITR5vA==",
+        "tarball": "https://registry.npmjs.org/lucide-react/-/lucide-react-1.55.0.tgz",
+        "engines": {},
+        "peers": {
+          "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+          "@types/react": "*"
+        },
+        "optionalPeers": [
+          "@types/react"
+        ],
+        "dependencies": {},
+        "latestEligible": "1.55.0",
+        "distTagLatest": "1.55.0"
+      },
+      "tw-animate-css": {
+        "version": "1.4.0",
+        "integrity": "sha512-7bziOlRqH0hJx80h/3mbicLW7o8qLsH5+RaLR2t+OHM3D0JlWGODQKQ4cxbK7WlvmUxpcj6Kgu6EKqjrGFe3QQ==",
+        "tarball": "https://registry.npmjs.org/tw-animate-css/-/tw-animate-css-1.4.0.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "1.4.0",
+        "distTagLatest": "1.4.0"
+      },
+      "vite": {
+        "version": "8.3.4",
+        "integrity": "sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==",
+        "tarball": "https://registry.npmjs.org/vite/-/vite-8.3.4.tgz",
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "peers": {
+          "tsx": "^4.8.1",
+          "jiti": ">=1.21.0",
+          "less": "^4.0.0",
+          "sass": "^1.70.0",
+          "yaml": "^2.4.2",
+          "stylus": ">=0.54.8",
+          "terser": "^5.16.0",
+          "esbuild": "^0.27.0 || ^0.28.0",
+          "sugarss": "^5.0.0",
+          "@types/node": "^20.19.0 || >=22.12.0",
+          "sass-embedded": "^1.70.0",
+          "@vitejs/devtools": "^0.7.1"
+        },
+        "optionalPeers": [
+          "tsx",
+          "jiti",
+          "less",
+          "sass",
+          "yaml",
+          "stylus",
+          "terser",
+          "esbuild",
+          "sugarss",
+          "@types/node",
+          "sass-embedded",
+          "@vitejs/devtools"
+        ],
+        "dependencies": {},
+        "latestEligible": "8.3.4",
+        "distTagLatest": "8.3.4"
+      },
+      "typescript": {
+        "version": "7.0.2",
+        "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+        "tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+        "engines": {
+          "node": ">=16.20.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "7.0.2",
+        "distTagLatest": "7.0.2"
+      },
+      "@types/node": {
+        "version": "26.6.5",
+        "integrity": "sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==",
+        "tarball": "https://registry.npmjs.org/@types/node/-/node-26.6.5.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "26.6.5",
+        "distTagLatest": "26.6.5"
+      },
+      "tsx": {
+        "version": "4.23.15",
+        "integrity": "sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==",
+        "tarball": "https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz",
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "4.23.15",
+        "distTagLatest": "4.23.15"
+      },
+      "convex-test": {
+        "version": "0.0.61",
+        "integrity": "sha512-uYKCFk9+iu8jJB7TW3BHm3EAM6yPoXERoLHGiomhgUwuTLdSUjOk9SYnnnDc1UA1MQrMPYfUFSp+0+GWyFREng==",
+        "tarball": "https://registry.npmjs.org/convex-test/-/convex-test-0.0.61.tgz",
+        "engines": {},
+        "peers": {
+          "convex": "^1.43.0"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "0.0.61",
+        "distTagLatest": "0.0.61"
+      },
+      "@tanstack/router-cli": {
+        "version": "1.167.41",
+        "integrity": "sha512-hi9lqsq9dS6sFWYS642BdQmW/ZFsIj3Ava8wElgAo8czCNZrE12BMFPCS0j4legpCMH8pVJrSCORvdYbIlQVAA==",
+        "tarball": "https://registry.npmjs.org/@tanstack/router-cli/-/router-cli-1.167.41.tgz",
+        "engines": {
+          "node": ">=20.19"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "1.167.41",
+        "distTagLatest": "1.167.41"
+      },
+      "@vitejs/plugin-react": {
+        "version": "6.1.2",
+        "integrity": "sha512-fhJNGUdscQa4HkI0xFxwonWyhnVReCPDbXI7FH7jmzpnVCrFQI7PRrhWecO263610vOrs9tr2Y4xcf8uAdFxbw==",
+        "tarball": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.1.2.tgz",
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "peers": {
+          "vite": "^8.0.0",
+          "oxc-transform-react": "^0.152.0",
+          "@rolldown/plugin-babel": "^0.1.7 || ^0.2.0",
+          "babel-plugin-react-compiler": "^1.0.0"
+        },
+        "optionalPeers": [
+          "oxc-transform-react",
+          "@rolldown/plugin-babel",
+          "babel-plugin-react-compiler"
+        ],
+        "dependencies": {},
+        "latestEligible": "6.1.2",
+        "distTagLatest": "6.1.2"
+      },
+      "vite-tsconfig-paths": {
+        "version": "6.1.1",
+        "integrity": "sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==",
+        "tarball": "https://registry.npmjs.org/vite-tsconfig-paths/-/vite-tsconfig-paths-6.1.1.tgz",
+        "engines": {},
+        "peers": {
+          "vite": "*"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "6.1.1",
+        "distTagLatest": "6.1.1"
+      },
+      "dotenv": {
+        "version": "18.0.7",
+        "integrity": "sha512-QEvMEF8ca3GNZJJnAbOgxpj5ULhBvnMcURp+XKrtvqFNPgjBvYoswQ0Jl2cO7JzCjxZjJhr9ZuIEhlrRxMft/Q==",
+        "tarball": "https://registry.npmjs.org/dotenv/-/dotenv-18.0.7.tgz",
+        "engines": {
+          "node": ">=12"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "18.0.7",
+        "distTagLatest": "18.0.7"
+      },
+      "@types/react": {
+        "version": "19.3.0",
+        "integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+        "tarball": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "19.3.0",
+        "distTagLatest": "19.3.0"
+      },
+      "@types/react-dom": {
+        "version": "19.3.0",
+        "integrity": "sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==",
+        "tarball": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+        "engines": {},
+        "peers": {
+          "@types/react": "^19.3.0"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "19.3.0",
+        "distTagLatest": "19.3.0"
+      },
+      "tailwindcss": {
+        "version": "4.3.3",
+        "integrity": "sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ==",
+        "tarball": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "4.3.3",
+        "distTagLatest": "4.3.3"
+      },
+      "@tailwindcss/vite": {
+        "version": "4.3.3",
+        "integrity": "sha512-yYU8cogLeSh/ms2jh8Fj7jaba/EWa7Ja6GoUqYZaraEuCI5YS6ms6ObZgjjedm+jm6XZjdNRWBpPP6Z86oOxcw==",
+        "tarball": "https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.3.3.tgz",
+        "engines": {},
+        "peers": {
+          "vite": "^5.2.0 || ^6 || ^7 || ^8"
+        },
+        "optionalPeers": [],
+        "dependencies": {
+          "tailwindcss": "4.3.3"
+        },
+        "latestEligible": "4.3.3",
+        "distTagLatest": "4.3.3"
+      },
+      "shadcn": {
+        "version": "4.21.4",
+        "integrity": "sha512-YYfn/hsHbRH2mGwnKBx9tk+DjTQH+RUMS5iCxjKzwzuJ5uoHPqLOFUCJSeX0sXfrcBSfgQaXiOLGKNLjlIQxxw==",
+        "tarball": "https://registry.npmjs.org/shadcn/-/shadcn-4.21.4.tgz",
+        "engines": {
+          "node": ">=20.18.1"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {
+          "cn": "^0.2.4"
+        },
+        "latestEligible": "4.21.4",
+        "distTagLatest": "4.21.4"
+      },
+      "e2e": {
+        "version": "0.19.0",
+        "integrity": "sha512-tTWgVR9tQTeESXkAxCh8H/gR4bGxbSbidw07/GngKT5P5tAPdsJ+bW5bQwIaAL/LUTwIG106V64/oiWLXkS29Q==",
+        "tarball": "https://registry.npmjs.org/e2e/-/e2e-0.19.0.tgz",
+        "engines": {
+          "node": "^22.22.3 || >=24.8.0"
+        },
+        "peers": {
+          "ai": "^7.0.0",
+          "@ai-sdk/xai": "^5.0.0",
+          "@ai-sdk/google": "^4.0.0",
+          "@ai-sdk/openai": "^4.0.0",
+          "@ai-sdk/anthropic": "^4.0.0",
+          "@ai-sdk/openai-compatible": "^3.0.0"
+        },
+        "optionalPeers": [
+          "ai",
+          "@ai-sdk/xai",
+          "@ai-sdk/google",
+          "@ai-sdk/openai",
+          "@ai-sdk/anthropic",
+          "@ai-sdk/openai-compatible"
+        ],
+        "dependencies": {},
+        "latestEligible": "0.19.0",
+        "distTagLatest": "0.19.0"
+      },
+      "@e2e-dev/web": {
+        "version": "0.14.0",
+        "integrity": "sha512-GscnN1Gt3Vj+w6AicDImO64PEO2y6kh49hV1RdOn3YLMcuMIYgE3rET0/A783qUzqLbS0gX+wyLvtfBkMKBTlw==",
+        "tarball": "https://registry.npmjs.org/@e2e-dev/web/-/web-0.14.0.tgz",
+        "engines": {
+          "node": "^22.22.3 || >=24.8.0"
+        },
+        "peers": {
+          "e2e": ">=0.18.0 <1"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "0.14.0",
+        "distTagLatest": "0.14.0"
+      },
+      "create-convex": {
+        "version": "0.0.47",
+        "integrity": "sha512-BBK6fyBz7R24N/hZvrJcZ+o1frS0NURzzx+4fzydz5l7hkA8SIaL7YERiw2u/G+yq5ZCQKkUuj82Egnn3xnGYQ==",
+        "tarball": "https://registry.npmjs.org/create-convex/-/create-convex-0.0.47.tgz",
+        "engines": {
+          "node": ">=20.0.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "0.0.47",
+        "distTagLatest": "0.0.47"
+      }
+    },
+    "scaffold": {
+      "repository": "https://github.com/get-convex/templates",
+      "template": "template-tanstack-start-authkit",
+      "branch": "main",
+      "commit": "59d5f70771deb5480aa73d133039d8b767827b63",
+      "tree": "b551b5ed78a4dc952c4f1b3c4459019edcfa468a",
+      "command": "npm create convex@latest my-app -- -t tanstack-start-authkit",
+      "files": {
+        "LICENSE": "ee94cd3d5a0d85ff9dcd0a5b06aa6885eeee1c8a",
+        "package.json": "82adb3fd2335576930b88eb97f7eb314273a175d",
+        "tsconfig.json": "2bc209230c71d7457ade0044e737daf517b1094d",
+        "vite.config.ts": "2343436a95dcfd7497f919a9959041b013b90f4e",
+        "public/convex.svg": "7d70c4de1ad0aee6d319979d3210911e58b96465",
+        "src/router.tsx": "adc10d5e80b5ddfece82554a7d81c3c5e0cf8595",
+        "src/start.ts": "d29c1ec7acc1fca1c35528693d9c5737a5e1fb3f",
+        "src/vite-env.d.ts": "37b68702b4f7b8800526b5ed17b316e3b88863b9",
+        "src/app.css": "9e661b89465adeed20a9a75ea14cdb13637c3b0e",
+        "src/routeTree.gen.ts": "e819f8c69d553f092db55cc233677d87802248f0",
+        "src/routes/__root.tsx": "3d1dd2fb86f66af78fb62c82bc0c3dee2c51693e",
+        "src/routes/index.tsx": "6fd78f52f975b24a4b3332c45d79c65b62daf9f3",
+        "src/routes/_authenticated.tsx": "60a1d787f2c2a416b40464131913fa3289160f2b",
+        "src/routes/_authenticated/authenticated.tsx": "078bb6d659c99d3b538154aa76cec661b29a7db3",
+        "src/routes/sign-in.tsx": "21e1726b131b630e122f714241798a8ed191dacb",
+        "src/routes/sign-up.tsx": "aeaa98d0be333fe6504cd7a9db336eba473afc26",
+        "src/routes/callback.tsx": "9508cfd937e97b18bd4462dd094112d7805a8f11",
+        "convex/schema.ts": "37d65a97173967b08b7873eee8fd779bbd95fd93",
+        "convex/auth.config.ts": "c5186d3373f92b74bada65827d70c6b370b8eae8",
+        "convex/convex.config.ts": "fc0771e3481e9366607ca3ed5c08409c232d28ad",
+        "convex/myFunctions.ts": "359977fa0e72168129349b9d0ae7bcfef7d09ee3",
+        "convex/tsconfig.json": "96f58d9bf5e1429924e0beef27aca9626b7b8e46"
+      },
+      "policy": "read verified Git blobs as data; no upstream initializer, scripts, generated backend, auth provisioning or deployment configuration executed"
+    },
+    "ui": {
+      "style": "base-nova",
+      "readAt": "2026-10-10T12:16:11.582Z",
+      "components": [
+        {
+          "name": "button",
+          "url": "https://ui.shadcn.com/r/styles/base-nova/button.json",
+          "sha256": "313353436d0fcc8e44ab470adb614b9fd013d28626f624328ea0d66d41a6c81b",
+          "target": "src/components/ui/button.tsx"
+        },
+        {
+          "name": "card",
+          "url": "https://ui.shadcn.com/r/styles/base-nova/card.json",
+          "sha256": "645c3d73e387a99f1492220cc619453b0c7f5454134ee3cd548be7a80f7eccde",
+          "target": "src/components/ui/card.tsx"
+        },
+        {
+          "name": "input",
+          "url": "https://ui.shadcn.com/r/styles/base-nova/input.json",
+          "sha256": "dab990dfefa0ba78854ab6602ad074270dba9d7d1262184d9bfbb62bd990903b",
+          "target": "src/components/ui/input.tsx"
+        }
+      ],
+      "policy": "current official registry data; exact audited executable source; fixed local targets; no init/add execution, registry dependencies, config/env writes or remote scripts"
+    }
+  },
+  "next": [
+    "fresh-stack install auth-plan"
+  ]
+}

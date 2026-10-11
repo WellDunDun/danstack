@@ -1,0 +1,21 @@
+
+> alchemy-bazel-ui@0.0.0 bazel:test
+> node scripts/bazel.mjs test //:unit //:typecheck
+
+//:typecheck                                                             PASSED in 0.5s
+//:unit                                                                  PASSED in 0.5s
+
+Executed 2 out of 2 tests: 2 tests pass.
+There were tests whose specified size is too big. Use the --test_verbose_timeout_warnings command line option to see which ones these are.
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+
+INFO: Analyzed 2 targets (0 packages loaded, 0 targets configured).
+[5 / 6] 1 / 2 tests; Testing //:typecheck; 1s darwin-sandbox
+INFO: Found 2 test targets...
+INFO: Elapsed time: 1.776s, Critical Path: 1.32s
+INFO: 6 processes: 3 internal, 5 darwin-sandbox.
+INFO: Build completed successfully, 6 total actions

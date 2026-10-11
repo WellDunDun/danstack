@@ -1,0 +1,18 @@
+{
+  "priorObservedAt": "2026-10-10T09:50:48.262Z",
+  "replayedAt": "2026-10-10T10:08:20.667Z",
+  "versions": {
+    "effect": "4.0.2",
+    "alchemy": "2.0.0-beta.81",
+    "@effect/platform-node": "4.0.2",
+    "redis": "6.3.0",
+    "vite": "8.3.4",
+    "typescript": "7.0.2",
+    "@types/node": "26.6.5",
+    "tsx": "4.23.15",
+    "create-vite": "9.2.1",
+    "@alchemy.run/cloudflare-runtime": "2.0.0-beta.81",
+    "@distilled.cloud/cloudflare": "1.0.0-rc.13"
+  },
+  "productionFallback": false
+}

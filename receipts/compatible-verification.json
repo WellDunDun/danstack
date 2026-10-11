@@ -1,0 +1,712 @@
+{
+  "verifiedAt": "2026-10-10T10:31:22.698Z",
+  "passed": true,
+  "currentLiveGeneration": true,
+  "snapshotReplay": false,
+  "dryRunDestinationAbsent": true,
+  "resolution": {
+    "schemaVersion": 1,
+    "generator": "fresh-stack@0.1.0",
+    "preset": "cloudflare-alchemy",
+    "e2e": true,
+    "bazel": true,
+    "alchemyChannel": "beta",
+    "resolvedAt": "2026-10-10T10:29:02.893Z",
+    "registry": "https://registry.npmjs.org",
+    "runtime": {
+      "node": "25.8.1",
+      "npm": "11.11.0"
+    },
+    "policy": "newest compatible published releases within reviewed adapters; stable ordinary packages; explicit Alchemy ecosystem channel; every below-latest selection disclosed",
+    "selectionOrder": [
+      "effect",
+      "alchemy",
+      "@alchemy.run/cloudflare-runtime",
+      "@distilled.cloud/cloudflare",
+      "@effect/platform-node",
+      "@effect/platform-node-shared",
+      "@effect/sql-d1",
+      "@effect/sql-sqlite-do",
+      "redis",
+      "vite",
+      "typescript",
+      "@types/node",
+      "tsx",
+      "e2e",
+      "@e2e-dev/web",
+      "create-vite"
+    ],
+    "selections": [
+      {
+        "name": "@effect/platform-node",
+        "selected": "4.0.2",
+        "latestEligible": "4.0.3",
+        "distTagLatest": "4.0.3",
+        "reasons": [
+          {
+            "kind": "peer",
+            "name": "@effect/platform-node",
+            "version": "4.0.3",
+            "peer": "effect",
+            "range": "^4.0.3",
+            "selected": "4.0.2",
+            "available": [
+              "4.0.2"
+            ]
+          },
+          {
+            "kind": "dependency",
+            "name": "@effect/platform-node",
+            "version": "4.0.3",
+            "peer": "@effect/platform-node-shared",
+            "range": "^4.0.3",
+            "selected": "4.0.2",
+            "available": [
+              "4.0.2"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "@effect/platform-node-shared",
+        "selected": "4.0.2",
+        "latestEligible": "4.0.3",
+        "distTagLatest": "4.0.3",
+        "reasons": [
+          {
+            "kind": "peer",
+            "name": "@effect/platform-node-shared",
+            "version": "4.0.3",
+            "peer": "effect",
+            "range": "^4.0.3",
+            "selected": "4.0.2",
+            "available": [
+              "4.0.2"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "@effect/sql-d1",
+        "selected": "4.0.2",
+        "latestEligible": "4.0.3",
+        "distTagLatest": "4.0.3",
+        "reasons": [
+          {
+            "kind": "peer",
+            "name": "@effect/sql-d1",
+            "version": "4.0.3",
+            "peer": "effect",
+            "range": "^4.0.3",
+            "selected": "4.0.2",
+            "available": [
+              "4.0.2"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "@effect/sql-sqlite-do",
+        "selected": "4.0.2",
+        "latestEligible": "4.0.3",
+        "distTagLatest": "4.0.3",
+        "reasons": [
+          {
+            "kind": "peer",
+            "name": "@effect/sql-sqlite-do",
+            "version": "4.0.3",
+            "peer": "effect",
+            "range": "^4.0.3",
+            "selected": "4.0.2",
+            "available": [
+              "4.0.2"
+            ]
+          }
+        ]
+      }
+    ],
+    "groups": {
+      "dependencies": [
+        "effect",
+        "alchemy",
+        "@alchemy.run/cloudflare-runtime",
+        "@distilled.cloud/cloudflare",
+        "@effect/platform-node",
+        "@effect/platform-node-shared",
+        "@effect/sql-d1",
+        "@effect/sql-sqlite-do",
+        "redis"
+      ],
+      "devDependencies": [
+        "vite",
+        "typescript",
+        "@types/node",
+        "tsx",
+        "e2e",
+        "@e2e-dev/web"
+      ],
+      "tools": [
+        "create-vite"
+      ]
+    },
+    "packages": {
+      "effect": {
+        "version": "4.0.2",
+        "integrity": "sha512-YeYnLqSFrL4+tCOXRrfNP03w8FILoF/wDl+ukraJAGzXrjcS383W7LAAvGBbLatEyktmLxRq+9xJinx7QzXW5A==",
+        "tarball": "https://registry.npmjs.org/effect/-/effect-4.0.2.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "4.0.2",
+        "distTagLatest": "4.0.2"
+      },
+      "alchemy": {
+        "version": "2.0.0-beta.81",
+        "integrity": "sha512-AxEUQSYSln9NgZMuYnSz9Q7ERR8BrKrGpx9vOwJtWity7Ze8/7vI4k62u2EAoJRpBbaOTnI2Bp67Au1y9J7FTA==",
+        "tarball": "https://registry.npmjs.org/alchemy/-/alchemy-2.0.0-beta.81.tgz",
+        "engines": {},
+        "peers": {
+          "pg": "^8.22.0",
+          "ws": "^8.21.0",
+          "vite": "^8.0.7",
+          "effect": "^4.0.0",
+          "mysql2": "^3.24.2",
+          "prisma": "8.0.0-rc.15",
+          "mongodb": "^6.10.0",
+          "@vercel/nft": "^1.10.2",
+          "drizzle-kit": "1.0.0-rc.5-ab785fc",
+          "drizzle-orm": "1.0.0-rc.5-ab785fc",
+          "@effect/sql-pg": "^4.0.0",
+          "@effect/vitest": "^4.0.0",
+          "@effect/sql-mysql2": "^4.0.0",
+          "@effect/platform-bun": "^4.0.0",
+          "@prisma/orm-postgres": "8.0.0-rc.11",
+          "@effect/platform-node": "^4.0.0",
+          "@aws/durable-execution-sdk-js": "^2.1.0",
+          "@alchemy.run/frontend-frameworks": "2.0.0-beta.81"
+        },
+        "optionalPeers": [
+          "pg",
+          "ws",
+          "vite",
+          "mysql2",
+          "prisma",
+          "mongodb",
+          "@vercel/nft",
+          "drizzle-kit",
+          "drizzle-orm",
+          "@effect/sql-pg",
+          "@effect/vitest",
+          "@effect/sql-mysql2",
+          "@effect/platform-bun",
+          "@prisma/orm-postgres",
+          "@effect/platform-node",
+          "@aws/durable-execution-sdk-js",
+          "@alchemy.run/frontend-frameworks"
+        ],
+        "dependencies": {
+          "@effect/sql-d1": "^4.0.0",
+          "@effect/sql-sqlite-do": "^4.0.0",
+          "@distilled.cloud/cloudflare": "1.0.0-rc.13",
+          "@alchemy.run/cloudflare-runtime": "2.0.0-beta.81"
+        },
+        "latestEligible": "2.0.0-beta.81",
+        "distTagLatest": "2.0.0-beta.81"
+      },
+      "@alchemy.run/cloudflare-runtime": {
+        "version": "2.0.0-beta.81",
+        "integrity": "sha512-gGmshJZSFbeyK94UMRgRcrE0prwJrp3H3kQ8aZmGOuWzwJMMxaoCuf4Nulf8nGsvHcjMEAfFi45AXRRQBgbgQQ==",
+        "tarball": "https://registry.npmjs.org/@alchemy.run/cloudflare-runtime/-/cloudflare-runtime-2.0.0-beta.81.tgz",
+        "engines": {},
+        "peers": {
+          "vite": "^7.0.0 || ^8.0.0",
+          "effect": "^4.0.0",
+          "rolldown": "1.2.5",
+          "@effect/platform-bun": "^4.0.0",
+          "@effect/platform-node": "^4.0.0",
+          "@distilled.cloud/cloudflare": "1.0.0-rc.13"
+        },
+        "optionalPeers": [
+          "vite",
+          "rolldown",
+          "@effect/platform-bun",
+          "@effect/platform-node"
+        ],
+        "dependencies": {},
+        "latestEligible": "2.0.0-beta.81",
+        "distTagLatest": "2.0.0-beta.81"
+      },
+      "@distilled.cloud/cloudflare": {
+        "version": "1.0.0-rc.13",
+        "integrity": "sha512-Py5FoA6azyYExDb91VaeC+9x+ravOBSRhXeUmpcQjCtgqmOdiXgc2YZGMMPI68DF+kMuHRVIrR+2uRZNDOhYjw==",
+        "tarball": "https://registry.npmjs.org/@distilled.cloud/cloudflare/-/cloudflare-1.0.0-rc.13.tgz",
+        "engines": {},
+        "peers": {
+          "effect": "^4.0.0"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "1.0.0-rc.13",
+        "distTagLatest": "1.0.0-rc.13"
+      },
+      "@effect/platform-node": {
+        "version": "4.0.2",
+        "integrity": "sha512-RWesXBQStnFHdD465gR5thFKgXO7FSyCKRZ56nWXB7PedNVzr8vV0nb/3MULLdri493sMz/b/pmGBTb6K8cBjQ==",
+        "tarball": "https://registry.npmjs.org/@effect/platform-node/-/platform-node-4.0.2.tgz",
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "peers": {
+          "redis": ">=5.0.0 <7.0.0",
+          "effect": "^4.0.2"
+        },
+        "optionalPeers": [],
+        "dependencies": {
+          "@effect/platform-node-shared": "^4.0.2"
+        },
+        "latestEligible": "4.0.3",
+        "distTagLatest": "4.0.3"
+      },
+      "@effect/platform-node-shared": {
+        "version": "4.0.2",
+        "integrity": "sha512-xn8aDw9p/QUPt1Yi0C3HUMcycT+MjHfAe19FDUDrUuzcwq0xxskkamVSqbdykF/Dsuus4aZTsCBZA/vkhHIfbQ==",
+        "tarball": "https://registry.npmjs.org/@effect/platform-node-shared/-/platform-node-shared-4.0.2.tgz",
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "peers": {
+          "effect": "^4.0.2"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "4.0.3",
+        "distTagLatest": "4.0.3"
+      },
+      "@effect/sql-d1": {
+        "version": "4.0.2",
+        "integrity": "sha512-OCcWNKcnPsXKigOuv8ZzdNEOmoWYEJw0TVbjMA5pMqHqjernSOAQfAK04kPkoG2snUvjSWYlNXsZM3cTOdhQeg==",
+        "tarball": "https://registry.npmjs.org/@effect/sql-d1/-/sql-d1-4.0.2.tgz",
+        "engines": {},
+        "peers": {
+          "effect": "^4.0.2"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "4.0.3",
+        "distTagLatest": "4.0.3"
+      },
+      "@effect/sql-sqlite-do": {
+        "version": "4.0.2",
+        "integrity": "sha512-dbKYFZSfdaIbbnYgvu432f9ISi/nSaXCYRfoK0HWKB8NwqI7hspaFvc4cW6ETDJyaoCDJzKzBQxrvCmA/T0XHw==",
+        "tarball": "https://registry.npmjs.org/@effect/sql-sqlite-do/-/sql-sqlite-do-4.0.2.tgz",
+        "engines": {},
+        "peers": {
+          "effect": "^4.0.2"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "4.0.3",
+        "distTagLatest": "4.0.3"
+      },
+      "redis": {
+        "version": "6.3.0",
+        "integrity": "sha512-XFQbPie1lGpKeUZ8ySYY43yLnQy/iIQtHNvIr/1XdaABpb96rUSdm3Mfl+98FEVbv9ZJIzINMno5s0Nh8E5LEw==",
+        "tarball": "https://registry.npmjs.org/redis/-/redis-6.3.0.tgz",
+        "engines": {
+          "node": ">= 20.0.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "6.3.0",
+        "distTagLatest": "6.3.0"
+      },
+      "vite": {
+        "version": "8.3.4",
+        "integrity": "sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==",
+        "tarball": "https://registry.npmjs.org/vite/-/vite-8.3.4.tgz",
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "peers": {
+          "tsx": "^4.8.1",
+          "jiti": ">=1.21.0",
+          "less": "^4.0.0",
+          "sass": "^1.70.0",
+          "yaml": "^2.4.2",
+          "stylus": ">=0.54.8",
+          "terser": "^5.16.0",
+          "esbuild": "^0.27.0 || ^0.28.0",
+          "sugarss": "^5.0.0",
+          "@types/node": "^20.19.0 || >=22.12.0",
+          "sass-embedded": "^1.70.0",
+          "@vitejs/devtools": "^0.7.1"
+        },
+        "optionalPeers": [
+          "tsx",
+          "jiti",
+          "less",
+          "sass",
+          "yaml",
+          "stylus",
+          "terser",
+          "esbuild",
+          "sugarss",
+          "@types/node",
+          "sass-embedded",
+          "@vitejs/devtools"
+        ],
+        "dependencies": {},
+        "latestEligible": "8.3.4",
+        "distTagLatest": "8.3.4"
+      },
+      "typescript": {
+        "version": "7.0.2",
+        "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+        "tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+        "engines": {
+          "node": ">=16.20.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "7.0.2",
+        "distTagLatest": "7.0.2"
+      },
+      "@types/node": {
+        "version": "26.6.5",
+        "integrity": "sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==",
+        "tarball": "https://registry.npmjs.org/@types/node/-/node-26.6.5.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "26.6.5",
+        "distTagLatest": "26.6.5"
+      },
+      "tsx": {
+        "version": "4.23.15",
+        "integrity": "sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==",
+        "tarball": "https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz",
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "4.23.15",
+        "distTagLatest": "4.23.15"
+      },
+      "e2e": {
+        "version": "0.19.0",
+        "integrity": "sha512-tTWgVR9tQTeESXkAxCh8H/gR4bGxbSbidw07/GngKT5P5tAPdsJ+bW5bQwIaAL/LUTwIG106V64/oiWLXkS29Q==",
+        "tarball": "https://registry.npmjs.org/e2e/-/e2e-0.19.0.tgz",
+        "engines": {
+          "node": "^22.22.3 || >=24.8.0"
+        },
+        "peers": {
+          "ai": "^7.0.0",
+          "@ai-sdk/xai": "^5.0.0",
+          "@ai-sdk/google": "^4.0.0",
+          "@ai-sdk/openai": "^4.0.0",
+          "@ai-sdk/anthropic": "^4.0.0",
+          "@ai-sdk/openai-compatible": "^3.0.0"
+        },
+        "optionalPeers": [
+          "ai",
+          "@ai-sdk/xai",
+          "@ai-sdk/google",
+          "@ai-sdk/openai",
+          "@ai-sdk/anthropic",
+          "@ai-sdk/openai-compatible"
+        ],
+        "dependencies": {},
+        "latestEligible": "0.19.0",
+        "distTagLatest": "0.19.0"
+      },
+      "@e2e-dev/web": {
+        "version": "0.14.0",
+        "integrity": "sha512-GscnN1Gt3Vj+w6AicDImO64PEO2y6kh49hV1RdOn3YLMcuMIYgE3rET0/A783qUzqLbS0gX+wyLvtfBkMKBTlw==",
+        "tarball": "https://registry.npmjs.org/@e2e-dev/web/-/web-0.14.0.tgz",
+        "engines": {
+          "node": "^22.22.3 || >=24.8.0"
+        },
+        "peers": {
+          "e2e": ">=0.18.0 <1"
+        },
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "0.14.0",
+        "distTagLatest": "0.14.0"
+      },
+      "create-vite": {
+        "version": "9.2.1",
+        "integrity": "sha512-nE710dPFzm9CavJw4PtpOLQpNBiOzFV+tGbwcmBdg1A3TWgFkqypDmjt44oV0jvvQEdGsvFAvQ5pUnKrdcwciw==",
+        "tarball": "https://registry.npmjs.org/create-vite/-/create-vite-9.2.1.tgz",
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "peers": {},
+        "optionalPeers": [],
+        "dependencies": {},
+        "latestEligible": "9.2.1",
+        "distTagLatest": "9.2.1"
+      }
+    },
+    "buildTools": {
+      "bazel": {
+        "version": "9.3.0",
+        "assets": {
+          "darwin-arm64": {
+            "url": "https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-arm64",
+            "sha256": "f29ca3f3bf577eb1619aeeed401b64a10901c8da8031aaa4add54a4ad0e99e3a"
+          },
+          "darwin-x86_64": {
+            "url": "https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-darwin-x86_64",
+            "sha256": "ab0c51f2d51cb86c82b12be4901c7f4aa088afc39a7d71f610ed0f1d54f76de4"
+          },
+          "linux-arm64": {
+            "url": "https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-arm64",
+            "sha256": "615cc2509819047e4930fe6643c5f01ebd705ccadf75e8f0b85f9b83cc6a6ca0"
+          },
+          "linux-x86_64": {
+            "url": "https://github.com/bazelbuild/bazel/releases/download/9.3.0/bazel-9.3.0-linux-x86_64",
+            "sha256": "d302d22ed77ee5658b87857249baa579db84300ecebe0a1e9a357b5b20f80eb8"
+          }
+        }
+      },
+      "aspect_rules_js": {
+        "version": "3.5.1",
+        "moduleSha256": "f01b4f1bf26713e875ec0fbe9d9c2146d2b173d6194850a7cb63b579c557aab1",
+        "source": {
+          "integrity": "sha256-UWvgRcYyt9USrm8efEQ23FJqoEo8HojACtXirH2MRGQ=",
+          "strip_prefix": "rules_js-3.5.1",
+          "docs_url": "https://github.com/aspect-build/rules_js/releases/download/v3.5.1/rules_js-v3.5.1.docs.tar.gz",
+          "url": "https://github.com/aspect-build/rules_js/releases/download/v3.5.1/rules_js-v3.5.1.tar.gz",
+          "patches": {
+            "module_dot_bazel_version.patch": "sha256-6/H/56ihqKmxCrmxW/G9wzHoKxUmi933Zi1pud2u+w0="
+          },
+          "patch_strip": 1
+        }
+      },
+      "rules_nodejs": {
+        "version": "6.7.6",
+        "moduleSha256": "45f203b9c0d721bcb1a5932815f218091fa2169cede2af3d88a8a17a4fb7676a",
+        "source": {
+          "integrity": "sha256-Ib7zV6CM9xoYzOUGdIyvC4ruRU8/TiN+EgB5ERQvvMo=",
+          "strip_prefix": "rules_nodejs-6.7.6",
+          "docs_url": "https://github.com/bazel-contrib/rules_nodejs/releases/download/v6.7.6/rules_nodejs-v6.7.6.docs.tar.gz",
+          "url": "https://github.com/bazel-contrib/rules_nodejs/releases/download/v6.7.6/rules_nodejs-v6.7.6.tar.gz",
+          "patches": {
+            "module_dot_bazel_version.patch": "sha256-IrH6ZIFEGwDlHVof11FkX2t4rLE34P7Khr6Z339n7jI="
+          },
+          "patch_strip": 1
+        }
+      },
+      "node": {
+        "version": "26.11.1",
+        "sha256Manifest": "3fe26a2a83d7073fe1833d4b6eef54b344ee7bbb8a88d76619a7b4b0bef302b0  node-v26.11.1-aix-ppc64.tar.gz\n0c6b692d5c084f08dc44ba8f96ec21e45b120beb493943e3976e089e293140ed  node-v26.11.1-arm64.msi\nd916511b55965e91be7a88e17f88d895b6793ceaba3e6c9b194aefe51c2c65ac  node-v26.11.1-darwin-arm64.tar.gz\n0ef9b443000681bffc062ec126d53f97933ea9b086ea73dcba0480d87e639b39  node-v26.11.1-darwin-arm64.tar.xz\n9a8129bd9ab08039793dd1143a7aedee6b5d60ac06592ad938d8bddf36142f3a  node-v26.11.1-darwin-x64.tar.gz\n68a8a4de0c46e693a261d13efb43d041fcd7386187816ef9a4b14bf60003adb2  node-v26.11.1-darwin-x64.tar.xz\n9491af0ccedff76fed47e29abcd2a14f0b751a14f1e54c292f025b83bea9d480  node-v26.11.1-headers.tar.gz\nbcf7a66eca8d39c5f6e0ac8e0b2140c33e017fed86b643735a2701ec72d72e72  node-v26.11.1-headers.tar.xz\n170454fb022f5e9b5f6cc76c25fa32ef5100895be44eb04e92f9780591491bbf  node-v26.11.1-linux-arm64.tar.gz\n0945e2cde6aa0f54d980f03874dfe5cf3a549ce714c7fb9019e591ce0accf282  node-v26.11.1-linux-arm64.tar.xz\n5e4d2c8b225461b1efc551358c3d15fb66c7fa7445b84fd592df65af72b0278c  node-v26.11.1-linux-ppc64le.tar.gz\n96ee3114c4215fd986ac4e935dc6edb19990865f9f2dc4333b30d14050f96d22  node-v26.11.1-linux-ppc64le.tar.xz\n062b4886438ab4917c9d074b253a69d367edf3bde052b5809b02aa49a223c7bb  node-v26.11.1-linux-s390x.tar.gz\ncabaa5fd10e805809f2a19661fb35a7055de444d584b346142412aa89ee55a51  node-v26.11.1-linux-s390x.tar.xz\n10a28b7960b994c514cb521799cbbe53fc7a1e39b02967373e05e31ff9a78d9f  node-v26.11.1-linux-x64-musl.tar.gz\n8d31c2180212503799c3c93924db216e236de769b4ca1fdfe85a33ebacae510c  node-v26.11.1-linux-x64-musl.tar.xz\n15fc043a51a5783f2f4b634561091658f5a7f0e3db03f997dca3a8033a33e45b  node-v26.11.1-linux-x64.tar.gz\n3883bfc73f9a680ca4eab04b196068aaaab1373ffa77d8fc1a4408222495b651  node-v26.11.1-linux-x64.tar.xz\n82c03bfa061f9592cf1f7f1ab2446b0975bf544c5487ccc0b3a6eb91c0bc06e3  node-v26.11.1.pkg\n9aae9ac942395f4cb1f4e3c430409f9878897573ade738e732a14a19b91b5c9c  node-v26.11.1.tar.gz\n2c79a3c1095c7da4c549c84e90b2d28df5479315ab6d0aff9bc71dcf4c9df1e0  node-v26.11.1.tar.xz\nb43b2118d28c9975df37772ea6c2dd1d67a05254c95d1cd576169dada8a9c855  node-v26.11.1-win-arm64.7z\n8dd03add3ed431eb436306f9abe946434bce928d2bf967b04117dc3755051208  node-v26.11.1-win-arm64.zip\n4264e52430ee687e774a49725ec7c32040c830c1e1106de019fde4ed36d4c06b  node-v26.11.1-win-x64.7z\n97f36a8a9684ff0d3e35758b4610fef5b628a5880e96f2ccc11240e5daf9934e  node-v26.11.1-win-x64.zip\n5001c8e78d39593864339fb1a8c94c1ae19809bffde71e64b473d56f1f9726d3  node-v26.11.1-x64.msi\n92490b88097fd3ca715a2b3afeac33766aef35c35b3b2e27ff97fd9ccc046086  win-arm64/node.exe\n45084cbfc0170d7a30b29ab1eeeb2b0d770995ade0a13a4cc82cf31189f95c9f  win-arm64/node.lib\n46c5c9afe0ff9e46d4da5c194dd23b7c669e1aea346ea28836e1340c0f0d92a3  win-arm64/node_pdb.7z\nb926e7a1b817e79b15d1abf625e31d3f179e763fc7a6c05193b03c1bac9d8bd6  win-arm64/node_pdb.zip\na619e2e09eb0d50ef4c733d678b4d22689d2afef138cd67fd3fa107b535f8819  win-x64/node.exe\ncaad0090dc3add94c06abd01e395e8ec0f1586c10071bda1f99480445d695f6f  win-x64/node.lib\nf851d8eeaee7495a79de88a267f2519a06ec6194d56731c35138d45aada654dd  win-x64/node_pdb.7z\nfc6bee315e968a1621981803b99c384aab2169e6a6ef4f26e54a29df1e4a1181  win-x64/node_pdb.zip\n"
+      }
+    }
+  },
+  "outputs": [
+    {
+      "path": "assets/index-DYYiu8_G.css",
+      "bytes": 1419,
+      "sha256": "d14034ffb189b90eb752eacd4b6653166b706e6b427196b3fa71f2e503c8a333"
+    },
+    {
+      "path": "assets/index-H3p8s-3Z.js",
+      "bytes": 22505,
+      "sha256": "fcfb59186a3dd1a52bed4163a14c40a0989ba5c27949feddb9f25739a967354e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 417,
+      "sha256": "40a9b8e3d36b410033ad258e8b09c65670cbb060f451aa503cb6255e311357da"
+    },
+    {
+      "path": "worker/main.js",
+      "bytes": 29947,
+      "sha256": "ac3624bcb026a569566628aae692a41fa93e3f3714f96682d20b2cefc9ee7003"
+    }
+  ],
+  "checks": [
+    {
+      "label": "dry-run",
+      "command": [
+        "/opt/homebrew/Cellar/node/25.8.1_1/bin/node",
+        "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/src/cli.mjs",
+        "create",
+        "alchemy-compatible-plan",
+        "--preset",
+        "cloudflare-alchemy",
+        "--alchemy-channel",
+        "beta",
+        "--bazel",
+        "--e2e",
+        "--json",
+        "--dry-run"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-dry-run.txt"
+    },
+    {
+      "label": "generation",
+      "command": [
+        "/opt/homebrew/Cellar/node/25.8.1_1/bin/node",
+        "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/src/cli.mjs",
+        "create",
+        "alchemy-compatible",
+        "--preset",
+        "cloudflare-alchemy",
+        "--alchemy-channel",
+        "beta",
+        "--bazel",
+        "--e2e",
+        "--json"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-generation.txt"
+    },
+    {
+      "label": "install",
+      "command": [
+        "/opt/homebrew/Cellar/node/25.8.1_1/bin/node",
+        "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/src/cli.mjs",
+        "install",
+        "alchemy-compatible",
+        "--json"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-install.txt"
+    },
+    {
+      "label": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-typecheck.txt"
+    },
+    {
+      "label": "unit",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-unit.txt"
+    },
+    {
+      "label": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-build.txt"
+    },
+    {
+      "label": "local-plan",
+      "command": [
+        "npm",
+        "run",
+        "local:plan"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-local-plan.txt"
+    },
+    {
+      "label": "worker-kv",
+      "command": [
+        "npm",
+        "run",
+        "test:local"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-worker-kv.txt"
+    },
+    {
+      "label": "tree",
+      "command": [
+        "npm",
+        "ls",
+        "--all",
+        "--json"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-tree.txt"
+    },
+    {
+      "label": "bazel-setup",
+      "command": [
+        "npm",
+        "run",
+        "bazel:setup"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-bazel-setup.txt"
+    },
+    {
+      "label": "bazel-build",
+      "command": [
+        "npm",
+        "run",
+        "bazel:build"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-bazel-build.txt"
+    },
+    {
+      "label": "bazel-test",
+      "command": [
+        "npm",
+        "run",
+        "bazel:test"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-bazel-test.txt"
+    },
+    {
+      "label": "bazel-incremental",
+      "command": [
+        "npm",
+        "run",
+        "bazel:build"
+      ],
+      "exit": 0,
+      "expected": 0,
+      "passed": true,
+      "receipt": "compatible-bazel-incremental.txt"
+    }
+  ]
+}

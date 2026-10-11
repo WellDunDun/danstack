@@ -1,0 +1,32 @@
+
+> auth-demo@0.0.0 test:ui
+> node scripts/ui-test.mjs
+
+
+ RUN  e2e v0.19.0 /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/auth-demo
+      run 01a125b9-ac78-75d5-bd2d-9c6781891255 · targets: local-web
+
+ ✓ target "local-web" command ready 1.25s
+ ❯ |local-web| tests/auth.e2e.ts (1 test | 1 failed) 5.97s
+   × actual Start preview fails closed without service configuration 5.97s
+     → expect.toBeVisible failed
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |local-web| tests/auth.e2e.ts > actual Start preview fails closed without service configuration
+ASSERTION_FAILED: expect.toBeVisible failed
+locator: getByRole("alert")
+expected: visible
+observed: no node (match count 0)
+ ❯ at http://127.0.0.1:49983/?
+ ❯ trace .e2e/results/auth-actual-start-preview-fails-ad2f235cb7725e3e/trace.md
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 0 passed (1)
+      Tests  1 failed | 0 passed (1)
+   Start at  15:11:28
+   Duration  7.66s (startup 1.25s)
+     Traces  .e2e/results/ (1 page, trace.md in each test's directory)
+

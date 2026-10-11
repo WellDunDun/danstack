@@ -1,0 +1,29 @@
+
+> alchemy-bazel-ui@0.0.0 bazel:test
+> node scripts/bazel.mjs test //:unit //:typecheck
+
+==================== Test output for //:typecheck:
+tests/demo.e2e.ts(15,7): error TS2322: Type 'string' is not assignable to type 'number'.
+tests/demo.e2e.ts(15,7): error TS6133: 'declaredInputProof' is declared but its value is never read.
+================================================================================
+//:unit                                                                  PASSED in 0.6s
+//:typecheck                                                             FAILED in 0.4s
+  /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel-ui/.bazel-cache/71628c405626d73d355cacde75e727c3/execroot/_main/bazel-out/darwin_arm64-fastbuild/testlogs/typecheck/test.log
+
+Executed 2 out of 2 tests: 1 test passes and 1 fails locally.
+There were tests whose specified size is too big. Use the --test_verbose_timeout_warnings command line option to see which ones these are.
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+
+INFO: Analyzed 2 targets (0 packages loaded, 0 targets configured).
+[5 / 6] 1 / 2 tests; Testing //:typecheck; 1s darwin-sandbox
+[5 / 6] 1 / 2 tests; Testing //:typecheck; 6s darwin-sandbox
+FAIL: //:typecheck (Exit 1) (see /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-bazel-ui/.bazel-cache/71628c405626d73d355cacde75e727c3/execroot/_main/bazel-out/darwin_arm64-fastbuild/testlogs/typecheck/test.log)
+INFO: From Testing //:typecheck:
+INFO: Found 2 test targets...
+INFO: Elapsed time: 7.432s, Critical Path: 6.97s
+INFO: 6 processes: 3 internal, 5 darwin-sandbox.
+INFO: Build completed, 1 test FAILED, 6 total actions

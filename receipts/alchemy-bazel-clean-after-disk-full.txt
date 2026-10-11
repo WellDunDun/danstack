@@ -1,0 +1,5 @@
+Command: node scripts/bazel.mjs clean
+Cwd: samples/alchemy-bazel
+Actual tool exit: 0
+Output: INFO: Starting clean (this may take a while). Use --async if the clean takes more than several minutes.
+Purpose: remove task-owned failed outputs before retesting the narrower real pure-action graph. npm dependencies were removed; verified locks and vendor repository cache retained. No cloud operations.

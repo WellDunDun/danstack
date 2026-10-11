@@ -1,0 +1,21 @@
+
+> effect-bazel@0.0.0 bazel:test
+> node scripts/bazel.mjs test //:unit //:typecheck
+
+//:typecheck                                                             PASSED in 1.8s
+//:unit                                                                  PASSED in 1.5s
+
+Executed 2 out of 2 tests: 2 tests pass.
+There were tests whose specified size is too big. Use the --test_verbose_timeout_warnings command line option to see which ones these are.
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+
+INFO: Analyzed 2 targets (3 packages loaded, 24 targets configured).
+[90 / 92] Testing //:unit; 1s darwin-sandbox ... (2 actions running)
+INFO: Found 2 test targets...
+INFO: Elapsed time: 2.903s, Critical Path: 2.50s
+INFO: 14 processes: 1 action cache hit, 11 internal, 5 darwin-sandbox.
+INFO: Build completed successfully, 14 total actions

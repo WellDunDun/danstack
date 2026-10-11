@@ -1,0 +1,4 @@
+installed: /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/effect-bazel-ui
+npm ci --ignore-scripts --strict-peer-deps --engine-strict --no-audit --no-fund --registry=https://registry.npmjs.org --global=false --prefix=/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/effect-bazel-ui --@types:registry=https://registry.npmjs.org --@e2e-dev:registry=https://registry.npmjs.org --fetch-retries=0 --fetch-timeout=15000
+
+added 74 packages in 2s

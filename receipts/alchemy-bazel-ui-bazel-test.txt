@@ -1,0 +1,40 @@
+
+> alchemy-bazel-ui@0.0.0 bazel:test
+> node scripts/bazel.mjs test //:unit //:typecheck
+
+//:typecheck                                                             PASSED in 2.3s
+//:unit                                                                  PASSED in 2.0s
+
+Executed 2 out of 2 tests: 2 tests pass.
+There were tests whose specified size is too big. Use the --test_verbose_timeout_warnings command line option to see which ones these are.
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+Analyzing: 2 targets (0 packages loaded, 0 targets configured)
+
+Analyzing: 2 targets (48 packages loaded, 135 targets configured)
+
+Analyzing: 2 targets (122 packages loaded, 361 targets configured)
+
+Analyzing: 2 targets (151 packages loaded, 457 targets configured)
+
+Analyzing: 2 targets (187 packages loaded, 578 targets configured)
+[1 / 1] no actions running
+INFO: Analyzed 2 targets (198 packages loaded, 623 targets configured).
+[394 / 583] Testing //:unit; 0s darwin-sandbox ... (14 actions running)
+[431 / 583] Testing //:unit; 2s darwin-sandbox ... (14 actions, 13 running)
+[482 / 583] 1 / 2 tests; Extracting npm package @distilled.cloud/cloudflare@1.0.0-rc.13; 1s darwin-sandbox ... (14 actions, 13 running)
+[511 / 583] 1 / 2 tests; Extracting npm package @distilled.cloud/cloudflare@1.0.0-rc.13; 3s darwin-sandbox ... (14 actions, 13 running)
+[546 / 583] 1 / 2 tests; Extracting npm package @distilled.cloud/cloudflare@1.0.0-rc.13; 4s darwin-sandbox ... (14 actions, 13 running)
+[576 / 583] 1 / 2 tests; Extracting npm package @distilled.cloud/cloudflare@1.0.0-rc.13; 5s darwin-sandbox ... (6 actions running)
+[579 / 583] 1 / 2 tests; Extracting npm package alchemy@2.0.0-beta.81; 6s darwin-sandbox ... (3 actions running)
+[580 / 583] 1 / 2 tests; Extracting npm package alchemy@2.0.0-beta.81; 9s darwin-sandbox ... (2 actions running)
+[581 / 583] 1 / 2 tests; Extracting npm package alchemy@2.0.0-beta.81; 10s darwin-sandbox
+[582 / 583] 1 / 2 tests; [Prepa] runfiles for //:typecheck
+[583 / 584] 1 / 2 tests; Testing //:typecheck; 1s darwin-sandbox
+[583 / 584] 1 / 2 tests; Testing //:typecheck; 7s darwin-sandbox
+INFO: Found 2 test targets...
+INFO: Elapsed time: 31.280s, Critical Path: 25.26s
+INFO: 518 processes: 1 action cache hit, 320 internal, 200 darwin-sandbox.
+INFO: Build completed successfully, 518 total actions

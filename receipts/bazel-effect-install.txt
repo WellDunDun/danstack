@@ -1,0 +1,4 @@
+
+added 32 packages in 3s
+Done in 234ms using pnpm v12.11.2
+{"error":"LOCK","message":"pnpm import changed archive/version/source: prettier@3.9.9.","details":{}}

@@ -1,0 +1,4 @@
+
+> fresh-stack@0.1.0 check
+> node --check src/cli.mjs
+

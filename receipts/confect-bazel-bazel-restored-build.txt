@@ -1,0 +1,17 @@
+
+> confect-bazel@0.0.0 bazel:build
+> node scripts/bazel.mjs build //:bundle
+
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //:bundle (0 packages loaded, 0 targets configured)
+Analyzing: target //:bundle (0 packages loaded, 0 targets configured)
+
+INFO: Analyzed target //:bundle (0 packages loaded, 0 targets configured).
+INFO: Found 1 target...
+Target //:bundle up-to-date:
+  bazel-bin/bundle
+INFO: Elapsed time: 1.288s, Critical Path: 1.14s
+INFO: 8 processes: 3 internal, 5 darwin-sandbox.
+INFO: Build completed successfully, 8 total actions

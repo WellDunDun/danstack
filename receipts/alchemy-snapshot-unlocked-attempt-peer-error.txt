@@ -1,0 +1,40 @@
+'Log files:
+/Users/danielpetro/.npm/_logs/2026-10-10T10_08_21_071Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @effect/platform-node@4.0.2
+Found: effect@4.0.2
+node_modules/effect
+  peer effect@"^4.0.2" from @effect/platform-node@4.0.2
+  node_modules/@effect/platform-node
+    @effect/platform-node@"4.0.2" from the root project
+    peerOptional @effect/platform-node@"^4.0.0" from @alchemy.run/cloudflare-runtime@2.0.0-beta.81
+    node_modules/@alchemy.run/cloudflare-runtime
+      @alchemy.run/cloudflare-runtime@"2.0.0-beta.81" from the root project
+      @alchemy.run/cloudflare-runtime@"2.0.0-beta.81" from alchemy@2.0.0-beta.81
+      node_modules/alchemy
+        alchemy@"2.0.0-beta.81" from the root project
+    peerOptional @effect/platform-node@"^4.0.0" from alchemy@2.0.0-beta.81
+    node_modules/alchemy
+      alchemy@"2.0.0-beta.81" from the root project
+
+Could not resolve dependency:
+peer effect@"^4.0.3" from @effect/platform-node-shared@4.0.3
+node_modules/@effect/platform-node-shared
+  @effect/platform-node-shared@"^4.0.2" from @effect/platform-node@4.0.2
+  node_modules/@effect/platform-node
+    @effect/platform-node@"4.0.2" from the root project
+    peerOptional @effect/platform-node@"^4.0.0" from @alchemy.run/cloudflare-runtime@2.0.0-beta.81
+    node_modules/@alchemy.run/cloudflare-runtime
+      @alchemy.run/cloudflare-runtime@"2.0.0-beta.81" from the root project
+      @alchemy.run/cloudflare-runtime@"2.0.0-beta.81" from alchemy@2.0.0-beta.81
+      node_modules/alchemy
+        alchemy@"2.0.0-beta.81" from the root project
+    peerOptional @effect/platform-node@"^4.0.0" from alchemy@2.0.0-beta.81
+    node_modules/alchemy
+      alchemy@"2.0.0-beta.81" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --no-strict-peer-deps, --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

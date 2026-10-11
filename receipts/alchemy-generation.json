@@ -1,0 +1,248 @@
+{
+  "action": "created",
+  "target": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/alchemy-probe",
+  "files": [
+    ".env.example",
+    ".gitignore",
+    "README.md",
+    "alchemy.run.ts",
+    "fresh-stack.json",
+    "index.html",
+    "infra/local.ts",
+    "infra/resources.ts",
+    "package.json",
+    "scripts/local-run.ts",
+    "scripts/local.mjs",
+    "src/domain.ts",
+    "src/main.ts",
+    "src/style.css",
+    "tests/unit.test.ts",
+    "tsconfig.json",
+    "worker/main.ts"
+  ],
+  "resolution": {
+    "schemaVersion": 1,
+    "generator": "fresh-stack@0.1.0",
+    "preset": "cloudflare-alchemy",
+    "e2e": false,
+    "bazel": false,
+    "alchemyChannel": "beta",
+    "resolvedAt": "2026-10-10T09:15:38.753Z",
+    "registry": "https://registry.npmjs.org",
+    "runtime": {
+      "node": "25.8.1",
+      "npm": "11.11.0"
+    },
+    "policy": "highest stable release (explicit Alchemy v2 beta only); fail on peer, engine or adapter conflict; no downgrade",
+    "groups": {
+      "dependencies": [
+        "effect",
+        "alchemy",
+        "@effect/platform-node",
+        "redis"
+      ],
+      "devDependencies": [
+        "vite",
+        "typescript",
+        "@types/node",
+        "tsx"
+      ],
+      "tools": [
+        "create-vite"
+      ]
+    },
+    "packages": {
+      "effect": {
+        "version": "4.0.2",
+        "integrity": "sha512-YeYnLqSFrL4+tCOXRrfNP03w8FILoF/wDl+ukraJAGzXrjcS383W7LAAvGBbLatEyktmLxRq+9xJinx7QzXW5A==",
+        "tarball": "https://registry.npmjs.org/effect/-/effect-4.0.2.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": []
+      },
+      "alchemy": {
+        "version": "2.0.0-beta.81",
+        "integrity": "sha512-AxEUQSYSln9NgZMuYnSz9Q7ERR8BrKrGpx9vOwJtWity7Ze8/7vI4k62u2EAoJRpBbaOTnI2Bp67Au1y9J7FTA==",
+        "tarball": "https://registry.npmjs.org/alchemy/-/alchemy-2.0.0-beta.81.tgz",
+        "engines": {},
+        "peers": {
+          "pg": "^8.22.0",
+          "ws": "^8.21.0",
+          "vite": "^8.0.7",
+          "effect": "^4.0.0",
+          "mysql2": "^3.24.2",
+          "prisma": "8.0.0-rc.15",
+          "mongodb": "^6.10.0",
+          "@vercel/nft": "^1.10.2",
+          "drizzle-kit": "1.0.0-rc.5-ab785fc",
+          "drizzle-orm": "1.0.0-rc.5-ab785fc",
+          "@effect/sql-pg": "^4.0.0",
+          "@effect/vitest": "^4.0.0",
+          "@effect/sql-mysql2": "^4.0.0",
+          "@effect/platform-bun": "^4.0.0",
+          "@prisma/orm-postgres": "8.0.0-rc.11",
+          "@effect/platform-node": "^4.0.0",
+          "@aws/durable-execution-sdk-js": "^2.1.0",
+          "@alchemy.run/frontend-frameworks": "2.0.0-beta.81"
+        },
+        "optionalPeers": [
+          "pg",
+          "ws",
+          "vite",
+          "mysql2",
+          "prisma",
+          "mongodb",
+          "@vercel/nft",
+          "drizzle-kit",
+          "drizzle-orm",
+          "@effect/sql-pg",
+          "@effect/vitest",
+          "@effect/sql-mysql2",
+          "@effect/platform-bun",
+          "@prisma/orm-postgres",
+          "@effect/platform-node",
+          "@aws/durable-execution-sdk-js",
+          "@alchemy.run/frontend-frameworks"
+        ],
+        "dependencies": {
+          "yaml": "^2.9.0",
+          "pathe": "^2.0.3",
+          "fflate": "^0.8.3",
+          "capnweb": "^0.12.0",
+          "rolldown": "1.2.5",
+          "picomatch": "^4.0.4",
+          "tinyglobby": "^0.2.17",
+          "@prisma/dev": "^0.20.0",
+          "@octokit/rest": "^22.0.1",
+          "@effect/sql-d1": "^4.0.0",
+          "@libsql/client": "^0.17.0",
+          "@neon/functions": "0.11.0",
+          "@octokit/webhooks": "^14.2.0",
+          "@types/aws-lambda": "^8.10.152",
+          "@alchemy.run/floci": "2.0.0-beta.81",
+          "@alchemy.run/sigil": "0.1.0-alpha.1",
+          "libsodium-wrappers": "^0.8.3",
+          "@distilled.cloud/aws": "1.0.0-rc.13",
+          "@distilled.cloud/gcp": "1.0.0-rc.13",
+          "@distilled.cloud/acme": "1.0.0-rc.13",
+          "@distilled.cloud/core": "1.0.0-rc.13",
+          "@distilled.cloud/neon": "1.0.0-rc.13",
+          "@effect/sql-sqlite-do": "^4.0.0",
+          "@distilled.cloud/axiom": "1.0.0-rc.13",
+          "@alchemy.run/node-utils": "2.0.0-beta.81",
+          "@distilled.cloud/fly-io": "1.0.0-rc.13",
+          "@distilled.cloud/prisma": "1.0.0-rc.13",
+          "@distilled.cloud/stripe": "1.0.0-rc.13",
+          "@distilled.cloud/doppler": "1.0.0-rc.13",
+          "@distilled.cloud/hetzner": "1.0.0-rc.13",
+          "@distilled.cloud/railway": "1.0.0-rc.13",
+          "@distilled.cloud/zerossl": "1.0.0-rc.13",
+          "@distilled.cloud/infisical": "1.0.0-rc.13",
+          "@distilled.cloud/cloudflare": "1.0.0-rc.13",
+          "@distilled.cloud/planetscale": "1.0.0-rc.13",
+          "@alchemy.run/cloudflare-runtime": "2.0.0-beta.81"
+        }
+      },
+      "@effect/platform-node": {
+        "version": "4.0.2",
+        "integrity": "sha512-RWesXBQStnFHdD465gR5thFKgXO7FSyCKRZ56nWXB7PedNVzr8vV0nb/3MULLdri493sMz/b/pmGBTb6K8cBjQ==",
+        "tarball": "https://registry.npmjs.org/@effect/platform-node/-/platform-node-4.0.2.tgz",
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "peers": {
+          "redis": ">=5.0.0 <7.0.0",
+          "effect": "^4.0.2"
+        },
+        "optionalPeers": []
+      },
+      "redis": {
+        "version": "6.3.0",
+        "integrity": "sha512-XFQbPie1lGpKeUZ8ySYY43yLnQy/iIQtHNvIr/1XdaABpb96rUSdm3Mfl+98FEVbv9ZJIzINMno5s0Nh8E5LEw==",
+        "tarball": "https://registry.npmjs.org/redis/-/redis-6.3.0.tgz",
+        "engines": {
+          "node": ">= 20.0.0"
+        },
+        "peers": {},
+        "optionalPeers": []
+      },
+      "vite": {
+        "version": "8.3.4",
+        "integrity": "sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==",
+        "tarball": "https://registry.npmjs.org/vite/-/vite-8.3.4.tgz",
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "peers": {
+          "tsx": "^4.8.1",
+          "jiti": ">=1.21.0",
+          "less": "^4.0.0",
+          "sass": "^1.70.0",
+          "yaml": "^2.4.2",
+          "stylus": ">=0.54.8",
+          "terser": "^5.16.0",
+          "esbuild": "^0.27.0 || ^0.28.0",
+          "sugarss": "^5.0.0",
+          "@types/node": "^20.19.0 || >=22.12.0",
+          "sass-embedded": "^1.70.0",
+          "@vitejs/devtools": "^0.7.1"
+        },
+        "optionalPeers": [
+          "tsx",
+          "jiti",
+          "less",
+          "sass",
+          "yaml",
+          "stylus",
+          "terser",
+          "esbuild",
+          "sugarss",
+          "@types/node",
+          "sass-embedded",
+          "@vitejs/devtools"
+        ]
+      },
+      "typescript": {
+        "version": "7.0.2",
+        "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+        "tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+        "engines": {
+          "node": ">=16.20.0"
+        },
+        "peers": {},
+        "optionalPeers": []
+      },
+      "@types/node": {
+        "version": "26.6.5",
+        "integrity": "sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==",
+        "tarball": "https://registry.npmjs.org/@types/node/-/node-26.6.5.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": []
+      },
+      "tsx": {
+        "version": "4.23.15",
+        "integrity": "sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==",
+        "tarball": "https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz",
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "peers": {},
+        "optionalPeers": []
+      },
+      "create-vite": {
+        "version": "9.2.1",
+        "integrity": "sha512-nE710dPFzm9CavJw4PtpOLQpNBiOzFV+tGbwcmBdg1A3TWgFkqypDmjt44oV0jvvQEdGsvFAvQ5pUnKrdcwciw==",
+        "tarball": "https://registry.npmjs.org/create-vite/-/create-vite-9.2.1.tgz",
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "peers": {},
+        "optionalPeers": []
+      }
+    }
+  },
+  "next": [
+    "fresh-stack install alchemy-probe"
+  ]
+}

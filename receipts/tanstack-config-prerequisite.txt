@@ -1,0 +1,5 @@
+
+> auth-demo@0.0.0 config:check
+> node --import tsx scripts/check-config.ts
+
+AUTH_PREREQUISITE: Set WORKOS_CLIENT_ID, WORKOS_API_KEY, WORKOS_COOKIE_PASSWORD (at least 32 characters), WORKOS_REDIRECT_URI (HTTPS or loopback; exact /api/auth/callback), VITE_CONVEX_URL (existing deployment URL). Values were not printed.

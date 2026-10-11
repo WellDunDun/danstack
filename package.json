@@ -1,0 +1,28 @@
+{
+  "name": "danstack",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "fresh-stack": "src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=24.8.0",
+    "npm": ">=11"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/cli.mjs",
+    "verify:samples": "node scripts/verify-samples.mjs"
+  },
+  "dependencies": {
+    "semver": "7.8.5",
+    "tar": "7.5.22",
+    "yaml": "^2.9.0"
+  },
+  "description": "Daniel's barebones project scaffolder optimized for developer experience and agent experience",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WellDunDun/danstack.git"
+  }
+}

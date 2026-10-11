@@ -1,0 +1,197 @@
+{
+  "observedAt": "2026-10-10T10:21:29.190Z",
+  "packages": {
+    "effect": {
+      "tags": {
+        "snapshot": "0.0.0-snapshot-6ebc752baf28354006ca2a0ae783a5bccf5de9ad",
+        "beta": "4.0.0-beta.107",
+        "rc": "4.0.0-rc.118",
+        "latest": "4.0.2"
+      },
+      "releases": [
+        {
+          "version": "4.0.2"
+        },
+        {
+          "version": "4.0.1"
+        },
+        {
+          "version": "4.0.0"
+        },
+        {
+          "version": "3.22.2",
+          "dependencies": {
+            "fast-check": "^3.23.1",
+            "@standard-schema/spec": "^1.0.0"
+          }
+        },
+        {
+          "version": "3.22.1",
+          "dependencies": {
+            "fast-check": "^3.23.1",
+            "@standard-schema/spec": "^1.0.0"
+          }
+        }
+      ]
+    },
+    "@effect/platform-node": {
+      "tags": {
+        "snapshot": "0.0.0-snapshot-6ebc752baf28354006ca2a0ae783a5bccf5de9ad",
+        "beta": "4.0.0-beta.107",
+        "rc": "4.0.0-rc.118",
+        "latest": "4.0.3"
+      },
+      "releases": [
+        {
+          "version": "4.0.3",
+          "peers": {
+            "redis": ">=5.0.0 <7.0.0",
+            "effect": "^4.0.3"
+          },
+          "dependencies": {
+            "undici": "^8.11.2",
+            "@effect/platform-node-shared": "^4.0.3"
+          },
+          "engines": {
+            "node": ">=18.0.0"
+          }
+        },
+        {
+          "version": "4.0.2",
+          "peers": {
+            "redis": ">=5.0.0 <7.0.0",
+            "effect": "^4.0.2"
+          },
+          "dependencies": {
+            "undici": "^8.11.2",
+            "@effect/platform-node-shared": "^4.0.2"
+          },
+          "engines": {
+            "node": ">=18.0.0"
+          }
+        },
+        {
+          "version": "4.0.1",
+          "peers": {
+            "redis": ">=5.0.0 <7.0.0",
+            "effect": "^4.0.1"
+          },
+          "dependencies": {
+            "undici": "^8.11.2",
+            "@effect/platform-node-shared": "^4.0.1"
+          },
+          "engines": {
+            "node": ">=18.0.0"
+          }
+        },
+        {
+          "version": "4.0.0",
+          "peers": {
+            "redis": ">=5.0.0 <7.0.0",
+            "effect": "^4.0.0"
+          },
+          "dependencies": {
+            "undici": "^8.11.2",
+            "@effect/platform-node-shared": "^4.0.0"
+          },
+          "engines": {
+            "node": ">=18.0.0"
+          }
+        },
+        {
+          "version": "0.108.2",
+          "peers": {
+            "effect": "^3.22.2",
+            "@effect/rpc": "^0.76.2",
+            "@effect/sql": "^0.52.1",
+            "@effect/cluster": "^0.60.2",
+            "@effect/platform": "^0.97.2"
+          },
+          "dependencies": {
+            "ws": "^8.18.2",
+            "mime": "^3.0.0",
+            "undici": "^7.10.0",
+            "@effect/platform-node-shared": "^0.61.1"
+          }
+        }
+      ]
+    },
+    "@effect/platform-node-shared": {
+      "tags": {
+        "snapshot": "0.0.0-snapshot-6ebc752baf28354006ca2a0ae783a5bccf5de9ad",
+        "beta": "4.0.0-beta.107",
+        "rc": "4.0.0-rc.118",
+        "latest": "4.0.3"
+      },
+      "releases": [
+        {
+          "version": "4.0.3",
+          "peers": {
+            "effect": "^4.0.3"
+          },
+          "dependencies": {
+            "ws": "^8.22.0",
+            "@types/ws": "^8.18.2"
+          },
+          "engines": {
+            "node": ">=18.0.0"
+          }
+        },
+        {
+          "version": "4.0.2",
+          "peers": {
+            "effect": "^4.0.2"
+          },
+          "dependencies": {
+            "ws": "^8.22.0",
+            "@types/ws": "^8.18.2"
+          },
+          "engines": {
+            "node": ">=18.0.0"
+          }
+        },
+        {
+          "version": "4.0.1",
+          "peers": {
+            "effect": "^4.0.1"
+          },
+          "dependencies": {
+            "ws": "^8.22.0",
+            "@types/ws": "^8.18.1"
+          },
+          "engines": {
+            "node": ">=18.0.0"
+          }
+        },
+        {
+          "version": "4.0.0",
+          "peers": {
+            "effect": "^4.0.0"
+          },
+          "dependencies": {
+            "ws": "^8.22.0",
+            "@types/ws": "^8.18.1"
+          },
+          "engines": {
+            "node": ">=18.0.0"
+          }
+        },
+        {
+          "version": "0.61.1",
+          "peers": {
+            "effect": "^3.22.1",
+            "@effect/rpc": "^0.76.1",
+            "@effect/sql": "^0.52.1",
+            "@effect/cluster": "^0.60.1",
+            "@effect/platform": "^0.97.1"
+          },
+          "dependencies": {
+            "ws": "^8.18.2",
+            "multipasta": "^0.2.8",
+            "@parcel/watcher": "^2.5.1"
+          }
+        }
+      ]
+    }
+  }
+}

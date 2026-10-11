@@ -1,0 +1,209 @@
+{
+  "action": "created",
+  "target": "/Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/effect-demo",
+  "files": [
+    ".env.example",
+    ".gitignore",
+    "README.md",
+    "convex.json",
+    "convex/demo.ts",
+    "convex/schema.ts",
+    "e2e.config.ts",
+    "fresh-stack.json",
+    "index.html",
+    "package.json",
+    "scripts/backend-codegen.mjs",
+    "scripts/ui-test.mjs",
+    "src/domain.ts",
+    "src/main.ts",
+    "src/style.css",
+    "tests/demo.e2e.ts",
+    "tests/unit.test.ts",
+    "tsconfig.json"
+  ],
+  "resolution": {
+    "schemaVersion": 1,
+    "generator": "fresh-stack@0.1.0",
+    "preset": "convex-effect",
+    "e2e": true,
+    "resolvedAt": "2026-10-10T08:45:35.794Z",
+    "registry": "https://registry.npmjs.org",
+    "runtime": {
+      "node": "25.8.1",
+      "npm": "11.11.0"
+    },
+    "policy": "highest stable release; fail on peer, engine or adapter conflict; no downgrade",
+    "groups": {
+      "dependencies": [
+        "convex",
+        "effect"
+      ],
+      "devDependencies": [
+        "vite",
+        "typescript",
+        "@types/node",
+        "tsx",
+        "convex-test",
+        "e2e",
+        "@e2e-dev/web"
+      ],
+      "tools": [
+        "create-vite"
+      ]
+    },
+    "packages": {
+      "convex": {
+        "version": "1.46.0",
+        "integrity": "sha512-dhBwDQTZDOhi5SUGAX17EWNehCdNq6/UFrSL0eLZuGfMkdsQbCVWVRZCzbZ5CF+/pgvoGxtApbEoTSipqL4JTw==",
+        "tarball": "https://registry.npmjs.org/convex/-/convex-1.46.0.tgz",
+        "engines": {
+          "npm": ">=7.0.0",
+          "node": ">=20.0.0"
+        },
+        "peers": {
+          "react": "^18.0.0 || ^19.0.0-0 || ^19.0.0",
+          "@clerk/react": "^6.4.3",
+          "@auth0/auth0-react": "^2.0.1",
+          "@clerk/clerk-react": "^4.12.8 || ^5.0.0"
+        },
+        "optionalPeers": [
+          "react",
+          "@clerk/react",
+          "@auth0/auth0-react",
+          "@clerk/clerk-react"
+        ]
+      },
+      "effect": {
+        "version": "4.0.2",
+        "integrity": "sha512-YeYnLqSFrL4+tCOXRrfNP03w8FILoF/wDl+ukraJAGzXrjcS383W7LAAvGBbLatEyktmLxRq+9xJinx7QzXW5A==",
+        "tarball": "https://registry.npmjs.org/effect/-/effect-4.0.2.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": []
+      },
+      "vite": {
+        "version": "8.3.4",
+        "integrity": "sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==",
+        "tarball": "https://registry.npmjs.org/vite/-/vite-8.3.4.tgz",
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "peers": {
+          "tsx": "^4.8.1",
+          "jiti": ">=1.21.0",
+          "less": "^4.0.0",
+          "sass": "^1.70.0",
+          "yaml": "^2.4.2",
+          "stylus": ">=0.54.8",
+          "terser": "^5.16.0",
+          "esbuild": "^0.27.0 || ^0.28.0",
+          "sugarss": "^5.0.0",
+          "@types/node": "^20.19.0 || >=22.12.0",
+          "sass-embedded": "^1.70.0",
+          "@vitejs/devtools": "^0.7.1"
+        },
+        "optionalPeers": [
+          "tsx",
+          "jiti",
+          "less",
+          "sass",
+          "yaml",
+          "stylus",
+          "terser",
+          "esbuild",
+          "sugarss",
+          "@types/node",
+          "sass-embedded",
+          "@vitejs/devtools"
+        ]
+      },
+      "typescript": {
+        "version": "7.0.2",
+        "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+        "tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+        "engines": {
+          "node": ">=16.20.0"
+        },
+        "peers": {},
+        "optionalPeers": []
+      },
+      "@types/node": {
+        "version": "26.6.5",
+        "integrity": "sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==",
+        "tarball": "https://registry.npmjs.org/@types/node/-/node-26.6.5.tgz",
+        "engines": {},
+        "peers": {},
+        "optionalPeers": []
+      },
+      "tsx": {
+        "version": "4.23.15",
+        "integrity": "sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==",
+        "tarball": "https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz",
+        "engines": {
+          "node": ">=18.0.0"
+        },
+        "peers": {},
+        "optionalPeers": []
+      },
+      "convex-test": {
+        "version": "0.0.61",
+        "integrity": "sha512-uYKCFk9+iu8jJB7TW3BHm3EAM6yPoXERoLHGiomhgUwuTLdSUjOk9SYnnnDc1UA1MQrMPYfUFSp+0+GWyFREng==",
+        "tarball": "https://registry.npmjs.org/convex-test/-/convex-test-0.0.61.tgz",
+        "engines": {},
+        "peers": {
+          "convex": "^1.43.0"
+        },
+        "optionalPeers": []
+      },
+      "e2e": {
+        "version": "0.19.0",
+        "integrity": "sha512-tTWgVR9tQTeESXkAxCh8H/gR4bGxbSbidw07/GngKT5P5tAPdsJ+bW5bQwIaAL/LUTwIG106V64/oiWLXkS29Q==",
+        "tarball": "https://registry.npmjs.org/e2e/-/e2e-0.19.0.tgz",
+        "engines": {
+          "node": "^22.22.3 || >=24.8.0"
+        },
+        "peers": {
+          "ai": "^7.0.0",
+          "@ai-sdk/xai": "^5.0.0",
+          "@ai-sdk/google": "^4.0.0",
+          "@ai-sdk/openai": "^4.0.0",
+          "@ai-sdk/anthropic": "^4.0.0",
+          "@ai-sdk/openai-compatible": "^3.0.0"
+        },
+        "optionalPeers": [
+          "ai",
+          "@ai-sdk/xai",
+          "@ai-sdk/google",
+          "@ai-sdk/openai",
+          "@ai-sdk/anthropic",
+          "@ai-sdk/openai-compatible"
+        ]
+      },
+      "@e2e-dev/web": {
+        "version": "0.14.0",
+        "integrity": "sha512-GscnN1Gt3Vj+w6AicDImO64PEO2y6kh49hV1RdOn3YLMcuMIYgE3rET0/A783qUzqLbS0gX+wyLvtfBkMKBTlw==",
+        "tarball": "https://registry.npmjs.org/@e2e-dev/web/-/web-0.14.0.tgz",
+        "engines": {
+          "node": "^22.22.3 || >=24.8.0"
+        },
+        "peers": {
+          "e2e": ">=0.18.0 <1"
+        },
+        "optionalPeers": []
+      },
+      "create-vite": {
+        "version": "9.2.1",
+        "integrity": "sha512-nE710dPFzm9CavJw4PtpOLQpNBiOzFV+tGbwcmBdg1A3TWgFkqypDmjt44oV0jvvQEdGsvFAvQ5pUnKrdcwciw==",
+        "tarball": "https://registry.npmjs.org/create-vite/-/create-vite-9.2.1.tgz",
+        "engines": {
+          "node": "^20.19.0 || >=22.12.0"
+        },
+        "peers": {},
+        "optionalPeers": []
+      }
+    }
+  },
+  "next": [
+    "fresh-stack install effect-demo"
+  ]
+}

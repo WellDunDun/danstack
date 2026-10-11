@@ -1,0 +1,20 @@
+
+> alchemy-ui@0.0.0 test:local
+> node scripts/local.mjs test
+
+[13:11:39.340] INFO (#4): Plan: 2 to create, 1 binding changes
+[13:11:39.341] INFO (#4): [Api] create
+[13:11:39.341] INFO (#4): [Api/STORE] create
+[13:11:39.341] INFO (#4): [Store] create
+[13:11:39.341] INFO (#4): 
+[13:11:39.345] INFO (#87): [Store] creating
+[13:11:39.347] INFO (#88): [Api] pre-creating
+[13:11:39.349] INFO (#87): [Store] created (4ms)
+[13:11:39.350] INFO (#88): [Api] creating
+[13:11:40.299] INFO (#88): [Api] created (952ms)
+[13:11:40.342] INFO (#114): [Store] created (997ms)
+[13:11:40.342] INFO (#115): [Api] created (995ms)
+[13:11:40.343] INFO (#4): 
+[13:11:40.343] INFO (#4): Done: 2 succeeded (1.0s)
+[13:11:46.049] INFO (#106): [Api] Started in 6697ms → http://localhost:65137/ (logs: /Users/danielpetro/Documents/Codex/2026-10-10/task-3/samples/alchemy-ui/.alchemy/log/local/Api)
+PASS actual Alchemy local Worker + KV PUT/GET + Effect handler
