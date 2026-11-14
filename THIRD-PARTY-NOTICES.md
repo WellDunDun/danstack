@@ -1,6 +1,6 @@
 # Third-party notices
 
-Danstack retains the existing upstream notices. This file does not grant a new license for Daniel's authored source.
+Danstack retains the existing upstream notices. Daniel's authored source is licensed under the root MIT LICENSE. Upstream materials retain their own licenses and notices.
 
 - `templates/tanstack/SHADCN-LICENSE.md` contains the shadcn MIT notice; generated React projects include it.
 - `research/create-vite-9.2.1.tgz` is the original offline upstream test fixture. Its complete license is retained in `research/CREATE-VITE-LICENSE.md` and in the archive, including the CC0 template terms and bundled dependency notices. Source: https://registry.npmjs.org/create-vite/-/create-vite-9.2.1.tgz.

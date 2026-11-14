@@ -1,6 +1,6 @@
 # Danstack
 
-Daniel's barebones project scaffolder optimized for developer experience (DX) and agent experience (AX). Four reviewed presets: `convex-effect`, explicit `convex-confect`, explicit-beta `cloudflare-alchemy`, and `tanstack-convex-workos`. Optional deterministic e2e tests; real Bazel targets for the first three presets. Canonical checkout: `/Users/danielpetro/Documents/GitHub/danstack`.
+Daniel's barebones project scaffolder optimized for developer experience (DX) and agent experience (AX). Four reviewed presets: `convex-effect`, explicit `convex-confect`, explicit-beta `cloudflare-alchemy`, and `tanstack-convex-workos`. Optional deterministic e2e tests; real Bazel targets for the first three presets.
 
 `danstack` is the repository/package name. The existing `fresh-stack` CLI command, generated receipt filenames and schema identifiers stay compatible; all `node src/cli.mjs` commands below continue to work. Generation resolves current compatible versions and records exact project versions. Authentication is optional generated-app setup.
 
@@ -156,3 +156,9 @@ The source archive contains authored generator/templates/tests/scripts, required
 See `receipts/VERIFICATION.md`, `receipts/tanstack-verification.json`, `receipts/compatible-verification.json`, `receipts/verification.json` and `receipts/infra-*.json` for results and limitations. Missing deployed Convex prerequisites are recorded as blocked, never passed cloud codegen. Independent review covers compatible resolution, install safety, graph translation, generated actions, auth/SSR boundaries and local/cloud separation.
 
 Official references: [Convex scaffolder](https://github.com/get-convex/templates/blob/main/create-convex/README.md), [Confect](https://github.com/rjdellecese/confect), [Effect](https://effect.website/), [tester-army/e2e](https://github.com/tester-army/e2e), [Alchemy CLI](https://alchemy.run/cli/), [Bazel](https://bazel.build/), [rules_js](https://github.com/aspect-build/rules_js), [rules_nodejs](https://github.com/bazel-contrib/rules_nodejs). Release-specific source/types and metadata were inspected from official registries/vendors.
+
+## License and distribution
+
+Danstack’s authored source is licensed under the [MIT License](LICENSE). See [third-party notices](THIRD-PARTY-NOTICES.md) for retained upstream licenses.
+
+The repository is distributed as source. npm publishing remains disabled through `"private": true`; the CLI has not been published as an npm package. Use the source-checkout commands above.
